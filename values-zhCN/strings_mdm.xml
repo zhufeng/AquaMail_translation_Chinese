@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Permissions: manage accounts -->
+
+    <string name="data_mdm_permission_manage_accounts_label">帐户管理</string>
+    <string name="data_mdm_permission_manage_accounts_description">添加/编辑/删除AquaMail帐户</string>
+
+    <!-- Permission: manage settings -->
+
+    <string name="data_mdm_permission_manage_settings_label">管理设置</string>
+    <string name="data_mdm_permission_manage_settings_description">修改AquaMail设置</string>
+
+    <!-- Account list -->
+    
+    <string name="mdm_account_list_limbo_config_prompt">轻触以完成帐户设置.</string>
+    
+</resources>
