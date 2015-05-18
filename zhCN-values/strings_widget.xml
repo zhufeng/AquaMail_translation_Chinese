@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message counter widget -->
+
+    <string name="widget_name">AquaMail: 邮件计数小部件</string>
+    <string name="widget_loading">载入中…</string>
+    <string name="label_account_and_folder">帐户和文件夹:</string>
+    <string name="widget_select_account">选择帐户</string>
+    <string name="widget_all_accounts_prompt">[ 所有帐户 ]</string>
+    <string name="widget_smart_list_prompt">智能文件夹</string>
+    <string name="widget_smart_list_label">智能文件夹</string>
+    <string name="widget_folder_all">[ 所有文件夹 ]</string>
+    <string name="widget_select_folder">选择文件夹</string>
+    <string name="label_theme">主题:</string>
+    <string name="widget_select_theme">选择主题</string>
+	<string name="widget_theme_dark">暗色</string>
+    <string name="widget_theme_light">亮色</string>
+    <string name="widget_theme_translucent">透明</string>
+    <string name="widget_theme_frameless">无边框</string>
+
+    <string name="widget_show_label">小部件显示名:</string>
+    <string name="widget_only_unread">只显示未读</string>
+    <string name="widget_tap_refresh">轻触以收取邮件</string>
+    <string name="widget_create">创建小部件</string>
+	<string name="widget_config_no_accounts">你还未设置任何邮箱帐户。\n\n请轻触下面的按钮来启动AquaMail，
+		并首先设置一个邮箱帐户，才可以为该帐户创建桌面小部件。 </string>
+    <string name="widget_launch_andromail">打开AquaMail</string>
+
+    <!-- Message list widget -->
+
+    <string name="list_widget_name_hc">AquaMail: 邮件列表</string>
+    <string name="list_widget_no_messages">@string/message_list_no_messages</string>
+    <string name="list_widget_see_more">更多邮件…</string>
+    <string name="prefs_widget_larger_font">增大字号</string>
+    <string name="prefs_widget_larger_font_summary">使用大一号的字体</string>
+
+</resources>

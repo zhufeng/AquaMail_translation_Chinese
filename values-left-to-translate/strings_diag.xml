@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message dates -->
+
+    <string name="diag_dates_activity">Message order / date test</string>
+    <string name="diag_dates_help">Run this test if there are issues with message ordering (date/time).\n\nThe test fetches a number of messages
+from the server and records their date and time data.\n\nIt does not record your logins, passwords, or actual message contents.</string>
+    <string name="diag_dates_start">Start</string>
+    <string name="diag_dates_stop">Stop</string>
+    <string name="diag_dates_send">Send to developer</string>
+    <string name="diag_dates_error_no_account">Account not found</string>
+    <string name="diag_dates_error_no_folders">No server folders</string>
+    <string name="diag_dates_error_no_storage">Memory card not available</string>
+    <string name="diag_dates_status_0">Connecting…</string>
+    <string name="diag_dates_status_count">Message date test in progress…\n\n%1$d messages processed (max is %2$d).</string>
+    <string name="diag_dates_status_done">Message date test complete\n\n%1$d messages processed.\n\nLog file:\n\n%2$s</string>
+    <string name="diag_dates_status_cancel">Message date test canceled</string>
+    <string name="diag_dates_status_error">Error performing test</string>
+    <string name="diag_dates_mail_subject">Message date test</string>
+    <string name="diag_dates_mail_body">The log file is attached</string>
+
+</resources>

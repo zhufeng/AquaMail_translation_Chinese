@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="update_title">有新的AquaMail更新可用</string>
+    <string name="update_message">AquaMail v%s 现已可供下载更新。</string>
+    
+    <string name="update_later">推迟更新</string>
+    <string name="update_now">马上更新</string>
+
+	<string name="update_link">http://www.aqua-mail.com/?cat=3</string>
+    
+</resources>

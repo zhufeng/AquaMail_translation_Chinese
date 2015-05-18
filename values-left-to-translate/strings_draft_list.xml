@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Draft List Activity -->
+	
+	<string name="draft_list_time_last_edited">Edited: %1$s</string>
+	<string name="draft_list_time_sent">Sent: %1$s</string>
+
+</resources>

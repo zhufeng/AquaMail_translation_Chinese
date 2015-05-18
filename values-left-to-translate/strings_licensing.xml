@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- License check errors -->
+
+    <string name="licensing_confirmation_needed">Unable to check license state.\nTap here to confirm your license.</string>
+    <string name="licensing_outside_free_limits">The free version is limited\nto two accounts.\nTouch here to learn more.</string>
+
+    <!-- About the free/pro functions -->
+
+    <string name="licensing_about_title">About AquaMail Pro</string>
+    <string name="licensing_about_message">The free version of AquaMail has these limitations:\n\n• Support for at most two mail
+accounts;\n• No support for mail identities;\n• An automatic promo signature.</string>
+    <!-- Google Play -->
+    <string name="licensing_market_about_message">To add more than two accounts, to use mail identities, and to remove the promo
+signature, purchase the Pro version unlocker on Google Play.</string>
+    <!-- PayPro -->
+    <string name="licensing_ppg_about_message">To add more than two accounts, to use mail identities, and to remove the promo
+signature, purchase the Pro version unlocker at the developer\'s web site.</string>
+    <!-- 3CX MDM -->
+    <string name="licensing_tcx_about_message">To add more than two accounts, to use mail identities, and to remove the promo
+signature, install the 3CX Mobile Device Manager from Google Play and authenticate it with the management server.</string>
+
+    <!-- No unlocker -->
+
+    <string name="licensing_no_unlocker_message">AquaMail Pro unlocker key is not installed.</string>
+    <!-- Google Play -->
+    <string name="licensing_market_no_unlocker_message">You can purchase the AquaMail Pro key on Google Play.</string>
+    <!-- PayPro -->
+    <string name="licensing_ppg_no_unlocker_message">You can purchase the AquaMail Pro key at the developer\'s web site.</string>
+    <!-- 3CX MDM -->
+    <string name="licensing_tcx_no_unlocker_message_1">3CX MDM is not installed.</string>
+    <string name="licensing_tcx_no_unlocker_message_2">You can install the 3CX Mobile Device Manager from Google Play.</string>
+    <string name="licensing_tcx_no_actvation_message_1">3CX MDM is not authenticated with its management server.</string>
+    <string name="licensing_tcx_no_actvation_message_2">Please authenticate 3CX Mobile Device Manager with its management server.</string>
+    <string name="licensing_tcx_activate_button">Authenticate</string>
+    <string name="licensing_tcx_not_present">Error: 3CX MDM not installed?</string>
+    
+    <!-- Google Play -->
+
+    <string name="licensing_market_go_button">Google Play</string>
+    <string name="licensing_market_not_present">Error: Google Play not installed?</string>
+
+    <!-- PayPro -->
+
+    <string name="licensing_ppg_go_button">Web site</string>
+
+    <!-- Just in case -->
+
+
+    <!-- Google Play and PayPro -->
+    <string name="licensing_if_purchased_suffix">If you\'ve already purchased an unlocker, make sure to download and run it.</string>
+
+    <!-- 3CX MDM -->
+
+
+    <!-- Promo signature -->
+
+    <string name="licensing_new_message_promo">Sent with AquaMail for Android\nhttp://www.aqua-mail.com</string>
+
+</resources>

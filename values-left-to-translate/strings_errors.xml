@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_message_title">Error</string>
+    <string name="error_no_network_message">No available network connection</string>
+    <string name="error_no_account_message">Account not found</string>
+    <string name="error_no_folder_message">Folder not found</string>
+    <string name="error_no_message_message">Message not found</string>
+    <string name="error_no_contacts">The device does not appear to have a Contacts application</string>
+    <string name="error_calendar_event_create">Error interacting with Calendar application</string>
+    <string name="error_browser_not_present">Error: web browser not installed?</string>
+
+    <!-- Generic mail errors -->
+
+    <string name="mail_error_message_title">Mail error</string>
+    <string name="mail_error_message_default">Unknown mail error</string>
+
+    <!-- Errors correspond to values in ErrorDefs -->
+
+    <string name="mail_error_none">No error</string>
+    <string name="mail_error_network">Network error</string>
+    <string name="mail_error_connect">Error connecting</string>
+    <string name="mail_error_auth">Authentication error</string>
+    <string name="mail_error_missing_folder">Mail folder is missing on the server</string>
+    <string name="mail_error_missing_message">Message is missing on the server</string>
+    <string name="mail_error_local_io">Error writing to memory card</string>
+    <string name="mail_error_folder_list">Error getting list of folders</string>
+    <string name="mail_error_fetch_message">Error fetching message contents</string>
+    <string name="mail_error_select_folder">Error selecting folder</string>
+    <string name="mail_error_submit_send">Error submitting mail</string>
+    <string name="mail_error_invalid_response">Invalid server response</string>
+    <string name="mail_error_database">Database error (not enough internal storage?)</string>
+    <string name="mail_error_ssl_certificate">Invalid security (SSL) certificate</string>
+    <string name="mail_error_out_of_memory">Out of memory (a really large message?)</string>
+    <string name="mail_error_kerio_not_supported">Kerio is not supported</string>
+    <string name="mail_error_ssl_certificate_change">SSL certificate change</string>
+    
+    <!-- Tasks correspond to values in MailDefs -->
+
+    <string name="mail_task_check_incoming">checking incoming server settings</string>
+    <string name="mail_task_check_outgoing">checking outgoing server settings</string>
+    <string name="mail_task_sync">synchronizing mail</string>
+    <string name="mail_task_fetch_message">loading complete message</string>
+    <string name="mail_task_fetch_attachment">loading attachment</string>
+    <string name="mail_task_list_folders">getting folder list</string>
+    <string name="mail_task_create_folder">creating folder</string>
+    <string name="mail_task_send">sending outgoing messages</string>
+    <string name="mail_task_update_message_state">updating message state</string>
+    <string name="mail_task_search">performing search</string>
+    <string name="mail_task_headers">loading headers</string>
+    <string name="mail_task_contacts">syncing contacts</string>
+    <string name="mail_task_calendar">syncing calendar</string>
+
+    <!-- Message templates -->
+
+    <string name="mail_error_with_task">Error %1$s: %2$s.</string>
+    <string name="mail_error_without_task">Error: %1$s.</string>
+
+    <!-- Send errors -->
+
+    <string name="mail_send_error_connect_failure">Connection error</string>
+    <string name="mail_send_error_login_failure">Login error</string>
+    <string name="mail_send_error_io_exception">Network error</string>
+    <string name="mail_send_error_internal_error">Internal error</string>
+
+</resources>

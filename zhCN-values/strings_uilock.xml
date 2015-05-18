@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uilock_type_none">无</string>
+    <string name="uilock_type_pin">PIN码</string>
+    <string name="uilock_timeout">锁定延时</string>
+
+    <string-array name="uilock_timeout_entries">
+        <item>立即</item>
+        <item>15秒</item>
+        <item>30秒</item>
+        <item>1分钟</item>
+        <item>5分钟</item>
+        <item>15分钟</item>
+        <item>30分钟</item>
+        <item>1小时</item>
+    </string-array>
+
+    <string name="uilock_lock_on_screen_off">关屏即锁</string>
+    <string name="uilock_lock_on_screen_off_summary">当屏幕关闭时立即锁定</string>
+
+    <!-- Basic unlocking -->
+
+    <string name="uilock_enter_pin_to_unlock">输出PIN码</string>
+    <string name="uilock_enter_pin_to_change">@string/uilock_enter_pin_to_unlock</string>
+    <string name="uilock_wrong_pin">不正确的PIN, 请重试</string>
+
+    <!-- Changing the PIN -->
+
+    <string name="uilock_enter_pin_change_1">输入新的PIN码</string>
+    <string name="uilock_enter_pin_change_2">再次输入新的PIN码</string>
+    <string name="uilock_short_pin">请输入至少4位数字</string>
+    <string name="uilock_mismatch_pin">两次输入的PIN码不一致</string>
+
+</resources>

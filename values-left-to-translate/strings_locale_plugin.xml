@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings plugin -->
+
+    <string name="locale_settings_plugin_name">AquaMail Settings</string>
+
+    <string-array name="prefs_locale_default_on_off_entries">
+        <item>No change</item>
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="prefs_locale_default_tri_state_entries">
+        <item>No change</item>
+        <item>Enable</item>
+        <item>Reset to defaults</item>
+    </string-array>
+
+    <!-- Accounts -->
+
+    <string name="locale_accounts_all">All</string>
+    <string name="locale_accounts_none">None</string>
+    <string name="locale_accounts_any">Any</string>
+    <string name="locale_accounts_unknown">Unknown account</string>
+
+    <!-- Global settings -->
+
+    <string name="locale_settings_category_global">App settings</string>
+
+    <!-- Sync and push on/off -->
+
+    <string name="locale_settings_sync_on">Sync: on</string>
+    <string name="locale_settings_sync_off">Sync: off</string>
+    <string name="locale_settings_push_on">Push: on</string>
+    <string name="locale_settings_push_off">Push: off</string>
+
+    <!-- Schedule override -->
+
+    <string name="locale_settings_sync_freq_override_title">Change schedule</string>
+    <string name="locale_settings_sync_freq_override_summary">Change the background sync schedule</string>
+    <string name="locale_settings_sync_freq_override_msg">Schedule</string>
+
+    <!-- Notifications override -->
+
+    <string name="locale_settings_notify_override_title">Change notifications</string>
+    <string name="locale_settings_notify_override_summary">Change the notification settings</string>
+    <string name="locale_settings_notify_override_msg">Notifications</string>
+
+    <!-- Per-account settings -->
+
+    <string name="locale_settings_category_account">Account settings</string>
+    <string name="locale_settings_per_account_title">For which account</string>
+
+    <!-- Actions -->
+
+    <string name="locale_settings_category_actions">Actions</string>
+
+    <!-- Action: sync -->
+
+    <string name="locate_actions_run_sync">Check mail</string>
+    <string name="locate_actions_run_sync_summary">Check mail in all or specific accounts</string>
+    <string name="locale_actions_run_sync_msg">Check mail: %1$s</string>
+    <string name="locale_actions_run_sync_accounts_title">Which accounts</string>
+
+    <!-- Events plugin -->
+
+    <string name="tasker_event_plugin_name">AquaMail Messages</string>
+    <string name="tasker_event_for_account">For account: %1$s</string>
+    <string name="tasker_event_label_date">Date</string>
+    <string name="tasker_event_label_time">Time</string>
+    <string name="tasker_event_label_folder">Folder</string>
+    <string name="tasker_event_label_account">Account</string>
+    <string name="tasker_event_only_high_priority">High priority</string>
+    <string name="tasker_event_only_high_priority_summary">Match only high priority messages</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu -->
+
+    <string name="search_menu_title">Search</string>
+    <string name="search_query_title">Search: %1$s</string>
+
+    <!-- Global search -->
+
+    <string name="search_global_hint">Search all loaded</string>
+
+    <!-- Folder search -->
+
+    <string name="search_folder_hint">Search folder</string>
+    
+    <!-- Smart folder serach -->
+    
+    <string name="search_smart_hint">Search Smart Folder</string>
+
+    <!-- Search state messages -->
+
+    <string name="search_loading_complete">Search complete</string>
+    <string name="search_loading_error">Search error</string>
+    <string name="search_loading_manual">Search for next %1$d</string>
+    <string name="search_loading_more">Searching…</string>
+    <string name="search_loading_more_progress">Searching (%1$d/%2$d)…</string>
+
+</resources>
