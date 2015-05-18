@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message List Activity -->
+
+    <string name="message_list_activity">Message list</string>
+    <string name="message_list_activity_in_folder">%1$s: %2$s</string>
+    <string name="message_list_loading_more">Loading…</string>
+    <string name="message_list_loading_complete">All messages loaded</string>
+    <string name="message_list_no_messages">No messages</string>
+    <string name="message_list_loading_error">Loading error</string>
+    <string name="message_list_loading_manual_by_count">Load %1$d more messages</string>
+    <string name="message_list_loading_manual_by_days">Load %1$d more days (showing %2$d)</string>
+    <string name="message_list_airplane_mode">Airplane mode</string>
+    <string name="message_list_showing_all">Offline list</string>
+
+    <!-- Menu -->
+
+    <string name="message_list_menu_toggle">Toggle selection</string>
+    <string name="message_list_menu_compose">New message</string>
+    <string name="message_list_menu_refresh">Refresh</string>
+    <string name="message_list_menu_check_all">Select all</string>
+    <string name="message_list_menu_accounts">Accounts</string>
+    <string name="message_list_menu_mark_all_read">Mark all read</string>
+    <string name="message_list_menu_purge_deleted">Delete all</string>
+    <string name="message_list_menu_restore_hidden">Restore hidden</string>
+
+    <!-- Sorting -->
+
+    <string name="message_list_menu_sort">Sort</string>
+    <string name="message_list_menu_sort_datetime">By date/time</string>
+    <string name="message_list_menu_sort_datetime_reverse">By date/time (reverse)</string>
+    <string name="message_list_menu_sort_subject">By subject</string>
+    <string name="message_list_menu_sort_sender">By sender</string>
+    <string name="message_list_menu_sort_attachments">By attachments</string>
+    <string name="message_list_menu_sort_has_attachments_hint">With attachments</string>
+    <string name="message_list_menu_sort_no_attachments_hint">No attachments</string>
+    <string name="message_list_menu_sort_unread_first">Unread first</string>
+    <string name="message_list_menu_sort_is_unread_hint">Unread</string>
+    <string name="message_list_menu_sort_is_read_hint">Read</string>
+    <string name="message_list_menu_sort_starred_first">Starred first</string>
+    <string name="message_list_menu_sort_is_starred_hint">Starred</string>
+    <string name="message_list_menu_sort_is_not_starred_hint">Not starred</string>
+    <string name="message_list_menu_sort_unread_starred_first">Unread + Starred first</string>
+    <string name="message_list_menu_sort_save_default">Save as default</string>
+    <string name="message_list_sort_subject_hint">Sorted by subject</string>
+    <string name="message_list_sort_sender_hint">Sorted by sender</string>
+    <string name="message_list_sort_attachments_hint">Sorted by attachments</string>
+    <string name="message_list_sort_unread_first_hint">Sorted unread first</string>
+    <string name="message_list_sort_starred_first_hint">Sorted starred first</string>
+
+    <!-- Operations -->
+
+    <string name="message_list_sync_time_taken">%1$.2f sec</string>
+    <string name="message_list_op_delete">Delete now</string>
+    <string name="message_list_op_move_deleted">Move to Deleted</string>
+    <string name="message_list_op_restore">Restore</string>
+    <string name="message_list_op_hide">Hide (keep on server)</string>
+    <string name="message_list_op_move">Move to folder…</string>
+    <string name="message_list_op_smart_delete">Smart Delete</string>
+    <string name="message_list_op_as_read">Mark read</string>
+    <string name="message_list_op_as_unread">Mark unread</string>
+    <string name="message_list_op_as_star">Mark with stars</string>
+    <string name="message_list_op_as_unstar">Remove stars</string>
+    <string name="message_list_op_no_send">Do not send</string>
+    <string name="message_list_op_move_spam">Move to Spam</string>
+    <string name="message_list_op_move_archive">Move to Archive</string>
+    <string name="message_list_op_headers">Show headers</string>
+
+    <!-- Move to folder dialog -->
+
+    <string name="message_list_op_move_no_dest">No folder(s) to move to</string>
+
+    <!-- Context menu -->
+
+    <plurals name="message_list_menu_title">
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+
+    <!-- Drag and drop -->
+
+    <plurals name="message_list_drag_title">
+        <item quantity="one">Move one message</item>
+        <item quantity="other">Move %d messages</item>
+    </plurals>
+
+    <!-- Selection -->
+
+    <string name="message_list_press_again_to_clear_selection">Press Back again to clear selection</string>
+
+    <!-- Pull to refresh -->
+
+    <string name="message_list_pull_pull_to_select">Pull to select</string>
+    <string name="message_list_pull_release_to_select">Release to select</string>
+    <string name="message_list_pull_pull_to_refresh">Pull to refresh</string>
+    <string name="message_list_pull_release_to_refresh">Release to refresh</string>
+    <string name="message_list_pull_refreshing">Refreshing…</string>
+
+</resources>

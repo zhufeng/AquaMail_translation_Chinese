@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account list -->
+
+    <string name="access_message_counts_no_unread">%1$s total messages</string>
+    <string name="access_message_counts_unread_no_new">%1$d unread, %2$s total messages</string>
+    <string name="access_message_counts_unread_has_new">some new, %1$d unread, %2$s total messages</string>
+    <string name="access_refresh_account">Refresh account</string>
+    <string name="access_account_with_name">Account: %1$s</string>
+    <string name="access_account_last_check">Refreshed at %1$s</string>
+    <string name="access_account_last_check_error">Refreshed at %1$s, errors since then</string>
+    <string name="access_folder_remote_name">Remote folder name: %1$s</string>
+    <string name="access_folder_with_name">Folder: %1$s</string>
+
+    <!-- Message list -->
+
+    <string name="access_message_list_unread">Unread,</string>
+    <string name="access_message_list_starred">Starred,</string>
+    <string name="access_message_list_selected">Selected,</string>
+    <string name="access_message_list_attachments">With attachments: %1$s</string>
+    <string name="access_message_list_action_mode">Action mode: %1$s</string>
+    <string name="access_message_list_proxy_selector">Selector</string>
+    <string name="access_message_list_proxy_star">Star indicator</string>
+    <string name="access_message_list_star_set">Star set</string>
+    <string name="access_message_list_star_cleared">Star cleared</string>
+
+    <!-- Message display -->
+
+    <string name="access_message_display_from_contact">Sender contact button</string>
+    <string name="access_message_display_full_screen">Full screen toggle</string>
+
+    <!-- New message -->
+
+    <string name="access_new_pick">Pick contact: %1$s</string>
+    <string name="access_new_remove_field">Remove entry field</string>
+
+    <!-- Folder settings: in Options and Folders -->
+
+    <string name="access_folder_settings">Folder settings</string>
+
+    <!-- Folder navigation: up -->
+
+    <string name="access_folder_navigate_up">Up to parent</string>
+
+    <!-- Widgets and folder options -->
+
+    <string name="access_color_button">Color sample</string>
+
+</resources>

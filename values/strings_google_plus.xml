@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="google_plus_menu_share">Share on Google+</string>
+    <string name="google_plus_share_text">I\'m using AquaMail, a new mail app for Android.</string>
+    <string name="google_plus_not_installed">Google+ does not appear to be installed</string>
+
+</resources>

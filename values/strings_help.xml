@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Help link -->
+
+    <string name="help_pref_category">Help</string>
+    <string name="help_pref_help_faq_title">Help / FAQs / Forum</string>
+    <string name="help_pref_help_faq_summary">Opens in the web browser </string>
+    <string name="help_link_faq">http://www.aqua-mail.com/?page_id=227</string>
+
+    <!-- Help hints -->
+
+    <string name="help_hint_close">OK. Close this.</string>
+    <string name="help_hint_swipe_to_attachments">Swipe left from the right to switch to the list of attachments.</string>
+    <string name="help_hint_new_contact_picker">Use the contact picking button(s) on the left for:\n\nGroups, recent contacts, and
+server address book in Exchange and Office 365.</string>
+    <string name="help_hint_account_options">Long press an account or a folder for additional commands and settings.</string>
+    <string name="help_hint_message_header_header">Swipe the message header to go to previous / next message.</string>
+    <string name="help_hint_message_header_swipe">Swipe the message sideways to go to previous / next one.</string>
+    <string name="help_hint_message_header_enable">You can enable message swiping in app settings.</string>
+    <string name="help_hint_message_header_disable">You can disable message swiping in app settings.</string>
+    <string name="help_hint_message_header_mode">Tap the header to switch between brief and full information.</string>
+    <string name="help_hint_message_list_pull_select">Swipe down the left side to select several messages at once.</string>
+    <string name="help_hint_message_list_settings">See settings, Message List to customize.</string>
+
+    <!-- New version announcemnt -->
+
+    <string name="help_new_close">Take me to AquaMail</string>
+    <string name="help_new_new_look">New look</string>
+    <string name="help_new_enable_material_design">Enable new theme (Material Design)</string>
+    <string name="help_new_enable_floating_button">Enable Floating Action Button</string>
+    <string name="help_new_see_settings">You can change these later in app settings under Look and feel. The old themes are still there, too.</string>
+    <string name="help_new_new_features">New features</string>
+    <string name="help_new_gmail_oauth">• More secure, Google recommended, authentication for Gmail and Google Apps accounts (OAUTH2).</string>
+    <string name="help_new_android_wear">• Enhanced notifications for Android Wear smart watches.</string>
+
+</resources>

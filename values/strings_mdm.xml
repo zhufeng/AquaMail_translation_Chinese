@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Permissions: manage accounts -->
+
+    <string name="data_mdm_permission_manage_accounts_label">Manage accounts</string>
+    <string name="data_mdm_permission_manage_accounts_description">Add, edit, delete AquaMail accounts</string>
+
+    <!-- Permission: manage settings -->
+
+    <string name="data_mdm_permission_manage_settings_label">Manage settings</string>
+    <string name="data_mdm_permission_manage_settings_description">Change AquaMail settings</string>
+
+    <!-- Account list -->
+    
+    <string name="mdm_account_list_limbo_config_prompt">Tap to finish configuring the account.</string>
+    
+</resources>

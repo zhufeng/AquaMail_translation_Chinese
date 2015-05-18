@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message counter widget -->
+
+    <string name="widget_name">AquaMail: counters</string>
+    <string name="widget_loading">Loading…</string>
+    <string name="label_account_and_folder">Account and folder:</string>
+    <string name="widget_select_account">Select account</string>
+    <string name="widget_all_accounts_prompt">[ All accounts ]</string>
+    <string name="widget_smart_list_prompt">Smart Folder</string>
+    <string name="widget_smart_list_label">Smart Folder</string>
+    <string name="widget_folder_all">[ All folders ]</string>
+    <string name="widget_select_folder">Select folder</string>
+    <string name="label_theme">Theme:</string>
+    <string name="widget_select_theme">Select theme</string>
+	<string name="widget_theme_dark">Dark</string>
+    <string name="widget_theme_light">Light</string>
+    <string name="widget_theme_translucent">Translucent</string>
+    <string name="widget_theme_frameless">Frameless</string>
+
+    <string name="widget_show_label">Label:</string>
+    <string name="widget_only_unread">Only unread</string>
+    <string name="widget_tap_refresh">Tap to refresh</string>
+    <string name="widget_create">Create widget</string>
+    <string name="widget_config_no_accounts">You have not set up any mail accounts yet.\n\nPlease press the button below to launch
+AquaMail, set up an account first, then create widgets for it.</string>
+    <string name="widget_launch_andromail">Launch AquaMail</string>
+
+    <!-- Message list widget -->
+
+    <string name="list_widget_name_hc">AquaMail: messages</string>
+    <string name="list_widget_no_messages">@string/message_list_no_messages</string>
+    <string name="list_widget_see_more">More messages…</string>
+    <string name="prefs_widget_larger_font">Larger font</string>
+    <string name="prefs_widget_larger_font_summary">Use a larger font size</string>
+
+</resources>

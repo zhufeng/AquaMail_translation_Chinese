@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences Activity -->
+
+    <string name="preferences_activity">AquaMail Settings</string>
+
+    <!-- Default value indicator -->
+
+    <string name="prefs_default_value">Default (%1$d)</string>
+
+    <!-- General -->
+
+    <string name="prefs_category_general">General</string>
+
+    <!-- Synchronization settings -->
+
+    <string name="prefs_category_sync">Mail, receiving</string>
+    <string name="prefs_sync_enabled">Scheduled sync</string>
+    <string name="prefs_sync_enabled_summary">Check mail on a schedule in the background</string>
+
+    <!-- Use only WiFi for sync -->
+
+    <string name="prefs_sync_wifi_only_enabled">Use WiFi only</string>
+    <string name="prefs_sync_wifi_only_enabled_summary">Only use WiFi for scheduled sync</string>
+
+    <!-- Use only WiFi for sync -->
+
+    <string name="prefs_push_wifi_only_enabled">Use WiFi only</string>
+    <string name="prefs_push_wifi_only_enabled_summary">Only use WiFi for IMAP Push</string>
+
+    <!-- Observe system setting -->
+
+    <string name="prefs_sync_system_checks_enabled">System settings</string>
+
+    <string-array name="prefs_sync_system_checks_entries">
+        <item>Observe all</item>
+        <item>Sync even when \"Auto-Sync\" is off</item>
+        <item>Sync even when \"Background data\" is off</item>
+    </string-array>
+
+    <string name="prefs_sync_system_auto_sync_is_off">The system \"Auto-Sync\" setting is \"off\", scheduled and push mail will be disabled</string>
+
+    <!-- Sync when interactive -->
+
+    <string name="prefs_sync_when_interactive">When the app is active</string>
+    <string name="prefs_sync_when_interactive_summary">Run scheduled mail sync even when the application is open</string>
+
+    <!-- Only when screen is off -->
+
+    <string name="prefs_sync_only_screen_off">Only when screen is off</string>
+    <string name="prefs_sync_only_screen_off_summary">Run scheduled mail sync only when the screen is off</string>
+
+    <!-- How often to check mail -->
+
+    <string name="prefs_sync_frequency">Mail check interval</string>
+    <string name="prefs_sync_frequency_5m">5 minutes</string>
+    <string name="prefs_sync_frequency_7m">7 minutes</string>
+    <string name="prefs_sync_frequency_10m">10 minutes</string>
+    <string name="prefs_sync_frequency_15m">15 minutes</string>
+    <string name="prefs_sync_frequency_30m">30 minutes</string>
+    <string name="prefs_sync_frequency_1h">1 hour</string>
+    <string name="prefs_sync_frequency_2h">2 hours</string>
+    <string name="prefs_sync_frequency_3h">3 hours</string>
+    <string name="prefs_sync_frequency_6h">6 hours</string>
+    <string name="prefs_sync_frequency_12h">12 hours</string>
+    <string name="prefs_sync_frequency_1d">24 hours</string>
+    <string name="prefs_sync_frequency_custom">Custom check interval</string>
+    <string name="prefs_sync_frequency_custom_none">Not specified</string>
+    <string name="prefs_sync_frequency_custom_minutes">%1$d minutes</string>
+    <string name="prefs_sync_frequency_custom_hours_minutes">%1$d hours, %2$d minutes</string>
+
+    <!-- Sync time use this as a reference -->
+
+    <string name="prefs_sync_time_reference">Time reference point</string>
+
+    <!-- Sync WiFi from sleep -->
+
+    <string name="prefs_sync_wifi_from_sleep_enabled">WiFi in sleep mode</string>
+    <string name="prefs_sync_wifi_from_sleep_enabled_summary">Attempt switching to a WiFi connection</string>
+
+    <!-- Sync strategy -->
+
+    <string name="prefs_sync_strategy_title">Messages to sync</string>
+    <string name="prefs_sync_strategy_by_count_title">By message count</string>
+    <string name="prefs_sync_strategy_by_count_template">%1$d messages</string>
+    <string name="prefs_sync_strategy_by_days_title">By time period</string>
+    <string name="prefs_sync_strategy_by_days_template">%1$d days</string>
+    <string name="prefs_sync_strategy_large_warning">A large amount of messages to sync can cause high battery and network traffic use</string>
+
+    <!-- Kick sync -->
+
+    <string name="prefs_kick_sync_category_title">Check mail on events</string>
+    <string name="prefs_kick_sync_types_title">Event types</string>
+    <string name="prefs_kick_sync_min_interval">Minimum time between two sync events</string>
+    <string name="prefs_kick_sync_delay">\"Settle in\" delay</string>
+    <string name="prefs_kick_sync_delay_none">None</string>
+    <string name="prefs_kick_sync_delay_5s">5 seconds</string>
+    <string name="prefs_kick_sync_delay_10s">10 seconds</string>
+    <string name="prefs_kick_sync_delay_15s">15 seconds</string>
+    <string name="prefs_kick_sync_delay_30s">30 seconds</string>
+    <string name="prefs_kick_sync_delay_60s">1 minute</string>
+
+    <!-- Mail, other -->
+
+    <string name="prefs_category_mail_other">Mail, other</string>
+    <string name="prefs_flowed_text">Flowed text</string>
+    <string name="prefs_flowed_text_summary">Encode and decode plain text as format=flowed</string>
+    <string name="prefs_ui_main_read_deleted">Mark read when deleting</string>
+    <string name="prefs_ui_main_read_deleted_summary">Mark messages read when moving to Deleted</string>
+    <string name="prefs_ui_main_purge_local_deleted">Purge [ Deleted ] on exit</string>
+    <string name="prefs_ui_main_purge_local_deleted_summary">Purge local (in app) Deleted folders when exiting with Back key</string>
+
+    <!-- UI theme -->
+
+    <string name="prefs_category_ui">Look and feel</string>
+    <string name="prefs_ui_theme">Color theme</string>
+    <string name="prefs_ui_theme_material">Light (\"Material Design\")</string>
+    <string name="prefs_ui_theme_light">Light</string>
+    <string name="prefs_ui_theme_dark_light">Dark, with light messages</string>
+    <string name="prefs_ui_theme_dark_dark">Dark, including messages</string>
+    <string name="prefs_ui_theme_accent">Title bar and icon bar color</string>
+
+    <!-- Two pane UI -->
+
+    <string name="prefs_ui_two_pane">Two-panel UI</string>
+    <string name="prefs_ui_two_pane_summary">Use two side-by-side panels</string>
+    <string name="prefs_ui_two_pane_resize">Allow resizing</string>
+    <string name="prefs_ui_two_pane_resize_summary">Display a thumb control for resizing the panels</string>
+    <string name="prefs_ui_two_pane_port_mode">Portrait mode</string>
+    <string name="prefs_ui_two_pane_port_mode_horz">Horizontal split</string>
+    <string name="prefs_ui_two_pane_port_mode_vert">Vertical split</string>
+    <string name="prefs_ui_two_pane_port_mode_vert_full">Vertical, with full screen message view</string>
+
+    <!-- Navigation drawer -->
+
+    <string name="prefs_ui_nav_drawer">Navigation drawer</string>
+    <string name="prefs_ui_nav_drawer_summary">Use navigation drawer in message lists</string>
+
+    <!-- Floating action button -->
+
+    <string name="prefs_ui_floating_action_button">Floating action button</string>
+    <string name="prefs_ui_floating_action_button_summary">Google\'s new thing: a large floating button instead of a row of icons</string>
+    <string name="prefs_ui_floating_action_button_always_enabled_summary">Always on when using the new theme on Android 5.0</string>
+
+    <!-- Animation -->
+
+    <string name="prefs_ui_animation">Animation</string>
+    <string name="prefs_ui_animation_summary">Use animation</string>
+
+    <!-- Bogus bar position (2.* only) -->
+
+    <string name="prefs_ui_bogus_bar_position">Button bar position</string>
+
+    <string-array name="prefs_ui_bogus_bar_position_entries">
+        <item>Automatic</item>
+        <item>Top</item>
+        <item>Bottom</item>
+    </string-array>
+
+    <!-- Account list -->
+
+    <string name="prefs_category_account_list">Account list</string>
+    <string name="prefs_ui_main_recent_folder_count">Recent folder count</string>
+    <string name="prefs_ui_main_recent_folder_delay">Keep recent folders for</string>
+
+    <!-- Expand accounts -->
+
+    <string name="prefs_ui_main_expand">Expand accounts</string>
+
+    <string-array name="prefs_ui_main_expand_entries">
+        <item>None</item>
+        <item>With unread messages</item>
+        <item>All</item>
+    </string-array>
+
+    <string name="prefs_ui_main_sync_time">Show last sync time</string>
+    <string name="prefs_ui_main_sync_time_summary">Show last sync time for each account</string>
+    <string name="prefs_ui_main_bold_accounts">Bold account names</string>
+    <string name="prefs_ui_main_bold_accounts_summary">Show account names in bold</string>
+    <string name="prefs_ui_main_open_account_inbox">Inbox on account tap</string>
+    <string name="prefs_ui_main_open_account_inbox_summary">Tap an account to open its Inbox, use the icon on the left to expand/collapse</string>
+    <string name="prefs_ui_wrap_folder_names">Wrap long folder names</string>
+    <string name="prefs_ui_wrap_folder_names_summary">Use multiple lines for folder names as necessary</string>
+    <string name="prefs_ui_navigate_prev_older">Previous message is older</string>
+    <string name="prefs_ui_navigate_prev_older_summary">In message navigation, \"previous\" means \"older\"</string>
+    <string name="prefs_ui_confirm_delete">Confirm when deleting messages</string>
+    <string name="prefs_ui_confirm_delete_summary">Ask for a confirmation before deleting messages</string>
+    <string name="prefs_ui_confirm_move_to_deleted">Confirm moving to Deleted</string>
+    <string name="prefs_ui_confirm_move_to_deleted_summary">Ask for a confirmation before moving to the Deleted folder</string>
+    <string name="prefs_ui_confirm_move_to_spam">Confirm moving to Spam</string>
+    <string name="prefs_ui_confirm_move_to_spam_summary">Ask for a confirmation before moving to the Spam folder</string>
+    <string name="prefs_ui_confirm_move_to_archive">Confirm moving to Archive</string>
+    <string name="prefs_ui_confirm_move_to_archive_summary">Ask for a confirmation before moving to the Archive folder</string>
+    <string name="prefs_ui_confirm_mark_all_read">Confirm \"Mark all read\"</string>
+    <string name="prefs_ui_confirm_mark_all_read_summary">Ask for a confirmation before marking all messages read</string>
+    <string name="prefs_ui_after_delete">After deleting a message</string>
+
+    <string-array name="prefs_ui_after_delete_entries">
+        <item>Go back to the message list</item>
+        <item>Go to previous message</item>
+        <item>Go to next message</item>
+    </string-array>
+
+    <string name="prefs_ui_storage_root">Folder for attachments</string>
+    <string name="prefs_ui_start_foreground">Status bar icon during sync and push</string>
+    <string name="prefs_ui_start_foreground_summary">Recommended, but turning off most likely won\'t cause anything to go wrong.</string>
+    <string name="prefs_ui_start_foreground_icon_color">Status bar icon color</string>
+    <string name="prefs_ui_notify_ongoing">Notify about ongoing operations</string>
+    <string name="prefs_ui_notify_ongoing_summary">Progress notifications for message/attachment loading</string>
+    <string name="prefs_ui_notify_background">Notify about completed operations</string>
+    <string name="prefs_ui_notify_background_summary">Notify when message/attachment loading completes in the background</string>
+    <string name="prefs_ui_volume_keys_font_size">Volume keys: font size</string>
+    <string name="prefs_ui_volume_keys_font_size_summary">The hardware volume keys are used to adjust font size</string>
+    <string name="prefs_ui_toasts">Toast messages</string>
+    <string name="prefs_ui_toasts_summary">Brief in-app notifications (\"draft saved\", etc.)</string>
+    <string name="prefs_ui_image_previews">Image previews</string>
+    <string name="prefs_ui_image_previews_summary">Show previews of image attachments</string>
+    <string name="prefs_ui_bidi_text">Right-to-Left text support</string>
+    <string name="prefs_ui_bidi_text_summary">Enable support for Right-to-Left text</string>
+    <string name="prefs_ui_startup">Start the app in</string>
+    <string name="prefs_ui_startup_none">The main window</string>
+    <string name="prefs_ui_startup_smart">@string/account_list_smart_inbox</string>
+    <string name="prefs_ui_back_key_exit_app">\"Back\" to close from message list</string>
+    <string name="prefs_ui_back_key_exit_app_summary">Close the app from message list rather than move to account list</string>
+    <string name="prefs_ui_long_back_key_exit_app">Long \"Back\" to close the app</string>
+    <string name="prefs_ui_long_back_key_exit_app_summary">Close the app when \"Back\" is long pressed</string>
+
+    <!-- Smart folder. Under "_ui_" for historic reasons. -->
+
+    <string name="prefs_category_smart_inbox">Smart Folder</string>
+    <string name="prefs_ui_smart_inbox">@string/prefs_category_smart_inbox</string>
+    <string name="prefs_ui_smart_inbox_summary">Show the Smart Folder</string>
+
+    <!-- Smart folder time period values -->
+
+    <string name="prefs_ui_smart_period">Smart Folder time period</string>
+    <string name="prefs_ui_smart_period_unread">Only unread</string>
+    <string name="prefs_ui_smart_period_10m">Ten minutes</string>
+    <string name="prefs_ui_smart_period_1h">One hour</string>
+    <string name="prefs_ui_smart_period_8h">Eight hours</string>
+    <string name="prefs_ui_smart_period_1d">One day</string>
+    <string name="prefs_ui_smart_period_3d">Three days</string>
+    <string name="prefs_ui_smart_period_5d">Five days</string>
+    <string name="prefs_ui_smart_period_7d">One week</string>
+    <string name="prefs_ui_smart_period_1m">One month</string>
+    <string name="prefs_ui_smart_period_all">All current</string>
+    <string name="prefs_ui_smart_stars">Starred messages</string>
+    <string name="prefs_ui_smart_stars_summary">Include starred messages</string>
+    <string name="prefs_ui_smart_notificaitons">Use for notifications</string>
+    <string name="prefs_ui_smart_notifications_summary">Use the Smart Folder for notifications</string>
+    <string name="prefs_ui_smart_multi_hints">Account and folder names</string>
+    <string name="prefs_ui_smart_multi_hints_summary">Show account and folder names for each message</string>
+    <string name="prefs_ui_smart_sent_as_self">Show sent as from self</string>
+    <string name="prefs_ui_smart_sent_as_self_summary">Show sent messages with you as sender</string>
+    <string name="prefs_ui_smart_larger_font">Larger font</string>
+    <string name="prefs_ui_smart_larger_font_summary">Use a larger font for the Smart Folder item in the main window</string>
+
+    <!-- Accessibility -->
+
+    <string name="prefs_category_access">Accessibility</string>
+    <string name="prefs_access_web_scripts">Enable WebScripts</string>
+    <string name="prefs_access_web_scripts_summary">Use WebScripts for message contents</string>
+
+    <!-- Widgets -->
+
+    <string name="prefs_category_widget">Widgets</string>
+    <string name="prefs_widget_unread_style">Unread count style</string>
+
+    <!-- Contacts integration -->
+
+    <string name="prefs_category_contacts">Contacts</string>
+    <string name="prefs_contacts_indicate_unknown">Indicate unknown</string>
+    <string name="prefs_contacts_indicate_unknown_summary">Show a question mark for unknown contacts (vs. known with no image)</string>
+    <string name="prefs_contacts_compose_chips">Contact chips</string>
+    <string name="prefs_contacts_compose_chips_summary">Show contacts as \"chips\", not text</string>
+    <string name="prefs_contacts_compose_chips_replace_names">Replace contact names</string>
+    <string name="prefs_contacts_compose_chips_replace_names_summary">Replace original contact names with those from your Contacts</string>
+    <string name="prefs_contacts_picking_buttons">Contact picking buttons</string>
+    <string name="prefs_contacts_picking_buttons_summary">Show contact picking buttons in the new message window</string>
+    <string name="prefs_contacts_picking_default">Default contact picker</string>
+    <string name="prefs_contacts_confirm_insert_group">Confirm inserting a group</string>
+    <string name="prefs_contacts_confirm_insert_group_summary">Confirm inserting a group into TO or CC</string>
+    <string name="prefs_contacts_auto_add">Auto-add contacts</string>
+    <string name="prefs_contacts_auto_add_summary">Automatically add message recipients to system Contacts</string>
+
+    <!-- Calendar integration -->
+
+    <string name="prefs_category_calendar">Calendar</string>
+    <string name="prefs_calendar_lead_time">Lead time when saving messages as events</string>
+    <string name="prefs_calendar_lead_time_current">Current</string>
+    <string name="prefs_calendar_lead_time_1_hour">+ 1 hour</string>
+    <string name="prefs_calendar_lead_time_4_hour">+ 4 hours</string>
+    <string name="prefs_calendar_lead_time_12_hour">+ 12 hours</string>
+    <string name="prefs_calendar_lead_time_24_hour">+ 1 day</string>
+    <string name="prefs_calendar_lead_time_48_hour">+ 2 days</string>
+    <string name="prefs_calendar_lead_time_72_hour">+ 3 days</string>
+    <string name="prefs_calendar_alarm_time">Alarm when saving invites</string>
+    <string name="prefs_calendar_alarm_none">None</string>
+    <string name="prefs_calendar_alarm_at_event">At time of event</string>
+    <string name="prefs_calendar_alarm_5m">5 minutes before</string>
+    <string name="prefs_calendar_alarm_15m">15 minutes before</string>
+    <string name="prefs_calendar_alarm_30m">30 minutes before</string>
+    <string name="prefs_calendar_alarm_1h">1 hour before</string>
+    <string name="prefs_calendar_view_type">View in Calendar (Exchange accounts) goes to</string>
+    <string name="prefs_calendar_view_type_event">The event itself</string>
+    <string name="prefs_calendar_view_type_day">Day view for the event\'s date</string>
+
+    <!-- Search -->
+
+    <string name="prefs_category_search">Search</string>
+    <string name="prefs_search_limit">Max. number of results</string>
+    <string name="prefs_search_reset_title">Clear history</string>
+    <string name="prefs_search_reset_message">Would you like to clear search history?</string>
+
+    <!-- Security -->
+
+    <string name="prefs_category_security">Security</string>
+    <string name="prefs_security_uilock">App access control</string>
+
+    <!-- Message list -->
+
+    <string name="prefs_category_view">Message list</string>
+    <string name="prefs_view_list_by_date_enabled">Messages by date</string>
+    <string name="prefs_view_list_by_date_enabled_summary">Group the message list by date</string>
+    <string name="prefs_view_list_format">Message content preview</string>
+    <string name="prefs_view_list_format_0">No preview</string>
+    <string name="prefs_view_list_format_1">With 1 line of content</string>
+    <string name="prefs_view_list_format_2">With 2 lines of content</string>
+    <string name="prefs_view_list_format_3">With 3 lines of content</string>
+    <string name="prefs_view_list_format_4">With 4 lines of content</string>
+    <string name="prefs_view_list_slim_padding">Slim padding</string>
+    <string name="prefs_view_list_slim_padding_summary">Less whitespace, more messages per screen</string>
+    <string name="prefs_view_list_indent_previews">Indent message previews</string>
+    <string name="prefs_view_list_indent_previews_summary">A bit of empty space for a cleaner look</string>
+    <string name="prefs_view_list_subject_first">Subject above sender</string>
+    <string name="prefs_view_list_subject_first_summary">Display subject first, above the sender</string>
+    <string name="prefs_view_list_full_sender">Full sender info</string>
+    <string name="prefs_view_list_full_sender_summary">Display sender\'s name and email both</string>
+    <string name="prefs_view_list_message_size">Message sizes</string>
+    <string name="prefs_view_list_message_size_summary">Display message sizes</string>
+    <string name="prefs_view_list_attachments">Attachments</string>
+    <string name="prefs_view_list_attachments_summary">Display a preview of attachments and their total size</string>
+    <string name="prefs_ui_color_labels">Color labels</string>
+    <string name="prefs_ui_color_labels_summary">Show color labels next to folders</string>
+    <string name="prefs_view_list_stars">Stars</string>
+    <string name="prefs_view_list_stars_summary">Show per-message star indicators</string>
+    <string name="prefs_view_list_contacts">Contact images</string>
+    <string name="prefs_view_list_contacts_summary">Show sender contact images</string>
+    <string name="prefs_view_list_round_images">Round contact images</string>
+    <string name="prefs_view_list_round_images_summary">Are circles on dem iPhones more rounderer?</string>
+    <string name="prefs_view_list_color_chips">Color chips</string>
+    <string name="prefs_view_list_color_chips_summary">Show color chips for senders without images</string>
+    <string name="prefs_view_list_auto_load_more">Load more messages</string>
+    <string name="prefs_view_list_auto_load_more_summary">Automatically when scrolling</string>
+    <string name="prefs_view_list_fast_scroll">Fast scroll</string>
+    <string name="prefs_view_list_fast_scroll_summary">Enable fast (indexed) scroll</string>
+    <string name="prefs_view_list_pull_select">Pull to select</string>
+    <string name="prefs_view_list_pull_select_summary">Swipe down, on the left, to select</string>
+    <string name="prefs_view_list_pull_refresh">Pull to refresh</string>
+    <string name="prefs_view_list_pull_refresh_summary">Swipe down to refresh</string>
+    <string name="prefs_view_list_protect_selection">Protect selection state</string>
+    <string name="prefs_view_list_protect_selection_summary">Press back *twice* to clear the selection</string>
+    <string name="prefs_view_list_keep_selection">Keep selection after action</string>
+    <string name="prefs_view_list_keep_selection_summary">Keep selection after performing a message action</string>
+    <string name="prefs_view_list_use_backgrounds">Use backgrounds</string>
+    <string name="prefs_view_list_use_backgrounds_summary">Use different backgrounds for read vs. unread messages</string>
+    <string name="prefs_view_list_switched_backgrounds">Switched backgrounds</string>
+    <string name="prefs_view_list_switched_backgrounds_summary">Switch the read/unread message backgrounds</string>
+    <string name="prefs_view_list_select">Select \"All\" means</string>
+    <string name="prefs_view_list_select_visible">Visible messages</string>
+    <string name="prefs_view_list_select_loaded">Loaded messages</string>
+    <string name="prefs_view_list_sort_default">Default sort order</string>
+
+    <!-- Message list customization -->
+
+    <string name="prefs_category_view_list_customize">Customize</string>
+    <string name="prefs_view_list_color_group_background">Color: group header</string>
+    <string name="prefs_view_list_color_group_text">Color: group text</string>
+    <string name="prefs_view_list_color_group_edge">Color: group edge</string>
+    <string name="prefs_view_list_color_line1_unread">Color: line 1 (unread)</string>
+    <string name="prefs_view_list_color_line1_read">Color: line 1 (read)</string>
+    <string name="prefs_view_list_size_line1">Size: line 1</string>
+    <string name="prefs_view_list_bold_line1">Bold: line 1</string>
+    <string name="prefs_view_list_color_line2_unread">Color: line 2 (unread)</string>
+    <string name="prefs_view_list_color_line2_read">Color: line 2 (read)</string>
+    <string name="prefs_view_list_size_line2">Size: line 2</string>
+    <string name="prefs_view_list_bold_line2">Bold: line 2</string>
+    <string name="prefs_view_list_bold_is_unread">Unread</string>
+    <string name="prefs_view_list_bold_is_read">Read</string>
+    <string name="prefs_view_list_color_previews">Color: previews</string>
+    <string name="prefs_view_list_size_previews">Size: previews</string>
+    <string name="prefs_view_list_color_aux">Color: message times and sizes</string>
+    <string name="prefs_view_list_color_unread_background">Color: unread background</string>
+    <string name="prefs_view_list_color_read_background">Color: read background</string>
+    <string name="prefs_view_list_color_starred_background">Color: starred background</string>
+
+    <!-- Message view -->
+
+    <string name="prefs_category_display">Message view</string>
+    <string name="prefs_ui_webview_zoom">Browser-like zoom</string>
+    <string name="prefs_ui_webview_zoom_summary">Enable browser-like message zoom</string>
+    <string name="prefs_ui_webview_zoom_controller">Zoom controller</string>
+    <string name="prefs_ui_webview_zoom_controller_summary">Show the \"+/-\" zoom controller</string>
+    <string name="prefs_ui_webview_zoom_to_fit">Auto-fit</string>
+    <string name="prefs_ui_webview_zoom_to_fit_summary">Shrink messages to fit the screen</string>
+    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing">Enlarge small text</string>
+    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing_summary">Enlarge text that would otherwise get too small when shrunk</string>
+    <string name="prefs_display_sticky_mobile">Allow \"mobile view\"</string>
+    <string name="prefs_display_sticky_mobile_summary">Allow \"mobile view\" mode (reflow, as opposed to shrink)</string>
+    <string name="prefs_display_sticky_mobile_confirmation">Android 4 has a bug that often causes links to become unclickable in
+mobile viewing mode.\n\nIf you run into this, please use \"Menu/View/Disable mobile view\".</string>
+    <string name="prefs_display_fade_pager">Fade out the panels pager</string>
+    <string name="prefs_display_fade_pager_summary">Fade out the text/attachments panels pager. Swipe from the edge to switch.</string>
+    <string name="prefs_display_phone_numbers">Highlight phone numbers</string>
+    <string name="prefs_display_phone_numbers_summary">Make phone numbers into clickable links for easy dialing</string>
+    <string name="prefs_ui_orientation">Message view orientation</string>
+
+    <string-array name="prefs_ui_orientation_entries">
+        <item>Rotate with the device</item>
+        <item>Lock to portrait</item>
+        <item>Lock to landscape</item>
+    </string-array>
+
+    <string name="prefs_display_keep_screen_on">Keep screen on</string>
+    <string name="prefs_display_keep_screen_on_summary">Keep the screen on while displaying messages</string>
+    <string name="prefs_display_samsung_gesture_summary">Navigate messages by using gestures (hand-waving)</string>
+    <string name="prefs_display_allow_incomplete">Actions with incomplete messages</string>
+    <string name="prefs_display_allow_incomplete_summary">In case of a network error, reply to / forward an incomplete message</string>
+    <string name="prefs_display_mark_read">Mark messages as read</string>
+
+    <string-array name="prefs_display_mark_read_entries">
+        <item>Immediately</item>
+        <item>After 3 seconds</item>
+        <item>After 5 seconds</item>
+        <item>After 10 seconds</item>
+        <item>After 15 seconds</item>
+        <item>Never automatically</item>
+    </string-array>
+
+    <string name="prefs_display_mark_read_on_reply">Mark read on reply</string>
+    <string name="prefs_display_mark_read_on_reply_summary">Mark current message read when replying, etc.</string>
+    <string name="prefs_display_close_on_reply">Close on reply</string>
+    <string name="prefs_display_close_on_reply_summary">Close current message when replying, etc.</string>
+    <string name="prefs_display_cache_images">Cache images</string>
+    <string name="prefs_display_cache_images_summary">Try to cache linked images</string>
+    <string name="prefs_display_action_bar_icons">Customize the buttons</string>
+
+    <!-- Common network settings -->
+
+    <string name="prefs_category_network">Network</string>
+    <string name="prefs_network_present_check">Check for connection</string>
+    <string name="prefs_network_present_check_summary">Check that there is a network connection. Disable on buggy devices.</string>
+    <string name="prefs_network_dns">DNS resolution</string>
+    <string name="prefs_network_dns_summary">Locate both IPv6 and IPv4 addresses. Disable on buggy devices.</string>
+    <string name="prefs_network_ssl_hardening">SSL hardening</string>
+    <string name="prefs_network_ssl_hardening_summary">Use more secure SSL/TLS ciphers and protocols</string>
+    <string name="prefs_network_ssl_hardening_no_sslv3">Do not use SSLv3</string>
+    <string name="prefs_network_ssl_hardening_no_sslv3_summary">Do not use the SSLv3 protocol, known to be insecure</string>
+    <string name="prefs_network_ssl_checking">SSL validation</string>
+    <string name="prefs_network_ssl_checking_summary">Notify about changes in SSL certificates, preventing MITM attacks</string>
+    <string name="prefs_network_ssl_reboot_required">Please reboot the phone / tablet for this change to go into effect</string>
+
+    <!-- Some settings are separate for Wifi and mobile -->
+
+    <string name="prefs_category_wifi">WiFi Settings</string>
+    <string name="prefs_category_mobile">Mobile Data Settings</string>
+
+    <!-- Command batch size -->
+
+    <string name="prefs_command_batch_size">Command batch size</string>
+
+    <string-array name="prefs_command_batch_size_entries">
+        <item>Small (better responsiveness)</item>
+        <item>Large (better performance)</item>
+    </string-array>
+
+    <!-- Preload help -->
+
+    <string name="prefs_preload_help_summary">The \"Load when checking mail\" settings below are observed by IMAP (exactly) and POP3 (approximately).
+EWS acccounts preload text portions of each message completely when checking mail.</string>
+
+    <!-- Display part preload -->
+
+    <string name="prefs_message_preload_limit">Load when checking mail</string>
+
+    <string-array name="prefs_message_preload_limit_entries">
+        <item>Headers only</item>
+        <item>Up to 1 KB</item>
+        <item>Up to 5 KB</item>
+        <item>Up to 10 KB</item>
+        <item>Up to 25 KB</item>
+        <item>Up to 64 KB</item>
+        <item>No limit</item>
+        <item>Another value</item>
+    </string-array>
+
+    <string name="prefs_message_preload_custom_entry_format">Load up to %1$d KB (change)</string>
+    <string name="prefs_message_preload_custom_summary_format">Load up to %1$d KB</string>
+    <string name="prefs_message_preload_custom_message">Custom size (Kilobytes)</string>
+
+    <!-- Limits for "Load the rest" -->
+
+    <string name="prefs_load_the_rest">Load when viewing a message</string>
+
+    <string-array name="prefs_load_the_rest_entries">
+        <item>Up to 5 KB</item>
+        <item>Up to 10 KB</item>
+        <item>Up to 25 KB</item>
+        <item>Up to 50 KB</item>
+        <item>Up to 100 KB</item>
+        <item>No limit</item>
+        <item>Another value</item>
+    </string-array>
+
+    <string name="prefs_load_the_rest_custom_entry_format">Load up to %1$d Kb (change)</string>
+    <string name="prefs_load_the_rest_custom_summary_format">Load up to %1$d Kb</string>
+    <string name="prefs_load_the_rest_custom_message">Custom size (Kilobytes)</string>
+
+    <!-- Show pictures (or not) -->
+
+    <string name="prefs_show_pictures">Show images</string>
+    <string name="prefs_show_pictures_summary">Show linked images when viewing a message</string>
+
+    <!-- Push session keepalive -->
+
+    <string name="prefs_push_keepalive">Push mail keep-alive</string>
+    <string name="prefs_push_keepalive_none">None</string>
+
+    <!-- Composing and sending -->
+
+    <string name="prefs_category_compose">Composing and sending</string>
+    <string name="prefs_compose_default_account">Default account</string>
+    <string name="prefs_compose_default_save_restore">Most recently used</string>
+    <string name="prefs_compose_format">Rich vs. plain text</string>
+    <string name="prefs_compose_format_auto">Automatic</string>
+    <string name="prefs_compose_format_rich">Rich text</string>
+    <string name="prefs_compose_format_plain">Plain text</string>
+    <string name="prefs_compose_rich_font_size">Rich text font size (when sending)</string>
+    <string name="prefs_compose_rich_font_size_default">Default (do not set)</string>
+    <string name="prefs_compose_rich_font_size_template">Set to %1$dpt</string>
+    <string name="prefs_compose_rich_font_family">Rich text font family (when sending)</string>
+    <string name="prefs_compose_buttons_top">Buttons at the top</string>
+    <string name="prefs_compose_buttons_top_summary">Move buttons to the top of the screen, to avoid accidental presses</string>
+    <string name="prefs_compose_buttons_top_not_available_summary">Always on when using the new theme on Android 5.0</string>
+    <string name="prefs_compose_format_bar_bottom">Rich format bar at the bottom</string>
+    <string name="prefs_compose_format_bar_bottom_summary">Move rich format bar to the bottom (useful on LG and HTC devices)</string>
+    <string name="prefs_compose_format_bar_float">Floating rich format bar</string>
+    <string name="prefs_compose_format_bar_float_summary">Make rich format bar \"float\" over message text</string>
+    <string name="prefs_compose_quoting">Quote the original</string>
+    <string name="prefs_compose_quoting_summary">When replying/forwarding, by default</string>
+    <string name="prefs_compose_quoting_prefix">Prefix for plain text replies</string>
+    <string name="prefs_compose_reply_inline">Reply at the bottom</string>
+    <string name="prefs_compose_reply_inline_summary">When replying inline, put new text at the bottom</string>
+    <string name="prefs_compose_keep_signature_middle">Keep signature in the middle</string>
+    <string name="prefs_compose_keep_signature_middle_summary">…when replying inline</string>
+    <string name="prefs_compose_confirm_send">Confirm before sending</string>
+    <string name="prefs_compose_confirm_send_summary">Ask for a confirmation before sending a message</string>
+    <string name="prefs_compose_user_agent">Send User-Agent</string>
+    <string name="prefs_compose_user_agent_summary">Add the User-Agent header when sending messages</string>
+    <string name="prefs_compose_reply_format">Quoting header format</string>
+    <string name="prefs_compose_reply_format_thunderbird">Like Thunderbird, Gmail</string>
+    <string name="prefs_compose_reply_format_outlook">Like MS Outlook</string>
+    <string name="prefs_compose_reply_feats">Quoting features</string>
+    <string name="prefs_compose_reply_feats_indent">Indent replies</string>
+    <string name="prefs_compose_reply_feats_line">Horizontal line</string>
+    <string name="prefs_compose_reply_english">Quoting in English</string>
+    <string name="prefs_compose_reply_english_summary">Use English for quoting replies</string>
+
+    <!-- Spam control (linked images) -->
+
+    <string name="prefs_category_spam">Spam control of linked images</string>
+    <string name="prefs_spam_image_known_check">Show only from known</string>
+    <string name="prefs_spam_image_known_check_summary">Show images only from known senders</string>
+    <string name="prefs_spam_image_known_trust_contacts">Trust Contacts/People</string>
+    <string name="prefs_spam_image_known_trust_contacts_summary">Show linked images from senders in the Contacts/People app</string>
+    <string name="prefs_spam_image_known_reset">Reset the known list</string>
+    <string name="prefs_spam_image_known_reset_summary">Reset the list of known senders</string>
+
+    <!-- Swipe -->
+
+    <string name="prefs_category_swipe">Swiping</string>
+    <string name="prefs_swipe_message_navigation">In message view</string>
+    <string name="prefs_swipe_message_navigation_summary">Swipe to previous / next message</string>
+    <string name="prefs_swipe_message_prev_next">Show icons too</string>
+    <string name="prefs_swipe_message_prev_next_summary">Show previous / next message icons</string>
+    <string name="prefs_swipe_message_list">In message list</string>
+    <string name="prefs_swipe_message_list_summary">Swipe actions in message list</string>
+    <string name="prefs_swipe_message_list_haptic">Haptic feedback</string>
+    <string name="prefs_swipe_message_list_haptic_summary">Use vibration to indicate swipe commands</string>
+    <string name="prefs_swipe_message_list_sound">Sound feedback</string>
+    <string name="prefs_swipe_message_list_sound_summary">Use sound to indicate swipe commands</string>
+    <string name="prefs_swipe_message_list_sample_subject">Sample message</string>
+    <string name="prefs_swipe_message_list_sample_preview">This is a sample message</string>
+    <string name="prefs_swipe_message_list_right_header">Right side</string>
+    <string name="prefs_swipe_message_list_left_header">Left side</string>
+    <string name="prefs_swipe_message_list_icon_1">First icon</string>
+    <string name="prefs_swipe_message_list_icon_2">Second icon</string>
+    <string name="prefs_swipe_message_list_icon_3">Third icon</string>
+    <string name="prefs_swipe_message_list_op_none">None</string>
+    <string name="prefs_swipe_message_list_op_star">Set / clear star</string>
+    <string name="prefs_swipe_message_list_op_read">Mark read / unread</string>
+    <string name="prefs_swipe_message_list_op_archive">Move to archive</string>
+    <string name="prefs_swipe_message_list_op_spam">Move to spam</string>
+    <string name="prefs_swipe_message_list_op_delete">Delete (the account\'s delete option)</string>
+    <string name="prefs_swipe_message_list_op_archive_or_delete">Archive or delete (depeding on the account)</string>
+    <string name="prefs_swipe_message_list_op_find_sender">Find by sender</string>
+
+    <!-- Incoming notifications -->
+
+    <string name="prefs_category_notify">Message notifications</string>
+    <string name="prefs_notify_on">Enable notifications</string>
+    <string name="prefs_notify_on_summary">Enable message notifications</string>
+    <string name="prefs_notify_about">Notify about</string>
+    <string name="prefs_notify_about_unread">All unread messages</string>
+    <string name="prefs_notify_about_new">New unread messages</string>
+    <string name="prefs_notify_sound">Sound</string>
+    <string name="prefs_notify_led">LED notifications</string>
+    <string name="prefs_notify_led_summary">Use the LED for notifications</string>
+    <string name="prefs_notify_led_color">LED color</string>
+    <string name="prefs_notify_led_time_on">Turn LED on for…</string>
+    <string name="prefs_notify_led_time_off">Keep LED off for…</string>
+
+    <plurals name="prefs_notify_led_time_template">
+        <item quantity="one">%1$d second</item>
+        <item quantity="other">%1$d seconds</item>
+    </plurals>
+
+    <string name="prefs_notify_vibration">Vibration</string>
+    <string name="prefs_notify_vibration_summary">Use vibration</string>
+    <string name="prefs_notify_vibration_observe_mode">Only in \"vibration\" mode</string>
+    <string name="prefs_notify_vibration_observe_mode_summary">Vibrate only when the device is in \"vibration\" mode</string>
+    <string name="prefs_notify_vibration_pattern">Vibration pattern</string>
+    <string name="prefs_notify_vibration_pattern_default">Default</string>
+    <string name="prefs_notify_screen_on">Turn screen on</string>
+    <string name="prefs_notify_screen_on_summary">Turn the screen on when notifying</string>
+    <string name="prefs_notify_sound_once">Play sound only once</string>
+    <string name="prefs_notify_sound_once_summary">Only when there is no unread message notification yet</string>
+    <string name="prefs_notify_reset_new_on_status_clear">Reset on notification clear</string>
+    <string name="prefs_notify_reset_new_on_status_clear_summary">Reset the \"new\" counter when notifications are cleared</string>
+    <string name="prefs_notify_only_new">Only when new messages</string>
+    <string name="prefs_notify_only_new_summary">Notify only when there are new messages</string>
+    <string name="prefs_notify_only_changes">Only when there are changes</string>
+    <string name="prefs_notify_only_changes_summary">Notify only when there are changes in message state(s)</string>
+    <string name="prefs_notify_priority">High priority notifications</string>
+    <string name="prefs_notify_priority_summary">New in Android 5.0</string>
+    <string name="prefs_notify_privacy">Protect privacy</string>
+    <string name="prefs_notify_privacy_summary">Suppress subject/sender info</string>
+    <string name="prefs_notify_actions">Action buttons</string>
+    <string name="prefs_notify_actions_confirm">Confirm notification actions…</string>
+    <string name="prefs_notify_actions_confirm_activity">In a separate window</string>
+    <string name="prefs_notify_actions_confirm_notification">In notifications themselves</string>
+    <string name="prefs_notify_launcher_icon">Launcher icon counter</string>
+    <string name="prefs_notify_launcher_icon_summary">For Samsung/LG/Sony launchers</string>
+    <string name="prefs_notify_launcher_warning">This feature is intended for applications built into the system.\n\nEnabling it
+for a third party app may have undesirable side effects.\n\nOr it may work fine. Or not do anything at all.</string>
+    <string name="prefs_notify_deferred">Deferred sound</string>
+    <string name="prefs_notify_deferred_summary">One sound at the end of a multiple-account mail check</string>
+    <string name="prefs_notify_when_interactive">When the app is active</string>
+    <string name="prefs_notify_when_interactive_summary">Post notifications even when the application is open</string>
+    <string name="prefs_notify_manage_accounts">Manage per-account</string>
+    <string name="prefs_notify_manage_accounts_summary">Clear one account notification at a time, keeping the others</string>
+
+    <!-- Error notifications -->
+
+    <string name="prefs_category_error">Error notifications</string>
+    <string name="prefs_error_notify">Enable error notifications</string>
+    <string name="prefs_error_notify_summary">Enable error notifications</string>
+
+    <!-- Send notifications -->
+
+    <string name="prefs_category_send_notify">Send notifications</string>
+    <string name="prefs_send_notify">Enable notifications</string>
+    <string name="prefs_send_notify_summary">Enable send notifications</string>
+
+    <!-- Night and weekend mode category -->
+
+    <string name="prefs_category_silent_section">Nights and weekends</string>
+
+    <!-- Dark theme at night -->
+
+    <string name="prefs_dark_theme_night">Dark theme</string>
+    <string name="prefs_dark_theme_night_summary">Use the dark theme at night</string>
+
+    <!-- Adjust scheduled mail check interval -->
+    
+    <string name="prefs_notify_silent_change_interval">Adjust mail check schedule</string>
+    <string name="prefs_notify_silent_change_interval_none">( do not adjust )</string>
+    
+    <!-- Night mode (called Silent for historical reasons) -->
+
+    <string name="prefs_category_silent">Night mode</string>
+    <string name="prefs_notify_silent">Enable night mode</string>
+    <string name="prefs_notify_silent_summary">Disable sounds and vibration</string>
+    <string name="prefs_notify_silent_from">\"From\" time</string>
+    <string name="prefs_notify_silent_to">\"To\" time</string>
+    <string name="prefs_notify_silent_no_led">Suppress the LED</string>
+    <string name="prefs_notify_silent_no_led_summary">Do not use the LED in notifications</string>
+    <string name="prefs_notify_silent_no_sync">Turn off scheduled checks</string>
+    <string name="prefs_notify_silent_no_sync_summary">Do not run scheduled mail checks during this time</string>
+    <string name="prefs_notify_silent_no_push">Turn off IMAP push</string>
+    <string name="prefs_notify_silent_no_push_summary">Do not use IMAP push during this time</string>
+
+    <!-- Weekend mode -->
+
+    <string name="prefs_category_weekend">Weekend mode</string>
+    <string name="prefs_notify_weekend">Days of the week</string>
+
+    <string-array name="prefs_notify_weekend_entries">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <integer-array name="prefs_notify_weekend_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+
+    <string name="prefs_notify_weekend_move_night">Shift night mode</string>
+    <string name="prefs_notify_weekend_move_night_summary">Shift night mode on these days</string>
+    <string name="prefs_notify_weekend_all">All day mode</string>
+    <string name="prefs_notify_weekend_all_summary">Disable sounds and vibration on these days</string>
+    <string name="prefs_notify_weekend_all_no_sync">Turn off scheduled checks</string>
+    <string name="prefs_notify_weekend_all_no_sync_summary">Do not run scheduled mail checks on these days</string>
+    <string name="prefs_notify_weekend_all_no_push">Turn off IMAP push</string>
+    <string name="prefs_notify_weekend_all_no_push_summary">Do not use IMAP push on these days</string>
+
+    <!-- Debug settings -->
+
+    <string name="prefs_category_debug">Debug</string>
+    <string name="prefs_debug_log">Debug logging</string>
+    <string name="prefs_debug_log_summary">Enable logging for debugging</string>
+    <string name="prefs_debug_raw_data">Log raw data</string>
+    <string name="prefs_debug_raw_data_summary">Include raw session data (passwords are not logged)</string>
+    <string name="prefs_debug_db_data">Log database data</string>
+    <string name="prefs_debug_db_data_summary">Slow, verbose, at times indispensable</string>
+    <string name="prefs_debug_log_target">Output to</string>
+
+    <string-array name="prefs_debug_log_target_entries">
+        <item>Logcat (system log)</item>
+        <item>File (log-AquaMail.txt)</item>
+    </string-array>
+
+    <string name="prefs_disable_gpu">Disable GPU</string>
+    <string name="prefs_disable_gpu_summary">Disable hardware graphics acceleration</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="quick_response_insert">Insert quick response</string>
+    <string name="quick_response_add_edit">Add/Edit responses</string>
+    <string name="quick_response_add">Add new quick response</string>
+    <string name="quick_response_add_text">Save current message text</string>
+    <string name="quick_response_edit">Edit quick response</string>
+    <string name="quick_response_hint_name">Title (optional)</string>
+    <string name="quick_response_hint_text">Text (required)</string>
+
+</resources>

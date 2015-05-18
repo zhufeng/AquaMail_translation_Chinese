@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account Folders Activity -->
+    
+    <string name="account_folders_activity">Account folders</string>
+    <string name="account_folders_prompt">Folders for %1$s</string>
+    <string name="account_folders_save_changes">Save changes</string>
+
+</resources>

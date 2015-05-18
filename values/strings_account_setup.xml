@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Add New account -->
+
+    <string name="account_new_activity">New account</string>
+    <string name="account_edit_activity">Edit an account</string>
+    <string name="account_setup_gmail_title">Gmail or Google Apps</string>
+    <string name="account_setup_simple_page_title">Simple setup</string>
+    <string name="account_setup_incoming_page_title">Incoming server</string>
+    <string name="account_setup_outgoing_page_title">Outgoing server</string>
+    <string name="account_setup_finish_page_title">Almost done</string>
+    <string name="account_setup_back">Back</string>
+    <string name="account_setup_next">Next</string>
+    <string name="account_setup_save">Save</string>
+    <string name="account_setup_advanced">Manual</string>
+    <string name="account_setup_your_name">Your name (for outgoing messages)</string>
+    <string name="account_setup_your_email">Email</string>
+    <string name="account_setup_email_hint">name@somewhere.com</string>
+    <string name="account_setup_your_password">Password</string>
+    <string name="account_setup_password_hint">password</string>
+    <string name="account_setup_show_password">Show password</string>
+
+    <!-- Gmail accounts -->
+
+    <string name="account_setup_gmail_other">Other…</string>
+    <string name="account_setup_gmail_other_arg">Other (%s)</string>
+    <string name="account_setup_gmail_web_activity_title">Please log into a Gmail or Google Apps account</string>
+    <string name="account_setup_gmail_web_activity_title_arg">Please log into %s</string>
+    <string name="account_setup_gmail_email_prompt">Select a system account or choose Other…</string>
+
+    <!-- Incoming server settings -->
+
+    <string name="account_setup_incoming_server_type">Server type</string>
+    <string name="account_setup_incoming_server_name">Server name</string>
+    <string name="account_setup_incoming_server_port">Server port</string>
+
+    <string-array name="account_setup_incoming_login_scheme_array">
+        <item>Choose automatically</item>
+        <item>Prefer compatibility</item>
+    </string-array>
+
+    <string name="account_setup_incoming_login_name">Login</string>
+    <string name="account_setup_incoming_login_password">Password</string>
+    <string name="account_setup_incoming_login_ews_help">Corporate Exchange servers often require a domain,
+such as \"corp/user@corp.com\", \"sales/user@corp.com\", etc.</string>
+
+    <!-- IMAP -->
+
+    <string name="account_setup_incoming_imap_prefix">Folder prefix</string>
+    <string name="account_setup_incoming_imap_prefix_auto">Automatic</string>
+
+    <!-- POP3 -->
+
+    <string name="account_setup_incoming_pop3_order">POP3 message order</string>
+
+    <string-array name="account_setup_incoming_pop3_order_array">
+        <item>Automatic</item>
+        <item>Direct (common)</item>
+        <item>Reversed (rare)</item>
+    </string-array>
+
+    <!-- EWS -->
+
+    <string name="account_setup_ews_shared_mailbox">EWS shared mailbox (address)</string>
+
+    <!-- Outgoing server settings -->
+
+    <string name="account_setup_no_outgoing">No outgoing server</string>
+    <string name="account_setup_wifi_outgoing">Override when on WiFi</string>
+    <string name="account_setup_wifi_outgoing_ssid_label">Specific network (blank for any)</string>
+    <string name="account_setup_wifi_outgoing_ssid_current">Current</string>
+    <string name="account_setup_smtp_server_name">SMTP server</string>
+    <string name="account_setup_smtp_server_port">Server port</string>
+    <string name="account_setup_smtp_login_scheme">Authentication</string>
+
+    <string-array name="account_setup_smtp_login_scheme_array">
+        <item>Choose automatically</item>
+        <item>Do not login</item>
+        <item>SASL CRAM-MD5</item>
+        <item>SASL PLAIN</item>
+        <item>SASL LOGIN</item>
+    </string-array>
+
+    <string name="account_setup_smtp_login_name">Login</string>
+    <string name="account_setup_smtp_login_password">Password</string>
+    <string name="account_setup_save_account_as">Account name</string>
+    <string name="account_setup_server_security_prompt">Security type</string>
+
+    <string-array name="account_setup_server_security_array_internet">
+        <item>Not encrypted</item>
+        <item>SSL (strict check)</item>
+        <item>SSL (accept any)</item>
+        <item>STARTTLS (strict check)</item>
+        <item>STARTTLS (accept any)</item>
+    </string-array>
+    <string-array name="account_setup_server_security_array_exchange">
+        <item>Not encrypted</item>
+        <item>SSL (strict check)</item>
+        <item>SSL (accept any)</item>
+    </string-array>
+
+    <string name="account_setup_error_missing_username">Please enter your name</string>
+    <string name="account_setup_error_missing_email">Please enter your email</string>
+    <string name="account_setup_error_missing_login">Please enter your login name</string>
+    <string name="account_setup_error_missing_password">Please enter your password</string>
+    <string name="account_setup_error_missing_server_name">Please enter server name</string>
+    <string name="account_setup_error_missing_server_port">Please enter server port</string>
+    <string name="account_setup_error_missing_account_name">Please enter account name</string>
+    <string name="account_setup_lookup_title">Server settings</string>
+    <string name="account_setup_lookup_message">Trying to discover server settings…</string>
+    <string name="account_setup_progress_title">Checking…</string>
+    <string name="account_setup_progress_incoming_message_imap">Incoming mail server\nIMAP…</string>
+    <string name="account_setup_progress_incoming_message_pop3">Incoming mail server\nPOP3…</string>
+    <string name="account_setup_progress_outgoing_message">Outgoing mail server\nSMTP…</string>
+    <string name="account_setup_progress_ews_message">Exchange mail server\nEWS…</string>
+    <string name="account_setup_check_error_title">Account check error</string>
+    <string name="account_setup_check_error_tail">Please make sure the data is correct.</string>
+    <string name="account_setup_check_error_imap">Incoming mail server (IMAP): %1$s.</string>
+    <string name="account_setup_check_error_pop3">Incoming mail server (POP3): %1$s.</string>
+    <string name="account_setup_check_error_smtp">Outgoing mail server (SMTP): %1$s.</string>
+    <string name="account_setup_check_error_ews">Exchange mail server (EWS): %1$s.</string>
+    <string name="account_setup_warning_header">Please note:</string>
+    <string name="account_setup_warning_force_folders">The IMAP prefix has changed, please check folder settings.</string>
+    <string name="account_setup_warning_smtp_no_auth">The outgoing mail server is not set up for authentication.</string>
+    <string name="account_setup_add_another">To add another account, please use Menu | Add account in the account list.\n\nTo
+configure folders and other per-account settings, long press the account in the account list.</string>
+    <string name="account_setup_view_ssl_certs">View SSL certificates</string>
+    <string name="account_setup_view_ssl_old">Seen previously</string>
+    <string name="account_setup_view_ssl_new">Current</string>
+    <string name="account_setup_view_ssl_subject">Issued to</string>
+    <string name="account_setup_view_ssl_issuer">Issued by</string>
+    <string name="account_setup_view_ssl_valid_from">Valid from</string>
+    <string name="account_setup_view_ssl_valid_until">Valid until</string>
+    <string name="account_setup_view_ssl_confirm_header">Choose which SSL certificates you think are safe to trust</string>
+
+    <!-- Account type -->
+
+    <string name="account_type_label_gmail">Gmail or Google Apps</string>
+    <string name="account_type_summary_gmail">AquaMail will use Google recommended \"more secure\" authentication, and will not see, store, or transmit
+the account\'s password.</string>
+    <string name="account_type_label_internet">Internet mail</string>
+    <string name="account_type_summary_internet">Yahoo, AOL, Hotmail, Fastmail, Gmail, and others. Automatic or manual setup using IMAP, POP3, SMTP.
+Sometimes used for corporate mail too.</string>
+    <string name="account_type_label_exchange">Exchange mail</string>
+    <string name="account_type_summary_exchange">Office 365, Exchange Online, and others. Often used for corporate mail. Uses the EWS (Exchange Web
+Services) mail protocol. Kerio is not supported.</string>
+
+    <!-- Gmail OAUTH -->
+
+    <string name="oauth_gmail_auth_progress">Authenticating with Google…</string>
+    <string name="oauth_gmail_auth_needed">Please grant permission to access email in the account</string>
+    <string name="oauth_gmail_upgrade_notice">This Gmail account can be upgraded to use Google\'s latest security standards (OAUTH2).</string>
+    <string name="oauth_gmail_upgrade_confirm_title">Information</string>
+    <string name="oauth_gmail_upgrade_confirm_message">Google\'s latest security standard, OAUTH2, is a way for AquaMail to access your mailbox
+without knowing, storing, or transmitting the password.\n\nThe app will ask for permission to access your mail via Google\'s account services.</string>
+    <string name="oauth_gmail_upgrade_confirm_now">Now</string>
+    <string name="oauth_gmail_upgrade_confirm_later">Later</string>
+    <string name="oauth_gmail_upgrade_confirm_never">Never</string>
+    <string name="oauth_gmail_web_view_loading">Loading Google\'s authentication page…</string>
+    <string name="oauth_gmail_error_title">Error</string>
+    <string name="oauth_gmail_error_invalid_data">Google\'s OAUTH2 server returned something strange…</string>
+    <string name="oauth_gmail_error_changed_account">Please sign into %1$s, not %2$s.</string>
+
+</resources>

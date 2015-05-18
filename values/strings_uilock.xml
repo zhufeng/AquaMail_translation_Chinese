@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="uilock_type_none">None</string>
+    <string name="uilock_type_pin">PIN code</string>
+    <string name="uilock_timeout">Lockdown delay</string>
+
+    <string-array name="uilock_timeout_entries">
+        <item>Immediate</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+
+    <string name="uilock_lock_on_screen_off">Lock on screen off</string>
+    <string name="uilock_lock_on_screen_off_summary">Lock when the screen is switched off</string>
+
+    <!-- Basic unlocking -->
+
+    <string name="uilock_enter_pin_to_unlock">Enter PIN code</string>
+    <string name="uilock_enter_pin_to_change">@string/uilock_enter_pin_to_unlock</string>
+    <string name="uilock_wrong_pin">Wrong PIN, please try again</string>
+
+    <!-- Changing the PIN -->
+
+    <string name="uilock_enter_pin_change_1">Enter new PIN code</string>
+    <string name="uilock_enter_pin_change_2">Confirm new PIN code</string>
+    <string name="uilock_short_pin">Please enter at least four digits</string>
+    <string name="uilock_mismatch_pin">The codes don\'t match</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences -->
+
+    <string name="liveview_prefs_title">AquaMail LiveView preferences</string>
+    <string name="liveview_plugin_enabled">Enabled</string>
+    <string name="liveview_plugin_only_unread">Only unread messages</string>
+
+    <!-- Open action -->
+    
+    <string name="liveview_invalid_open_action">Invalid action data</string>
+    <string name="liveview_invalid_message_missing">The message is missing</string>
+
+</resources>

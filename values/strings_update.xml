@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="update_title">An update is available</string>
+    <string name="update_message">AquaMail version %s is available for download.</string>
+    
+    <string name="update_later">Postpone</string>
+    <string name="update_now">Update</string>
+
+	<string name="update_link">http://www.aqua-mail.com/?cat=3</string>
+    
+</resources>

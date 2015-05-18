@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_color_picker_popular">Common</string>
+    <string name="new_color_picker_wheel">Custom</string>
+    <string name="new_color_picker_hex">Exact</string>
+    <string name="new_color_picker_hex_label">Hex value:</string>
+    <string name="new_color_picker_reset">Reset</string>
+    
+</resources>

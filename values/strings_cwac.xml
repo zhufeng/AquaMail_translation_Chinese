@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cwac_richedittext_style_bold">Bold</string>
+    <string name="cwac_richedittext_style_italic">Italic</string>
+    <string name="cwac_richedittext_style_underline">Underline</string>
+    <string name="cwac_richedittext_style_strike">Strikethrough</string>
+    <!--
+    <string name="superscript">Superscript</string>
+    <string name="subscript">Subscript</string>
+    -->
+
+
+    <!-- Text color -->
+
+    <string name="cwac_richedittext_textcolor">Text color</string>
+
+     <!-- Font sizes -->
+
+    <string name="cwac_richedittext_size">Font size</string>
+    <string name="cwac_richedittext_size_xsmall">Extra small</string>
+    <string name="cwac_richedittext_size_small">Small</string>
+    <string name="cwac_richedittext_size_normal">Normal</string>
+    <string name="cwac_richedittext_size_large">Large</string>
+    <string name="cwac_richedittext_size_xlarge">Extra large</string>
+    
+    <!-- Typefaces -->
+     
+    <string name="cwac_richedittext_typeface">Typeface (font)</string>
+    <string name="cwac_richedittext_typeface_default">Default</string>
+    <string name="cwac_richedittext_typeface_sans">Sans Serif</string>
+    <string name="cwac_richedittext_typeface_serif">Serif</string>
+    <string name="cwac_richedittext_typeface_mono">Monospace</string>
+
+    <!-- <string name="cwac_richedittext_effects">Effects</string> -->
+    <!--
+    <string name="lines">Lines</string>
+    <string name="normal">Normal</string>
+    <string name="center">Center</string>
+    <string name="opposite">Opposite</string>
+    -->
+
+
+    <!-- Inline images -->
+    
+    <string name="cwac_richedittext_insert_image">Insert image</string>
+    <string name="cwac_richedittext_image_url">Set link</string>
+    <string name="cwac_richedittext_image_scale_1">Standard size</string>
+    <string name="cwac_richedittext_image_scale_2">1/2 size</string>
+    <string name="cwac_richedittext_image_scale_4">1/4 size</string>
+    <string name="cwac_richedittext_image_scale_8">1/8 size</string>
+    <string name="cwac_richedittext_image_align_top">Align top</string>
+    <string name="cwac_richedittext_image_align_center">Align center</string>
+    <string name="cwac_richedittext_image_align_baseline">Align baseline</string>
+    <string name="cwac_richedittext_image_align_bottom">Align bottom</string>
+    
+    <!-- Link -->
+    
+    <string name="cwac_richedittext_link">Set link</string>
+    <string name="cwac_richedittext_link_select_first">To set a link, please enter and select some text first</string>
+    
+    <!-- Clear format -->
+
+    <string name="cwac_richedittext_clear_format">Clear format</string>
+
+</resources>
