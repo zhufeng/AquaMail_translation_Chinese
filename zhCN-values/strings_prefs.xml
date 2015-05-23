@@ -3,103 +3,103 @@
 
     <!-- Preferences Activity -->
 
-    <string name="preferences_activity">AquaMail Settings</string>
+    <string name="preferences_activity">AquaMail设置</string>
 
     <!-- Default value indicator -->
 
-    <string name="prefs_default_value">Default (%1$d)</string>
+    <string name="prefs_default_value">默认 (%1$d)</string>
 
     <!-- General -->
 
-    <string name="prefs_category_general">General</string>
+    <string name="prefs_category_general">通用</string>
 
     <!-- Synchronization settings -->
 
-    <string name="prefs_category_sync">Mail, receiving</string>
-    <string name="prefs_sync_enabled">Scheduled sync</string>
-    <string name="prefs_sync_enabled_summary">Check mail on a schedule in the background</string>
+    <string name="prefs_category_sync">邮件接收</string>
+    <string name="prefs_sync_enabled">定时同步</string>
+	<string name="prefs_sync_enabled_summary">定时在后台检查邮件</string>
 
     <!-- Use only WiFi for sync -->
 
-    <string name="prefs_sync_wifi_only_enabled">Use WiFi only</string>
-    <string name="prefs_sync_wifi_only_enabled_summary">Only use WiFi for scheduled sync</string>
+    <string name="prefs_sync_wifi_only_enabled">仅使用WIFI同步</string>
+    <string name="prefs_sync_wifi_only_enabled_summary">仅在使用WIFI时后台定时同步</string>
 
     <!-- Use only WiFi for sync -->
 
-    <string name="prefs_push_wifi_only_enabled">Use WiFi only</string>
-    <string name="prefs_push_wifi_only_enabled_summary">Only use WiFi for IMAP Push</string>
+    <string name="prefs_push_wifi_only_enabled">仅使用WIFI同步</string>
+    <string name="prefs_push_wifi_only_enabled_summary">仅在使用WIFI时执行IMAP推送</string>
 
     <!-- Observe system setting -->
 
-    <string name="prefs_sync_system_checks_enabled">System settings</string>
+    <string name="prefs_sync_system_checks_enabled">系统设置</string>
 
     <string-array name="prefs_sync_system_checks_entries">
-        <item>Observe all</item>
-        <item>Sync even when \"Auto-Sync\" is off</item>
-        <item>Sync even when \"Background data\" is off</item>
+		<item>监视所有</item>
+        <item>即使'自动同步'关闭时也同步</item>
+        <item>即使'后台数据'关闭时也同步</item>
     </string-array>
 
-    <string name="prefs_sync_system_auto_sync_is_off">The system \"Auto-Sync\" setting is \"off\", scheduled and push mail will be disabled</string>
+    <string name="prefs_sync_system_auto_sync_is_off">由于系统'自动同步'设置已禁用，邮件定时检查及推送将会被禁用</string>
 
     <!-- Sync when interactive -->
 
-    <string name="prefs_sync_when_interactive">When the app is active</string>
-    <string name="prefs_sync_when_interactive_summary">Run scheduled mail sync even when the application is open</string>
+    <string name="prefs_sync_when_interactive">当本程序活动时</string>
+    <string name="prefs_sync_when_interactive_summary">即使本程序运行时仍然定时同步邮件</string>
 
     <!-- Only when screen is off -->
 
-    <string name="prefs_sync_only_screen_off">Only when screen is off</string>
-    <string name="prefs_sync_only_screen_off_summary">Run scheduled mail sync only when the screen is off</string>
+    <string name="prefs_sync_only_screen_off">仅当屏幕关闭时</string>
+    <string name="prefs_sync_only_screen_off_summary">仅当屏幕关闭时才定时同步邮件</string>
 
     <!-- How often to check mail -->
 
-    <string name="prefs_sync_frequency">Mail check interval</string>
-    <string name="prefs_sync_frequency_5m">5 minutes</string>
-    <string name="prefs_sync_frequency_7m">7 minutes</string>
-    <string name="prefs_sync_frequency_10m">10 minutes</string>
-    <string name="prefs_sync_frequency_15m">15 minutes</string>
-    <string name="prefs_sync_frequency_30m">30 minutes</string>
-    <string name="prefs_sync_frequency_1h">1 hour</string>
-    <string name="prefs_sync_frequency_2h">2 hours</string>
-    <string name="prefs_sync_frequency_3h">3 hours</string>
-    <string name="prefs_sync_frequency_6h">6 hours</string>
-    <string name="prefs_sync_frequency_12h">12 hours</string>
-    <string name="prefs_sync_frequency_1d">24 hours</string>
-    <string name="prefs_sync_frequency_custom">Custom check interval</string>
-    <string name="prefs_sync_frequency_custom_none">Not specified</string>
-    <string name="prefs_sync_frequency_custom_minutes">%1$d minutes</string>
-    <string name="prefs_sync_frequency_custom_hours_minutes">%1$d hours, %2$d minutes</string>
+    <string name="prefs_sync_frequency">邮件检查间隔</string>
+    <string name="prefs_sync_frequency_5m">5分钟</string>
+    <string name="prefs_sync_frequency_7m">7分钟</string>
+    <string name="prefs_sync_frequency_10m">10分钟</string>
+    <string name="prefs_sync_frequency_15m">15分钟</string>
+    <string name="prefs_sync_frequency_30m">30分钟</string>
+    <string name="prefs_sync_frequency_1h">1小时</string>
+    <string name="prefs_sync_frequency_2h">2小时</string>
+    <string name="prefs_sync_frequency_3h">3小时</string>
+    <string name="prefs_sync_frequency_6h">6小时</string>
+    <string name="prefs_sync_frequency_12h">12小时</string>
+    <string name="prefs_sync_frequency_1d">24小时</string>
+    <string name="prefs_sync_frequency_custom">自定义时间间隔</string>
+    <string name="prefs_sync_frequency_custom_none">未指定</string>
+    <string name="prefs_sync_frequency_custom_minutes">%1$d 分钟</string>
+    <string name="prefs_sync_frequency_custom_hours_minutes">%1$d 小时, %2$d 分钟</string>
 
     <!-- Sync time use this as a reference -->
 
-    <string name="prefs_sync_time_reference">Time reference point</string>
+    <string name="prefs_sync_time_reference">时间基准点</string>
 
     <!-- Sync WiFi from sleep -->
 
-    <string name="prefs_sync_wifi_from_sleep_enabled">WiFi in sleep mode</string>
-    <string name="prefs_sync_wifi_from_sleep_enabled_summary">Attempt switching to a WiFi connection</string>
+    <string name="prefs_sync_wifi_from_sleep_enabled">睡眠模式WIFI</string>
+    <string name="prefs_sync_wifi_from_sleep_enabled_summary">尝试切换到WIFI连接</string>
 
     <!-- Sync strategy -->
 
-    <string name="prefs_sync_strategy_title">Messages to sync</string>
+    <string name="prefs_sync_strategy_title">要同步的邮件</string>
     <string name="prefs_sync_strategy_by_count_title">By message count</string>
-    <string name="prefs_sync_strategy_by_count_template">%1$d messages</string>
+    <string name="prefs_sync_strategy_by_count_template">%1$d 邮件</string>
     <string name="prefs_sync_strategy_by_days_title">By time period</string>
-    <string name="prefs_sync_strategy_by_days_template">%1$d days</string>
-    <string name="prefs_sync_strategy_large_warning">A large amount of messages to sync can cause high battery and network traffic use</string>
+    <string name="prefs_sync_strategy_by_days_template">%1$d 天</string>
+    <string name="prefs_sync_strategy_large_warning">同步大量的邮件会消耗较多的电量及数据流量</string>
 
     <!-- Kick sync -->
 
     <string name="prefs_kick_sync_category_title">Check mail on events</string>
-    <string name="prefs_kick_sync_types_title">Event types</string>
+    <string name="prefs_kick_sync_types_title">事件类型</string>
     <string name="prefs_kick_sync_min_interval">Minimum time between two sync events</string>
     <string name="prefs_kick_sync_delay">\"Settle in\" delay</string>
-    <string name="prefs_kick_sync_delay_none">None</string>
-    <string name="prefs_kick_sync_delay_5s">5 seconds</string>
-    <string name="prefs_kick_sync_delay_10s">10 seconds</string>
-    <string name="prefs_kick_sync_delay_15s">15 seconds</string>
-    <string name="prefs_kick_sync_delay_30s">30 seconds</string>
-    <string name="prefs_kick_sync_delay_60s">1 minute</string>
+    <string name="prefs_kick_sync_delay_none">无</string>
+    <string name="prefs_kick_sync_delay_5s">5秒</string>
+    <string name="prefs_kick_sync_delay_10s">10秒</string>
+    <string name="prefs_kick_sync_delay_15s">15秒</string>
+    <string name="prefs_kick_sync_delay_30s">30秒</string>
+    <string name="prefs_kick_sync_delay_60s">1分钟</string>
 
     <!-- Mail, other -->
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_message_title">错误</string>
+    <string name="error_no_network_message">无可用的网络连接</string>
+    <string name="error_no_account_message">帐户未找到</string>
+    <string name="error_no_folder_message">文件夹未找到</string>
+    <string name="error_no_message_message">消息未找到</string>
+	<string name="error_no_contacts">此设备上未找到'联系人'应用</string>
+	<string name="error_calendar_event_create">与'日历'应用交互出错</string>
+	<string name="error_browser_not_present">错误: 浏览器是否已安装?</string>
+
+    <!-- Generic mail errors -->
+
+    <string name="mail_error_message_title">邮件错误</string>
+    <string name="mail_error_message_default">未知的邮件错误</string>
+
+    <!-- Errors correspond to values in ErrorDefs -->
+
+    <string name="mail_error_none">一切正常</string>
+    <string name="mail_error_network">网络错误</string>
+    <string name="mail_error_connect">连接错误</string>
+    <string name="mail_error_auth">身份验证错误</string>
+	<string name="mail_error_missing_folder">服务器上的文件夹不存在</string>
+	<string name="mail_error_missing_message">服务器上的邮件不存在</string>
+	<string name="mail_error_local_io">写入到存储卡出错</string>
+	<string name="mail_error_folder_list">获取文件夹列表失败</string>
+	<string name="mail_error_fetch_message">获取邮件内容失败</string>
+    <string name="mail_error_select_folder">选择文件夹失败</string>
+    <string name="mail_error_submit_send">提交发送邮件请求失败</string>
+    <string name="mail_error_invalid_response">无效的服务器响应</string>
+    <string name="mail_error_database">数据库错误(内置存储没有足够的可用空间?)</string>
+	<string name="mail_error_ssl_certificate">无效的SSL安全证书</string>
+	<string name="mail_error_out_of_memory">内存不足(打开了一封很大的邮件?)</string>
+	<string name="mail_error_kerio_not_supported">不支持Kerio</string>
+	<string name="mail_error_ssl_certificate_change">SSL安全证书已改变</string>
+    
+    <!-- Tasks correspond to values in MailDefs -->
+
+    <string name="mail_task_check_incoming">检查接收服务器设置</string>
+    <string name="mail_task_check_outgoing">检查发送服务器设置</string>
+    <string name="mail_task_sync">同步邮件中</string>
+    <string name="mail_task_fetch_message">加载完整邮件</string>
+    <string name="mail_task_fetch_attachment">加载附件</string>
+    <string name="mail_task_list_folders">获取文件夹列表</string>
+    <string name="mail_task_create_folder">创建文件夹</string>
+    <string name="mail_task_send">发送邮件</string>
+    <string name="mail_task_update_message_state">更新邮件状态</string>
+    <string name="mail_task_search">执行搜索</string>
+    <string name="mail_task_headers">加载邮件头</string>
+    <string name="mail_task_contacts">同步联系人</string>
+    <string name="mail_task_calendar">同步日历</string>
+
+    <!-- Message templates -->
+
+    <string name="mail_error_with_task">错误 %1$s: %2$s.</string>
+    <string name="mail_error_without_task">错误: %1$s.</string>
+
+    <!-- Send errors -->
+
+    <string name="mail_send_error_connect_failure">连接错误</string>
+    <string name="mail_send_error_login_failure">登录错误</string>
+    <string name="mail_send_error_io_exception">网络错误</string>
+    <string name="mail_send_error_internal_error">内部错误</string>
+
+</resources>
