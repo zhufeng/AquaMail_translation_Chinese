@@ -82,18 +82,18 @@
     <!-- Sync strategy -->
 
     <string name="prefs_sync_strategy_title">要同步的邮件</string>
-    <string name="prefs_sync_strategy_by_count_title">By message count</string>
+    <string name="prefs_sync_strategy_by_count_title">按邮件数量</string>
     <string name="prefs_sync_strategy_by_count_template">%1$d 邮件</string>
-    <string name="prefs_sync_strategy_by_days_title">By time period</string>
+    <string name="prefs_sync_strategy_by_days_title">按时间段</string>
     <string name="prefs_sync_strategy_by_days_template">%1$d 天</string>
     <string name="prefs_sync_strategy_large_warning">同步大量的邮件会消耗较多的电量及数据流量</string>
 
     <!-- Kick sync -->
 
-    <string name="prefs_kick_sync_category_title">Check mail on events</string>
+    <string name="prefs_kick_sync_category_title">按照事件来检查邮件</string>
     <string name="prefs_kick_sync_types_title">事件类型</string>
-    <string name="prefs_kick_sync_min_interval">Minimum time between two sync events</string>
-    <string name="prefs_kick_sync_delay">\"Settle in\" delay</string>
+    <string name="prefs_kick_sync_min_interval">两次同步事件最小时间间隔</string>
+    <string name="prefs_kick_sync_delay">\"迁入\" 延迟</string>
     <string name="prefs_kick_sync_delay_none">无</string>
     <string name="prefs_kick_sync_delay_5s">5秒</string>
     <string name="prefs_kick_sync_delay_10s">10秒</string>
@@ -104,102 +104,102 @@
     <!-- Mail, other -->
 
     <string name="prefs_category_mail_other">其它邮件设置</string>
-    <string name="prefs_flowed_text">Flowed text</string>
-    <string name="prefs_flowed_text_summary">Encode and decode plain text as format=flowed</string>
-    <string name="prefs_ui_main_read_deleted">Mark read when deleting</string>
-    <string name="prefs_ui_main_read_deleted_summary">Mark messages read when moving to Deleted</string>
-    <string name="prefs_ui_main_purge_local_deleted">Purge [ Deleted ] on exit</string>
-    <string name="prefs_ui_main_purge_local_deleted_summary">Purge local (in app) Deleted folders when exiting with Back key</string>
+    <string name="prefs_flowed_text">流式文本</string>
+    <string name="prefs_flowed_text_summary">使用format=flowed来编解码纯文本</string>
+    <string name="prefs_ui_main_read_deleted">删除时标记为已读</string>
+    <string name="prefs_ui_main_read_deleted_summary">把邮件移动到'已删除'后标记其为已读</string>
+    <string name="prefs_ui_main_purge_local_deleted">退出时清空 [ 已删除 ] </string>
+    <string name="prefs_ui_main_purge_local_deleted_summary">当按返回键退出程序时清空本地'已删除'文件夹</string>
 
     <!-- UI theme -->
 
-    <string name="prefs_category_ui">Look and feel</string>
-    <string name="prefs_ui_theme">Color theme</string>
-    <string name="prefs_ui_theme_material">Light (\"Material Design\")</string>
-    <string name="prefs_ui_theme_light">Light</string>
-    <string name="prefs_ui_theme_dark_light">Dark, with light messages</string>
-    <string name="prefs_ui_theme_dark_dark">Dark, including messages</string>
-    <string name="prefs_ui_theme_accent">Title bar and icon bar color</string>
+    <string name="prefs_category_ui">外观设置</string>
+    <string name="prefs_ui_theme">颜色主题</string>
+    <string name="prefs_ui_theme_material">Material Design式亮色</string>
+    <string name="prefs_ui_theme_light">Holo式亮色</string>
+    <string name="prefs_ui_theme_dark_light">暗色(邮件正文亮色)</string>
+	<string name="prefs_ui_theme_dark_dark">暗色(包括邮件正文)</string>
+    <string name="prefs_ui_theme_accent">标题和图标栏颜色</string>
 
     <!-- Two pane UI -->
 
-    <string name="prefs_ui_two_pane">Two-panel UI</string>
-    <string name="prefs_ui_two_pane_summary">Use two side-by-side panels</string>
-    <string name="prefs_ui_two_pane_resize">Allow resizing</string>
-    <string name="prefs_ui_two_pane_resize_summary">Display a thumb control for resizing the panels</string>
-    <string name="prefs_ui_two_pane_port_mode">Portrait mode</string>
-    <string name="prefs_ui_two_pane_port_mode_horz">Horizontal split</string>
-    <string name="prefs_ui_two_pane_port_mode_vert">Vertical split</string>
-    <string name="prefs_ui_two_pane_port_mode_vert_full">Vertical, with full screen message view</string>
+    <string name="prefs_ui_two_pane">双栏布局</string>
+    <string name="prefs_ui_two_pane_summary">显示左右两个双栏式面板</string>
+    <string name="prefs_ui_two_pane_resize">允许调整大小</string>
+    <string name="prefs_ui_two_pane_resize_summary">显示用来调整面板大小的指示器</string>
+    <string name="prefs_ui_two_pane_port_mode">双栏分割模式</string>
+    <string name="prefs_ui_two_pane_port_mode_horz">水平分割</string>
+    <string name="prefs_ui_two_pane_port_mode_vert">垂直分割</string>
+	<string name="prefs_ui_two_pane_port_mode_vert_full">垂直分割,但全屏显示邮件正文</string>
 
     <!-- Navigation drawer -->
 
-    <string name="prefs_ui_nav_drawer">Navigation drawer</string>
-    <string name="prefs_ui_nav_drawer_summary">Use navigation drawer in message lists</string>
+    <string name="prefs_ui_nav_drawer">导航抽屉</string>
+    <string name="prefs_ui_nav_drawer_summary">在邮件列表界面使用边缘右滑导航抽屉</string>
 
     <!-- Floating action button -->
 
-    <string name="prefs_ui_floating_action_button">Floating action button</string>
-    <string name="prefs_ui_floating_action_button_summary">Google\'s new thing: a large floating button instead of a row of icons</string>
-    <string name="prefs_ui_floating_action_button_always_enabled_summary">Always on when using the new theme on Android 5.0</string>
+    <string name="prefs_ui_floating_action_button">悬浮式按钮</string>
+    <string name="prefs_ui_floating_action_button_summary">使用大悬浮按钮代替一整行图标</string>
+    <string name="prefs_ui_floating_action_button_always_enabled_summary">在Android 5.0使用新主题时总是启用</string>
 
     <!-- Animation -->
 
-    <string name="prefs_ui_animation">Animation</string>
-    <string name="prefs_ui_animation_summary">Use animation</string>
+    <string name="prefs_ui_animation">动画</string>
+    <string name="prefs_ui_animation_summary">使用动画效果</string>
 
     <!-- Bogus bar position (2.* only) -->
 
-    <string name="prefs_ui_bogus_bar_position">Button bar position</string>
+    <string name="prefs_ui_bogus_bar_position">按钮栏位置</string>
 
     <string-array name="prefs_ui_bogus_bar_position_entries">
-        <item>Automatic</item>
-        <item>Top</item>
-        <item>Bottom</item>
+        <item>自动</item>
+        <item>顶部</item>
+        <item>底部</item>
     </string-array>
 
     <!-- Account list -->
 
-    <string name="prefs_category_account_list">Account list</string>
-    <string name="prefs_ui_main_recent_folder_count">Recent folder count</string>
-    <string name="prefs_ui_main_recent_folder_delay">Keep recent folders for</string>
+    <string name="prefs_category_account_list">帐户列表</string>
+    <string name="prefs_ui_main_recent_folder_count">近期文件夹计数</string>
+    <string name="prefs_ui_main_recent_folder_delay">近期文件夹保持时间</string>
 
     <!-- Expand accounts -->
 
-    <string name="prefs_ui_main_expand">Expand accounts</string>
+    <string name="prefs_ui_main_expand">帐户扩展显示</string>
 
     <string-array name="prefs_ui_main_expand_entries">
-        <item>None</item>
-        <item>With unread messages</item>
-        <item>All</item>
+        <item>折叠所有文件夹</item>
+        <item>折叠并显示未读邮件数量</item>
+        <item>显示所有文件夹</item>
     </string-array>
 
-    <string name="prefs_ui_main_sync_time">Show last sync time</string>
-    <string name="prefs_ui_main_sync_time_summary">Show last sync time for each account</string>
-    <string name="prefs_ui_main_bold_accounts">Bold account names</string>
-    <string name="prefs_ui_main_bold_accounts_summary">Show account names in bold</string>
-    <string name="prefs_ui_main_open_account_inbox">Inbox on account tap</string>
-    <string name="prefs_ui_main_open_account_inbox_summary">Tap an account to open its Inbox, use the icon on the left to expand/collapse</string>
-    <string name="prefs_ui_wrap_folder_names">Wrap long folder names</string>
-    <string name="prefs_ui_wrap_folder_names_summary">Use multiple lines for folder names as necessary</string>
-    <string name="prefs_ui_navigate_prev_older">Previous message is older</string>
-    <string name="prefs_ui_navigate_prev_older_summary">In message navigation, \"previous\" means \"older\"</string>
-    <string name="prefs_ui_confirm_delete">Confirm when deleting messages</string>
-    <string name="prefs_ui_confirm_delete_summary">Ask for a confirmation before deleting messages</string>
-    <string name="prefs_ui_confirm_move_to_deleted">Confirm moving to Deleted</string>
-    <string name="prefs_ui_confirm_move_to_deleted_summary">Ask for a confirmation before moving to the Deleted folder</string>
-    <string name="prefs_ui_confirm_move_to_spam">Confirm moving to Spam</string>
-    <string name="prefs_ui_confirm_move_to_spam_summary">Ask for a confirmation before moving to the Spam folder</string>
-    <string name="prefs_ui_confirm_move_to_archive">Confirm moving to Archive</string>
-    <string name="prefs_ui_confirm_move_to_archive_summary">Ask for a confirmation before moving to the Archive folder</string>
-    <string name="prefs_ui_confirm_mark_all_read">Confirm \"Mark all read\"</string>
-    <string name="prefs_ui_confirm_mark_all_read_summary">Ask for a confirmation before marking all messages read</string>
-    <string name="prefs_ui_after_delete">After deleting a message</string>
+    <string name="prefs_ui_main_sync_time">显示上次同步时间</string>
+    <string name="prefs_ui_main_sync_time_summary">显示所有帐户的上次同步时间</string>
+    <string name="prefs_ui_main_bold_accounts">帐户名加粗</string>
+    <string name="prefs_ui_main_bold_accounts_summary">用粗体显示帐户名</string>
+    <string name="prefs_ui_main_open_account_inbox">触摸帐户名时进入收件箱</string>
+	<string name="prefs_ui_main_open_account_inbox_summary">触摸帐户名打开收件箱，使用左边的图标来折叠/扩展文件夹列表</string>
+    <string name="prefs_ui_wrap_folder_names">换行显示长文件夹名</string>
+    <string name="prefs_ui_wrap_folder_names_summary">需要时使用多行来显示文件夹名</string>
+    <string name="prefs_ui_navigate_prev_older">先前信息较旧</string>
+	<string name="prefs_ui_navigate_prev_older_summary"> 在邮件导航里, \"先前的\" 意味着 \"较旧\"</string>
+    <string name="prefs_ui_confirm_delete">确认删除邮件</string>
+    <string name="prefs_ui_confirm_delete_summary">在删除邮件前请求确认</string>
+    <string name="prefs_ui_confirm_move_to_deleted">确认移动到已删除</string>
+    <string name="prefs_ui_confirm_move_to_deleted_summary">在移动到已删除邮件前请求确认</string>
+    <string name="prefs_ui_confirm_move_to_spam">确认移动到垃圾邮件</string>
+    <string name="prefs_ui_confirm_move_to_spam_summary">在移动到垃圾邮件前请求确认</string>
+    <string name="prefs_ui_confirm_move_to_archive">确认移动到归档文件夹</string>
+    <string name="prefs_ui_confirm_move_to_archive_summary">在移动到归档文件夹前请求确认</string>
+    <string name="prefs_ui_confirm_mark_all_read">确认 \"所有标记为已读\"</string>
+    <string name="prefs_ui_confirm_mark_all_read_summary">在标记所有邮件为已读前请求确认</string>
+    <string name="prefs_ui_after_delete">删除邮件后</string>
 
     <string-array name="prefs_ui_after_delete_entries">
-        <item>Go back to the message list</item>
-        <item>Go to previous message</item>
-        <item>Go to next message</item>
+        <item>回到邮件列表</item>
+        <item>回到上一封邮件</item>
+        <item>打开下一封邮件</item>
     </string-array>
 
     <string name="prefs_ui_storage_root">Folder for attachments</string>
