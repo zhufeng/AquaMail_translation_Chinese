@@ -103,7 +103,7 @@
 
     <!-- Mail, other -->
 
-    <string name="prefs_category_mail_other">Mail, other</string>
+    <string name="prefs_category_mail_other">其它邮件设置</string>
     <string name="prefs_flowed_text">Flowed text</string>
     <string name="prefs_flowed_text_summary">Encode and decode plain text as format=flowed</string>
     <string name="prefs_ui_main_read_deleted">Mark read when deleting</string>
