@@ -247,195 +247,195 @@
     <string name="prefs_ui_smart_period_all">当前所有</string>
     <string name="prefs_ui_smart_stars">星标邮件</string>
     <string name="prefs_ui_smart_stars_summary">包括星标邮件</string>
-    <string name="prefs_ui_smart_notificaitons">Use for notifications</string>
-    <string name="prefs_ui_smart_notifications_summary">Use the Smart Folder for notifications</string>
+	<string name="prefs_ui_smart_notificaitons">显示通知</string>
+    <string name="prefs_ui_smart_notifications_summary">显示智能文件夹的通知</string>
     <string name="prefs_ui_smart_multi_hints">帐户和文件夹名称</string>
     <string name="prefs_ui_smart_multi_hints_summary">每封邮件都显示帐户和文件夹名</string>
-    <string name="prefs_ui_smart_sent_as_self">Show sent as from self</string>
-    <string name="prefs_ui_smart_sent_as_self_summary">Show sent messages with you as sender</string>
+    <string name="prefs_ui_smart_sent_as_self">已发送显示为自己发的</string>
+    <string name="prefs_ui_smart_sent_as_self_summary">对已发送的邮件把自己作为发件人显示</string>
     <string name="prefs_ui_smart_larger_font">大号字体</string>
-    <string name="prefs_ui_smart_larger_font_summary">Use a larger font for the Smart Folder item in the main window</string>
+    <string name="prefs_ui_smart_larger_font_summary">在主界面上对智能文件夹以较大的字体显示</string>
 
     <!-- Accessibility -->
 
-    <string name="prefs_category_access">Accessibility</string>
-    <string name="prefs_access_web_scripts">Enable WebScripts</string>
-    <string name="prefs_access_web_scripts_summary">Use WebScripts for message contents</string>
+    <string name="prefs_category_access">轻松访问</string>
+    <string name="prefs_access_web_scripts">启用网页脚本</string>
+    <string name="prefs_access_web_scripts_summary">在邮件正文中启用网页脚本</string>
 
     <!-- Widgets -->
 
-    <string name="prefs_category_widget">Widgets</string>
-    <string name="prefs_widget_unread_style">Unread count style</string>
+    <string name="prefs_category_widget">桌面小工具</string>
+    <string name="prefs_widget_unread_style">未读计数类型</string>
 
     <!-- Contacts integration -->
 
-    <string name="prefs_category_contacts">Contacts</string>
-    <string name="prefs_contacts_indicate_unknown">Indicate unknown</string>
-    <string name="prefs_contacts_indicate_unknown_summary">Show a question mark for unknown contacts (vs. known with no image)</string>
-    <string name="prefs_contacts_compose_chips">Contact chips</string>
-    <string name="prefs_contacts_compose_chips_summary">Show contacts as \"chips\", not text</string>
-    <string name="prefs_contacts_compose_chips_replace_names">Replace contact names</string>
-    <string name="prefs_contacts_compose_chips_replace_names_summary">Replace original contact names with those from your Contacts</string>
-    <string name="prefs_contacts_picking_buttons">Contact picking buttons</string>
-    <string name="prefs_contacts_picking_buttons_summary">Show contact picking buttons in the new message window</string>
-    <string name="prefs_contacts_picking_default">Default contact picker</string>
-    <string name="prefs_contacts_confirm_insert_group">Confirm inserting a group</string>
-    <string name="prefs_contacts_confirm_insert_group_summary">Confirm inserting a group into TO or CC</string>
-    <string name="prefs_contacts_auto_add">Auto-add contacts</string>
-    <string name="prefs_contacts_auto_add_summary">Automatically add message recipients to system Contacts</string>
+    <string name="prefs_category_contacts">联系人</string>
+    <string name="prefs_contacts_indicate_unknown">标识未知联系人</string>
+    <string name="prefs_contacts_indicate_unknown_summary">在未知联系人上显示问号(对比,已知联系人不显示图像)</string>
+    <string name="prefs_contacts_compose_chips">联系人色卡</string>
+    <string name="prefs_contacts_compose_chips_summary">将联系人图像背景显未为色卡样式，而不是文本</string>
+    <string name="prefs_contacts_compose_chips_replace_names">替换联系人姓名</string>
+    <string name="prefs_contacts_compose_chips_replace_names_summary">将原始联系人名字替换为系统通讯录里对应的名字</string>
+    <string name="prefs_contacts_picking_buttons">联系人选择按钮</string>
+    <string name="prefs_contacts_picking_buttons_summary">在新邮件窗口中显示联系人选择按钮</string>
+    <string name="prefs_contacts_picking_default">默认的联系人选择器</string>
+    <string name="prefs_contacts_confirm_insert_group">确认插入群组</string>
+    <string name="prefs_contacts_confirm_insert_group_summary">将联系人群组插入收件人或抄送时需要确认</string>
+    <string name="prefs_contacts_auto_add">自动添加联系人</string>
+    <string name="prefs_contacts_auto_add_summary">自动将邮件收件人添加到系统联系人</string>
 
     <!-- Calendar integration -->
 
-    <string name="prefs_category_calendar">Calendar</string>
-    <string name="prefs_calendar_lead_time">Lead time when saving messages as events</string>
-    <string name="prefs_calendar_lead_time_current">Current</string>
-    <string name="prefs_calendar_lead_time_1_hour">+ 1 hour</string>
-    <string name="prefs_calendar_lead_time_4_hour">+ 4 hours</string>
-    <string name="prefs_calendar_lead_time_12_hour">+ 12 hours</string>
-    <string name="prefs_calendar_lead_time_24_hour">+ 1 day</string>
-    <string name="prefs_calendar_lead_time_48_hour">+ 2 days</string>
-    <string name="prefs_calendar_lead_time_72_hour">+ 3 days</string>
-    <string name="prefs_calendar_alarm_time">Alarm when saving invites</string>
-    <string name="prefs_calendar_alarm_none">None</string>
-    <string name="prefs_calendar_alarm_at_event">At time of event</string>
-    <string name="prefs_calendar_alarm_5m">5 minutes before</string>
-    <string name="prefs_calendar_alarm_15m">15 minutes before</string>
-    <string name="prefs_calendar_alarm_30m">30 minutes before</string>
-    <string name="prefs_calendar_alarm_1h">1 hour before</string>
-    <string name="prefs_calendar_view_type">View in Calendar (Exchange accounts) goes to</string>
-    <string name="prefs_calendar_view_type_event">The event itself</string>
-    <string name="prefs_calendar_view_type_day">Day view for the event\'s date</string>
+    <string name="prefs_category_calendar">日历</string>
+    <string name="prefs_calendar_lead_time">把邮件保存为日历事件时提前的时间</string>
+    <string name="prefs_calendar_lead_time_current">不提前</string>
+    <string name="prefs_calendar_lead_time_1_hour">+ 1小时</string>
+    <string name="prefs_calendar_lead_time_4_hour">+ 4小时</string>
+    <string name="prefs_calendar_lead_time_12_hour">+ 12小时</string>
+    <string name="prefs_calendar_lead_time_24_hour">+ 1天</string>
+    <string name="prefs_calendar_lead_time_48_hour">+ 2天</string>
+    <string name="prefs_calendar_lead_time_72_hour">+ 3天</string>
+    <string name="prefs_calendar_alarm_time">事件闹铃闹铃</string>
+    <string name="prefs_calendar_alarm_none">无</string>
+    <string name="prefs_calendar_alarm_at_event">不提前</string>
+    <string name="prefs_calendar_alarm_5m">提前5分钟</string>
+    <string name="prefs_calendar_alarm_15m">提前15分钟</string>
+    <string name="prefs_calendar_alarm_30m">提前30分钟</string>
+    <string name="prefs_calendar_alarm_1h">提前1小时</string>
+    <string name="prefs_calendar_view_type">在日历中显示(Exchange帐户)</string>
+    <string name="prefs_calendar_view_type_event">事件本身</string>
+    <string name="prefs_calendar_view_type_day">事件日期的日视图</string>
 
     <!-- Search -->
 
-    <string name="prefs_category_search">Search</string>
-    <string name="prefs_search_limit">Max. number of results</string>
-    <string name="prefs_search_reset_title">Clear history</string>
-    <string name="prefs_search_reset_message">Would you like to clear search history?</string>
+    <string name="prefs_category_search">搜索</string>
+    <string name="prefs_search_limit">最多显示的搜索结果条数</string>
+    <string name="prefs_search_reset_title">清除历史记录</string>
+    <string name="prefs_search_reset_message">你想清除搜索历史记录吗?</string>
 
     <!-- Security -->
 
-    <string name="prefs_category_security">Security</string>
-    <string name="prefs_security_uilock">App access control</string>
+    <string name="prefs_category_security">安全</string>
+    <string name="prefs_security_uilock">应用访问控制</string>
 
     <!-- Message list -->
 
-    <string name="prefs_category_view">Message list</string>
-    <string name="prefs_view_list_by_date_enabled">Messages by date</string>
-    <string name="prefs_view_list_by_date_enabled_summary">Group the message list by date</string>
-    <string name="prefs_view_list_format">Message content preview</string>
-    <string name="prefs_view_list_format_0">No preview</string>
-    <string name="prefs_view_list_format_1">With 1 line of content</string>
-    <string name="prefs_view_list_format_2">With 2 lines of content</string>
-    <string name="prefs_view_list_format_3">With 3 lines of content</string>
-    <string name="prefs_view_list_format_4">With 4 lines of content</string>
-    <string name="prefs_view_list_slim_padding">Slim padding</string>
-    <string name="prefs_view_list_slim_padding_summary">Less whitespace, more messages per screen</string>
-    <string name="prefs_view_list_indent_previews">Indent message previews</string>
-    <string name="prefs_view_list_indent_previews_summary">A bit of empty space for a cleaner look</string>
-    <string name="prefs_view_list_subject_first">Subject above sender</string>
-    <string name="prefs_view_list_subject_first_summary">Display subject first, above the sender</string>
-    <string name="prefs_view_list_full_sender">Full sender info</string>
-    <string name="prefs_view_list_full_sender_summary">Display sender\'s name and email both</string>
-    <string name="prefs_view_list_message_size">Message sizes</string>
-    <string name="prefs_view_list_message_size_summary">Display message sizes</string>
-    <string name="prefs_view_list_attachments">Attachments</string>
-    <string name="prefs_view_list_attachments_summary">Display a preview of attachments and their total size</string>
-    <string name="prefs_ui_color_labels">Color labels</string>
-    <string name="prefs_ui_color_labels_summary">Show color labels next to folders</string>
-    <string name="prefs_view_list_stars">Stars</string>
-    <string name="prefs_view_list_stars_summary">Show per-message star indicators</string>
-    <string name="prefs_view_list_contacts">Contact images</string>
-    <string name="prefs_view_list_contacts_summary">Show sender contact images</string>
-    <string name="prefs_view_list_round_images">Round contact images</string>
-    <string name="prefs_view_list_round_images_summary">Are circles on dem iPhones more rounderer?</string>
-    <string name="prefs_view_list_color_chips">Color chips</string>
-    <string name="prefs_view_list_color_chips_summary">Show color chips for senders without images</string>
-    <string name="prefs_view_list_auto_load_more">Load more messages</string>
-    <string name="prefs_view_list_auto_load_more_summary">Automatically when scrolling</string>
-    <string name="prefs_view_list_fast_scroll">Fast scroll</string>
-    <string name="prefs_view_list_fast_scroll_summary">Enable fast (indexed) scroll</string>
-    <string name="prefs_view_list_pull_select">Pull to select</string>
-    <string name="prefs_view_list_pull_select_summary">Swipe down, on the left, to select</string>
-    <string name="prefs_view_list_pull_refresh">Pull to refresh</string>
-    <string name="prefs_view_list_pull_refresh_summary">Swipe down to refresh</string>
-    <string name="prefs_view_list_protect_selection">Protect selection state</string>
-    <string name="prefs_view_list_protect_selection_summary">Press back *twice* to clear the selection</string>
-    <string name="prefs_view_list_keep_selection">Keep selection after action</string>
-    <string name="prefs_view_list_keep_selection_summary">Keep selection after performing a message action</string>
-    <string name="prefs_view_list_use_backgrounds">Use backgrounds</string>
-    <string name="prefs_view_list_use_backgrounds_summary">Use different backgrounds for read vs. unread messages</string>
-    <string name="prefs_view_list_switched_backgrounds">Switched backgrounds</string>
-    <string name="prefs_view_list_switched_backgrounds_summary">Switch the read/unread message backgrounds</string>
-    <string name="prefs_view_list_select">Select \"All\" means</string>
-    <string name="prefs_view_list_select_visible">Visible messages</string>
-    <string name="prefs_view_list_select_loaded">Loaded messages</string>
-    <string name="prefs_view_list_sort_default">Default sort order</string>
+    <string name="prefs_category_view">邮件列表</string>
+    <string name="prefs_view_list_by_date_enabled">按日期分组</string>
+    <string name="prefs_view_list_by_date_enabled_summary">按日期分组显示邮件</string>
+    <string name="prefs_view_list_format">邮件正文预览</string>
+    <string name="prefs_view_list_format_0">无预览</string>
+    <string name="prefs_view_list_format_1">显示1行预览</string>
+    <string name="prefs_view_list_format_2">显示2行预览</string>
+    <string name="prefs_view_list_format_3">显示3行预览</string>
+    <string name="prefs_view_list_format_4">显示4行预览</string>
+    <string name="prefs_view_list_slim_padding">小内边距</string>
+    <string name="prefs_view_list_slim_padding_summary">显示较少空白,使每屏显示更多邮件</string>
+    <string name="prefs_view_list_indent_previews">邮件预览缩进</string>
+    <string name="prefs_view_list_indent_previews_summary">缩进一点空白以带来更好的观感</string>
+    <string name="prefs_view_list_subject_first">主题在发件人之上</string>
+    <string name="prefs_view_list_subject_first_summary">在发件人上面显示邮件主题</string>
+    <string name="prefs_view_list_full_sender">完整的发件人信息</string>
+    <string name="prefs_view_list_full_sender_summary">同时显示发件人姓名和Email地址</string>
+    <string name="prefs_view_list_message_size">邮件大小</string>
+    <string name="prefs_view_list_message_size_summary">显示邮件大小</string>
+    <string name="prefs_view_list_attachments">附件</string>
+    <string name="prefs_view_list_attachments_summary">显示附件预览和文件大小</string>
+    <string name="prefs_ui_color_labels">颜色标签</string>
+    <string name="prefs_ui_color_labels_summary">在文件夹旁显示颜色标签</string>
+    <string name="prefs_view_list_stars">星标</string>
+    <string name="prefs_view_list_stars_summary">显示每封邮件的星标</string>
+    <string name="prefs_view_list_contacts">联系人图像</string>
+    <string name="prefs_view_list_contacts_summary">显示发件人的联系人图像</string>
+    <string name="prefs_view_list_round_images">以圆形显示联系人图像</string>
+    <string name="prefs_view_list_round_images_summary">iPhone显示的联系人图标更圆吗?</string>
+    <string name="prefs_view_list_color_chips">联系人颜色背景</string>
+    <string name="prefs_view_list_color_chips_summary">将没有图像的联系人显示为色卡样式</string>
+    <string name="prefs_view_list_auto_load_more">加载更多邮件</string>
+    <string name="prefs_view_list_auto_load_more_summary">滚动时自动加载更多邮件</string>
+    <string name="prefs_view_list_fast_scroll">快速滚动</string>
+    <string name="prefs_view_list_fast_scroll_summary">启用快速(索引的)滚动</string>
+    <string name="prefs_view_list_pull_select">下拉选择邮件</string>
+    <string name="prefs_view_list_pull_select_summary">从左边下拉以选择邮件</string>
+    <string name="prefs_view_list_pull_refresh">下拉刷新邮件列表</string>
+    <string name="prefs_view_list_pull_refresh_summary">下滑以收取(刷新)邮件</string>
+    <string name="prefs_view_list_protect_selection">保护选择状态</string>
+    <string name="prefs_view_list_protect_selection_summary">按*两次*返回键来清除已选文本</string>
+    <string name="prefs_view_list_keep_selection">操作之后保持选择</string>
+    <string name="prefs_view_list_keep_selection_summary">在执行邮件操作后仍保持选择状态</string>
+    <string name="prefs_view_list_use_backgrounds">使用背景色</string>
+    <string name="prefs_view_list_use_backgrounds_summary">对于已读和未读显示不同背景色</string>
+    <string name="prefs_view_list_switched_backgrounds">交换背景颜色</string>
+	<string name="prefs_view_list_switched_backgrounds_summary">交换已读/未读背景色</string>
+    <string name="prefs_view_list_select">选择\"所有邮件\"意味着</string>
+    <string name="prefs_view_list_select_visible">可见的邮件</string>
+    <string name="prefs_view_list_select_loaded">已加载的邮件</string>
+    <string name="prefs_view_list_sort_default">默认排序</string>
 
     <!-- Message list customization -->
 
-    <string name="prefs_category_view_list_customize">Customize</string>
-    <string name="prefs_view_list_color_group_background">Color: group header</string>
-    <string name="prefs_view_list_color_group_text">Color: group text</string>
-    <string name="prefs_view_list_color_group_edge">Color: group edge</string>
-    <string name="prefs_view_list_color_line1_unread">Color: line 1 (unread)</string>
-    <string name="prefs_view_list_color_line1_read">Color: line 1 (read)</string>
-    <string name="prefs_view_list_size_line1">Size: line 1</string>
-    <string name="prefs_view_list_bold_line1">Bold: line 1</string>
-    <string name="prefs_view_list_color_line2_unread">Color: line 2 (unread)</string>
-    <string name="prefs_view_list_color_line2_read">Color: line 2 (read)</string>
-    <string name="prefs_view_list_size_line2">Size: line 2</string>
-    <string name="prefs_view_list_bold_line2">Bold: line 2</string>
-    <string name="prefs_view_list_bold_is_unread">Unread</string>
-    <string name="prefs_view_list_bold_is_read">Read</string>
-    <string name="prefs_view_list_color_previews">Color: previews</string>
-    <string name="prefs_view_list_size_previews">Size: previews</string>
-    <string name="prefs_view_list_color_aux">Color: message times and sizes</string>
-    <string name="prefs_view_list_color_unread_background">Color: unread background</string>
-    <string name="prefs_view_list_color_read_background">Color: read background</string>
-    <string name="prefs_view_list_color_starred_background">Color: starred background</string>
+    <string name="prefs_category_view_list_customize">自定义显示</string>
+    <string name="prefs_view_list_color_group_background">颜色: 分组头部</string>
+    <string name="prefs_view_list_color_group_text">颜色: 分组颜色</string>
+    <string name="prefs_view_list_color_group_edge">颜色: 分组边缘</string>
+    <string name="prefs_view_list_color_line1_unread">颜色: 第1行(未读)</string>
+    <string name="prefs_view_list_color_line1_read">颜色: 第1行(已读)</string>
+    <string name="prefs_view_list_size_line1">大小: 第1行</string>
+    <string name="prefs_view_list_bold_line1">加粗: 第1行</string>
+    <string name="prefs_view_list_color_line2_unread">颜色: 第2行(未读)</string>
+    <string name="prefs_view_list_color_line2_read">颜色: 第2行(已读)</string>
+    <string name="prefs_view_list_size_line2">大小: 第2行</string>
+    <string name="prefs_view_list_bold_line2">加粗: 第2行</string>
+    <string name="prefs_view_list_bold_is_unread">未读</string>
+    <string name="prefs_view_list_bold_is_read">已读</string>
+    <string name="prefs_view_list_color_previews">颜色: 预览</string>
+    <string name="prefs_view_list_size_previews">大小: 预览</string>
+    <string name="prefs_view_list_color_aux">颜色: 邮件时间和大小</string>
+    <string name="prefs_view_list_color_unread_background">颜色: 未读背景</string>
+    <string name="prefs_view_list_color_read_background">颜色: 已读背景</string>
+    <string name="prefs_view_list_color_starred_background">颜色: 星标背景</string>
 
     <!-- Message view -->
 
-    <string name="prefs_category_display">Message view</string>
-    <string name="prefs_ui_webview_zoom">Browser-like zoom</string>
-    <string name="prefs_ui_webview_zoom_summary">Enable browser-like message zoom</string>
-    <string name="prefs_ui_webview_zoom_controller">Zoom controller</string>
-    <string name="prefs_ui_webview_zoom_controller_summary">Show the \"+/-\" zoom controller</string>
-    <string name="prefs_ui_webview_zoom_to_fit">Auto-fit</string>
-    <string name="prefs_ui_webview_zoom_to_fit_summary">Shrink messages to fit the screen</string>
-    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing">Enlarge small text</string>
-    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing_summary">Enlarge text that would otherwise get too small when shrunk</string>
-    <string name="prefs_display_sticky_mobile">Allow \"mobile view\"</string>
-    <string name="prefs_display_sticky_mobile_summary">Allow \"mobile view\" mode (reflow, as opposed to shrink)</string>
+    <string name="prefs_category_display">邮件显示</string>
+    <string name="prefs_ui_webview_zoom">浏览器式缩放</string>
+    <string name="prefs_ui_webview_zoom_summary">启动类似浏览器式的缩放</string>
+    <string name="prefs_ui_webview_zoom_controller">缩放控制</string>
+    <string name="prefs_ui_webview_zoom_controller_summary">显示 \"+/-\" 缩放控制</string>
+    <string name="prefs_ui_webview_zoom_to_fit">自动适应</string>
+    <string name="prefs_ui_webview_zoom_to_fit_summary">缩小邮件正文以适应屏幕</string>
+    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing">放大小字体</string>
+    <string name="prefs_ui_webview_zoom_to_fit_auto_sizing_summary">放大文本防止在缩放时字体太小</string>
+    <string name="prefs_display_sticky_mobile">允许使用 \"移动视图\"</string>
+    <string name="prefs_display_sticky_mobile_summary">允许使用 \"移动视图\" 模式 (reflow, as opposed to shrink)</string>
     <string name="prefs_display_sticky_mobile_confirmation">Android 4 has a bug that often causes links to become unclickable in
 mobile viewing mode.\n\nIf you run into this, please use \"Menu/View/Disable mobile view\".</string>
     <string name="prefs_display_fade_pager">Fade out the panels pager</string>
     <string name="prefs_display_fade_pager_summary">Fade out the text/attachments panels pager. Swipe from the edge to switch.</string>
-    <string name="prefs_display_phone_numbers">Highlight phone numbers</string>
-    <string name="prefs_display_phone_numbers_summary">Make phone numbers into clickable links for easy dialing</string>
-    <string name="prefs_ui_orientation">Message view orientation</string>
+    <string name="prefs_display_phone_numbers">高亮电话号码</string>
+    <string name="prefs_display_phone_numbers_summary">使电话号码可点击以更容易拨打</string>
+    <string name="prefs_ui_orientation">邮件显示方向</string>
 
     <string-array name="prefs_ui_orientation_entries">
-        <item>Rotate with the device</item>
-        <item>Lock to portrait</item>
-        <item>Lock to landscape</item>
+        <item>跟随系统旋转</item>
+        <item>锁定竖屏</item>
+        <item>锁定横屏</item>
     </string-array>
 
-    <string name="prefs_display_keep_screen_on">Keep screen on</string>
-    <string name="prefs_display_keep_screen_on_summary">Keep the screen on while displaying messages</string>
+    <string name="prefs_display_keep_screen_on">屏幕保持常亮</string>
+    <string name="prefs_display_keep_screen_on_summary">显示邮件时保持屏幕常亮</string>
     <string name="prefs_display_samsung_gesture_summary">Navigate messages by using gestures (hand-waving)</string>
     <string name="prefs_display_allow_incomplete">Actions with incomplete messages</string>
     <string name="prefs_display_allow_incomplete_summary">In case of a network error, reply to / forward an incomplete message</string>
-    <string name="prefs_display_mark_read">Mark messages as read</string>
+    <string name="prefs_display_mark_read">标记邮件为已读</string>
 
     <string-array name="prefs_display_mark_read_entries">
-        <item>Immediately</item>
-        <item>After 3 seconds</item>
-        <item>After 5 seconds</item>
-        <item>After 10 seconds</item>
-        <item>After 15 seconds</item>
-        <item>Never automatically</item>
+        <item>立即</item>
+        <item>3秒后</item>
+        <item>5秒后</item>
+        <item>10秒后</item>
+        <item>15秒后</item>
+        <item>永不自动标记</item>
     </string-array>
 
     <string name="prefs_display_mark_read_on_reply">Mark read on reply</string>
