@@ -202,58 +202,58 @@
         <item>打开下一封邮件</item>
     </string-array>
 
-    <string name="prefs_ui_storage_root">Folder for attachments</string>
-    <string name="prefs_ui_start_foreground">Status bar icon during sync and push</string>
-    <string name="prefs_ui_start_foreground_summary">Recommended, but turning off most likely won\'t cause anything to go wrong.</string>
-    <string name="prefs_ui_start_foreground_icon_color">Status bar icon color</string>
-    <string name="prefs_ui_notify_ongoing">Notify about ongoing operations</string>
-    <string name="prefs_ui_notify_ongoing_summary">Progress notifications for message/attachment loading</string>
-    <string name="prefs_ui_notify_background">Notify about completed operations</string>
-    <string name="prefs_ui_notify_background_summary">Notify when message/attachment loading completes in the background</string>
-    <string name="prefs_ui_volume_keys_font_size">Volume keys: font size</string>
-    <string name="prefs_ui_volume_keys_font_size_summary">The hardware volume keys are used to adjust font size</string>
-    <string name="prefs_ui_toasts">Toast messages</string>
-    <string name="prefs_ui_toasts_summary">Brief in-app notifications (\"draft saved\", etc.)</string>
-    <string name="prefs_ui_image_previews">Image previews</string>
-    <string name="prefs_ui_image_previews_summary">Show previews of image attachments</string>
-    <string name="prefs_ui_bidi_text">Right-to-Left text support</string>
-    <string name="prefs_ui_bidi_text_summary">Enable support for Right-to-Left text</string>
-    <string name="prefs_ui_startup">Start the app in</string>
-    <string name="prefs_ui_startup_none">The main window</string>
+    <string name="prefs_ui_storage_root">附件文件夹</string>
+    <string name="prefs_ui_start_foreground">同步和推送时状态栏图标</string>
+    <string name="prefs_ui_start_foreground_summary">推荐打开,但关闭也不会造成什么影响.</string>
+    <string name="prefs_ui_start_foreground_icon_color">状态栏图标颜色</string>
+    <string name="prefs_ui_notify_ongoing">有操作正在进行时显示通知</string>
+	<string name="prefs_ui_notify_ongoing_summary">在邮件/附件加载时显示进度通知</string>
+    <string name="prefs_ui_notify_background">操作完成显示通知</string>
+	<string name="prefs_ui_notify_background_summary">在邮件/附件后台加载完成之后显示通知</string>
+    <string name="prefs_ui_volume_keys_font_size">音量键:字体大小</string>
+    <string name="prefs_ui_volume_keys_font_size_summary">物理音量键将用于调节字体大小</string>
+    <string name="prefs_ui_toasts">Toast浮动消息</string>
+	<string name="prefs_ui_toasts_summary">显示简洁的应用内Toast消息(\"草稿已保存\"等)</string>
+    <string name="prefs_ui_image_previews">图像预览</string>
+    <string name="prefs_ui_image_previews_summary">预览显示附件中的图片文件</string>
+    <string name="prefs_ui_bidi_text">从右向左的文字显示</string>
+    <string name="prefs_ui_bidi_text_summary">以从右向左的方式显示文字</string>
+    <string name="prefs_ui_startup">当应用启动时进入</string>
+    <string name="prefs_ui_startup_none">应用主界面</string>
     <string name="prefs_ui_startup_smart">@string/account_list_smart_inbox</string>
-    <string name="prefs_ui_back_key_exit_app">\"Back\" to close from message list</string>
-    <string name="prefs_ui_back_key_exit_app_summary">Close the app from message list rather than move to account list</string>
-    <string name="prefs_ui_long_back_key_exit_app">Long \"Back\" to close the app</string>
-    <string name="prefs_ui_long_back_key_exit_app_summary">Close the app when \"Back\" is long pressed</string>
+    <string name="prefs_ui_back_key_exit_app">在邮件列表按返回键关闭应用</string>
+    <string name="prefs_ui_back_key_exit_app_summary">在邮件列表按返回键时直接关闭应用而不是返回到帐户列表</string>
+    <string name="prefs_ui_long_back_key_exit_app">长按返回键关闭应用</string>
+    <string name="prefs_ui_long_back_key_exit_app_summary">当长按返回键时直接关闭应用</string>
 
     <!-- Smart folder. Under "_ui_" for historic reasons. -->
 
-    <string name="prefs_category_smart_inbox">Smart Folder</string>
+    <string name="prefs_category_smart_inbox">智能文件夹</string>
     <string name="prefs_ui_smart_inbox">@string/prefs_category_smart_inbox</string>
-    <string name="prefs_ui_smart_inbox_summary">Show the Smart Folder</string>
+    <string name="prefs_ui_smart_inbox_summary">显示智能文件夹</string>
 
     <!-- Smart folder time period values -->
 
-    <string name="prefs_ui_smart_period">Smart Folder time period</string>
-    <string name="prefs_ui_smart_period_unread">Only unread</string>
-    <string name="prefs_ui_smart_period_10m">Ten minutes</string>
-    <string name="prefs_ui_smart_period_1h">One hour</string>
-    <string name="prefs_ui_smart_period_8h">Eight hours</string>
-    <string name="prefs_ui_smart_period_1d">One day</string>
-    <string name="prefs_ui_smart_period_3d">Three days</string>
-    <string name="prefs_ui_smart_period_5d">Five days</string>
-    <string name="prefs_ui_smart_period_7d">One week</string>
-    <string name="prefs_ui_smart_period_1m">One month</string>
-    <string name="prefs_ui_smart_period_all">All current</string>
-    <string name="prefs_ui_smart_stars">Starred messages</string>
-    <string name="prefs_ui_smart_stars_summary">Include starred messages</string>
+    <string name="prefs_ui_smart_period">智能文件夹时间段</string>
+    <string name="prefs_ui_smart_period_unread">只显示未读</string>
+    <string name="prefs_ui_smart_period_10m">10分钟</string>
+    <string name="prefs_ui_smart_period_1h">1小时</string>
+    <string name="prefs_ui_smart_period_8h">8小时</string>
+    <string name="prefs_ui_smart_period_1d">1天</string>
+    <string name="prefs_ui_smart_period_3d">3天</string>
+    <string name="prefs_ui_smart_period_5d">5天</string>
+    <string name="prefs_ui_smart_period_7d">1周</string>
+    <string name="prefs_ui_smart_period_1m">1个月</string>
+    <string name="prefs_ui_smart_period_all">当前所有</string>
+    <string name="prefs_ui_smart_stars">星标邮件</string>
+    <string name="prefs_ui_smart_stars_summary">包括星标邮件</string>
     <string name="prefs_ui_smart_notificaitons">Use for notifications</string>
     <string name="prefs_ui_smart_notifications_summary">Use the Smart Folder for notifications</string>
-    <string name="prefs_ui_smart_multi_hints">Account and folder names</string>
-    <string name="prefs_ui_smart_multi_hints_summary">Show account and folder names for each message</string>
+    <string name="prefs_ui_smart_multi_hints">帐户和文件夹名称</string>
+    <string name="prefs_ui_smart_multi_hints_summary">每封邮件都显示帐户和文件夹名</string>
     <string name="prefs_ui_smart_sent_as_self">Show sent as from self</string>
     <string name="prefs_ui_smart_sent_as_self_summary">Show sent messages with you as sender</string>
-    <string name="prefs_ui_smart_larger_font">Larger font</string>
+    <string name="prefs_ui_smart_larger_font">大号字体</string>
     <string name="prefs_ui_smart_larger_font_summary">Use a larger font for the Smart Folder item in the main window</string>
 
     <!-- Accessibility -->
