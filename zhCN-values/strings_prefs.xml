@@ -408,10 +408,10 @@
     <string name="prefs_ui_webview_zoom_to_fit_auto_sizing_summary">放大文本防止在缩放时字体太小</string>
     <string name="prefs_display_sticky_mobile">允许使用 \"移动视图\"</string>
     <string name="prefs_display_sticky_mobile_summary">允许使用 \"移动视图\" 模式 (reflow, as opposed to shrink)</string>
-    <string name="prefs_display_sticky_mobile_confirmation">Android 4 has a bug that often causes links to become unclickable in
-mobile viewing mode.\n\nIf you run into this, please use \"Menu/View/Disable mobile view\".</string>
-    <string name="prefs_display_fade_pager">Fade out the panels pager</string>
-    <string name="prefs_display_fade_pager_summary">Fade out the text/attachments panels pager. Swipe from the edge to switch.</string>
+    <string name="prefs_display_sticky_mobile_confirmation">Android 4在移动视图模式下有经常导致链接无法点击的bug.
+\n\n如果遇到此问题，请使用\"菜单/视图/禁用移动视图\".</string>
+    <string name="prefs_display_fade_pager">淡出面板页面</string>
+	<string name="prefs_display_fade_pager_summary">淡出显示正文/附件面板页面.从边缘滚动来切换.</string>
     <string name="prefs_display_phone_numbers">高亮电话号码</string>
     <string name="prefs_display_phone_numbers_summary">使电话号码可点击以更容易拨打</string>
     <string name="prefs_ui_orientation">邮件显示方向</string>
@@ -424,9 +424,9 @@ mobile viewing mode.\n\nIf you run into this, please use \"Menu/View/Disable mob
 
     <string name="prefs_display_keep_screen_on">屏幕保持常亮</string>
     <string name="prefs_display_keep_screen_on_summary">显示邮件时保持屏幕常亮</string>
-    <string name="prefs_display_samsung_gesture_summary">Navigate messages by using gestures (hand-waving)</string>
-    <string name="prefs_display_allow_incomplete">Actions with incomplete messages</string>
-    <string name="prefs_display_allow_incomplete_summary">In case of a network error, reply to / forward an incomplete message</string>
+    <string name="prefs_display_samsung_gesture_summary">使用手势来导航邮件(挥舞手掌)</string>
+    <string name="prefs_display_allow_incomplete">未完成邮件操作</string>
+	<string name="prefs_display_allow_incomplete_summary">为防止网络错误, 回复到/转发未完成的邮件</string>
     <string name="prefs_display_mark_read">标记邮件为已读</string>
 
     <string-array name="prefs_display_mark_read_entries">
@@ -438,134 +438,132 @@ mobile viewing mode.\n\nIf you run into this, please use \"Menu/View/Disable mob
         <item>永不自动标记</item>
     </string-array>
 
-    <string name="prefs_display_mark_read_on_reply">Mark read on reply</string>
-    <string name="prefs_display_mark_read_on_reply_summary">Mark current message read when replying, etc.</string>
-    <string name="prefs_display_close_on_reply">Close on reply</string>
-    <string name="prefs_display_close_on_reply_summary">Close current message when replying, etc.</string>
-    <string name="prefs_display_cache_images">Cache images</string>
-    <string name="prefs_display_cache_images_summary">Try to cache linked images</string>
-    <string name="prefs_display_action_bar_icons">Customize the buttons</string>
+    <string name="prefs_display_mark_read_on_reply">回复邮件后标记为已读</string>
+    <string name="prefs_display_mark_read_on_reply_summary">回复邮件等操作后标记当前邮件为已读</string>
+    <string name="prefs_display_close_on_reply">回复后关闭</string>
+    <string name="prefs_display_close_on_reply_summary">回复邮件等操作时关闭当前邮件</string>
+    <string name="prefs_display_cache_images">缓存图像</string>
+    <string name="prefs_display_cache_images_summary">尝试缓存链接的图像</string>
+    <string name="prefs_display_action_bar_icons">自定义按钮</string>
 
     <!-- Common network settings -->
 
-    <string name="prefs_category_network">Network</string>
-    <string name="prefs_network_present_check">Check for connection</string>
-    <string name="prefs_network_present_check_summary">Check that there is a network connection. Disable on buggy devices.</string>
-    <string name="prefs_network_dns">DNS resolution</string>
-    <string name="prefs_network_dns_summary">Locate both IPv6 and IPv4 addresses. Disable on buggy devices.</string>
-    <string name="prefs_network_ssl_hardening">SSL hardening</string>
-    <string name="prefs_network_ssl_hardening_summary">Use more secure SSL/TLS ciphers and protocols</string>
-    <string name="prefs_network_ssl_hardening_no_sslv3">Do not use SSLv3</string>
-    <string name="prefs_network_ssl_hardening_no_sslv3_summary">Do not use the SSLv3 protocol, known to be insecure</string>
-    <string name="prefs_network_ssl_checking">SSL validation</string>
-    <string name="prefs_network_ssl_checking_summary">Notify about changes in SSL certificates, preventing MITM attacks</string>
-    <string name="prefs_network_ssl_reboot_required">Please reboot the phone / tablet for this change to go into effect</string>
+    <string name="prefs_category_network">网络</string>
+    <string name="prefs_network_present_check">检查网络连接</string>
+    <string name="prefs_network_present_check_summary">检查是否有网络连接. 在有问题的设备请关闭它</string>
+    <string name="prefs_network_dns">DNS解析</string>
+    <string name="prefs_network_dns_summary">解析IPv4和IPv6地址,在有问题的设备请关闭它</string>
+    <string name="prefs_network_ssl_hardening">SSL加固</string>
+	<string name="prefs_network_ssl_hardening_summary">使用更安全的SSL/TLS密钥和协议</string>
+    <string name="prefs_network_ssl_hardening_no_sslv3">不使用SSLv3</string>
+    <string name="prefs_network_ssl_hardening_no_sslv3_summary">不使用SSLv3协议，它不太安全</string>
+    <string name="prefs_network_ssl_checking">SSL校验</string>
+    <string name="prefs_network_ssl_checking_summary">通知SSL证书的变化，防止中间人攻击</string>
+	<string name="prefs_network_ssl_reboot_required">请重启手机/平板以使设置生效</string>
 
     <!-- Some settings are separate for Wifi and mobile -->
 
-    <string name="prefs_category_wifi">WiFi Settings</string>
-    <string name="prefs_category_mobile">Mobile Data Settings</string>
+    <string name="prefs_category_wifi">WiFi设置</string>
+    <string name="prefs_category_mobile">移动数据设置</string>
 
     <!-- Command batch size -->
 
-    <string name="prefs_command_batch_size">Command batch size</string>
+    <string name="prefs_command_batch_size">批处理命令大小</string>
 
     <string-array name="prefs_command_batch_size_entries">
-        <item>Small (better responsiveness)</item>
-        <item>Large (better performance)</item>
+        <item>小(更快的响应)</item>
+        <item>大(更好的性能)</item>
     </string-array>
 
     <!-- Preload help -->
 
-    <string name="prefs_preload_help_summary">The \"Load when checking mail\" settings below are observed by IMAP (exactly) and POP3 (approximately).
-EWS acccounts preload text portions of each message completely when checking mail.</string>
+    <string name="prefs_preload_help_summary">下面的\"检查邮件时加载\" 设置适用于IMAP(准确的)和POP3(大概的).
+EWS帐户会在检查邮件时预加载每封邮件的文字部分.</string>
 
-    <!-- Display part preload -->
-
-    <string name="prefs_message_preload_limit">Load when checking mail</string>
+    <string name="prefs_message_preload_limit">检查邮件时加载</string>
 
     <string-array name="prefs_message_preload_limit_entries">
-        <item>Headers only</item>
-        <item>Up to 1 KB</item>
-        <item>Up to 5 KB</item>
-        <item>Up to 10 KB</item>
-        <item>Up to 25 KB</item>
-        <item>Up to 64 KB</item>
-        <item>No limit</item>
-        <item>Another value</item>
+        <item>只加载邮件头</item>
+        <item>最多1KB</item>
+        <item>最多5KB</item>
+        <item>最多10KB</item>
+        <item>最多25KB</item>
+        <item>最多64KB</item>
+        <item>无限制</item>
+        <item>其它值</item>
     </string-array>
 
-    <string name="prefs_message_preload_custom_entry_format">Load up to %1$d KB (change)</string>
-    <string name="prefs_message_preload_custom_summary_format">Load up to %1$d KB</string>
-    <string name="prefs_message_preload_custom_message">Custom size (Kilobytes)</string>
+    <string name="prefs_message_preload_custom_entry_format">加载最多%1$d KB (更改)</string>
+    <string name="prefs_message_preload_custom_summary_format">加载最多%1$d KB</string>
+    <string name="prefs_message_preload_custom_message">自定义大小(KB)</string>
 
     <!-- Limits for "Load the rest" -->
 
-    <string name="prefs_load_the_rest">Load when viewing a message</string>
+    <string name="prefs_load_the_rest">查看邮件时加载</string>
 
     <string-array name="prefs_load_the_rest_entries">
-        <item>Up to 5 KB</item>
-        <item>Up to 10 KB</item>
-        <item>Up to 25 KB</item>
-        <item>Up to 50 KB</item>
-        <item>Up to 100 KB</item>
-        <item>No limit</item>
-        <item>Another value</item>
+        <item>最多5KB</item>
+        <item>最多10KB</item>
+        <item>最多25KB</item>
+        <item>最多50KB</item>
+        <item>最多100KB</item>
+        <item>无限制</item>
+        <item>其它值</item>
     </string-array>
 
-    <string name="prefs_load_the_rest_custom_entry_format">Load up to %1$d Kb (change)</string>
-    <string name="prefs_load_the_rest_custom_summary_format">Load up to %1$d Kb</string>
-    <string name="prefs_load_the_rest_custom_message">Custom size (Kilobytes)</string>
+    <string name="prefs_load_the_rest_custom_entry_format">加载最多%1$d KB (改变)</string>
+    <string name="prefs_load_the_rest_custom_summary_format">加载最多%1$d KB</string>
+    <string name="prefs_load_the_rest_custom_message">自定义大小(KB)</string>
 
     <!-- Show pictures (or not) -->
 
-    <string name="prefs_show_pictures">Show images</string>
-    <string name="prefs_show_pictures_summary">Show linked images when viewing a message</string>
+    <string name="prefs_show_pictures">显示图像</string>
+    <string name="prefs_show_pictures_summary">查看邮件时显示链接的图片</string>
 
     <!-- Push session keepalive -->
 
-    <string name="prefs_push_keepalive">Push mail keep-alive</string>
-    <string name="prefs_push_keepalive_none">None</string>
+    <string name="prefs_push_keepalive">邮件推送keep-alive</string>
+    <string name="prefs_push_keepalive_none">无</string>
 
     <!-- Composing and sending -->
 
-    <string name="prefs_category_compose">Composing and sending</string>
-    <string name="prefs_compose_default_account">Default account</string>
-    <string name="prefs_compose_default_save_restore">Most recently used</string>
-    <string name="prefs_compose_format">Rich vs. plain text</string>
-    <string name="prefs_compose_format_auto">Automatic</string>
-    <string name="prefs_compose_format_rich">Rich text</string>
-    <string name="prefs_compose_format_plain">Plain text</string>
-    <string name="prefs_compose_rich_font_size">Rich text font size (when sending)</string>
-    <string name="prefs_compose_rich_font_size_default">Default (do not set)</string>
-    <string name="prefs_compose_rich_font_size_template">Set to %1$dpt</string>
-    <string name="prefs_compose_rich_font_family">Rich text font family (when sending)</string>
-    <string name="prefs_compose_buttons_top">Buttons at the top</string>
-    <string name="prefs_compose_buttons_top_summary">Move buttons to the top of the screen, to avoid accidental presses</string>
-    <string name="prefs_compose_buttons_top_not_available_summary">Always on when using the new theme on Android 5.0</string>
-    <string name="prefs_compose_format_bar_bottom">Rich format bar at the bottom</string>
-    <string name="prefs_compose_format_bar_bottom_summary">Move rich format bar to the bottom (useful on LG and HTC devices)</string>
-    <string name="prefs_compose_format_bar_float">Floating rich format bar</string>
-    <string name="prefs_compose_format_bar_float_summary">Make rich format bar \"float\" over message text</string>
-    <string name="prefs_compose_quoting">Quote the original</string>
-    <string name="prefs_compose_quoting_summary">When replying/forwarding, by default</string>
-    <string name="prefs_compose_quoting_prefix">Prefix for plain text replies</string>
-    <string name="prefs_compose_reply_inline">Reply at the bottom</string>
-    <string name="prefs_compose_reply_inline_summary">When replying inline, put new text at the bottom</string>
-    <string name="prefs_compose_keep_signature_middle">Keep signature in the middle</string>
-    <string name="prefs_compose_keep_signature_middle_summary">…when replying inline</string>
-    <string name="prefs_compose_confirm_send">Confirm before sending</string>
-    <string name="prefs_compose_confirm_send_summary">Ask for a confirmation before sending a message</string>
-    <string name="prefs_compose_user_agent">Send User-Agent</string>
-    <string name="prefs_compose_user_agent_summary">Add the User-Agent header when sending messages</string>
-    <string name="prefs_compose_reply_format">Quoting header format</string>
-    <string name="prefs_compose_reply_format_thunderbird">Like Thunderbird, Gmail</string>
-    <string name="prefs_compose_reply_format_outlook">Like MS Outlook</string>
-    <string name="prefs_compose_reply_feats">Quoting features</string>
-    <string name="prefs_compose_reply_feats_indent">Indent replies</string>
-    <string name="prefs_compose_reply_feats_line">Horizontal line</string>
-    <string name="prefs_compose_reply_english">Quoting in English</string>
-    <string name="prefs_compose_reply_english_summary">Use English for quoting replies</string>
+    <string name="prefs_category_compose">排版和发送</string>
+    <string name="prefs_compose_default_account">默认帐户</string>
+    <string name="prefs_compose_default_save_restore">最常用的</string>
+    <string name="prefs_compose_format">富文本vs纯文本</string>
+    <string name="prefs_compose_format_auto">自动</string>
+    <string name="prefs_compose_format_rich">富文本</string>
+    <string name="prefs_compose_format_plain">纯文本</string>
+    <string name="prefs_compose_rich_font_size">富文本字体大小(发送时)</string>
+    <string name="prefs_compose_rich_font_size_default">默认(不设置)</string>
+    <string name="prefs_compose_rich_font_size_template">设为 %1$dpt</string>
+    <string name="prefs_compose_rich_font_family">富文本字体集(发送时)</string>
+    <string name="prefs_compose_buttons_top">按钮位于顶部</string>
+    <string name="prefs_compose_buttons_top_summary">把按钮移动到屏幕顶部,防止误触</string>
+    <string name="prefs_compose_buttons_top_not_available_summary">在Android5.0使用新主题时总是启用</string>
+    <string name="prefs_compose_format_bar_bottom">底部富文本格式栏</string>
+    <string name="prefs_compose_format_bar_bottom_summary">移动富文本格式栏到底部(对LG和HTC设备有用)</string>
+    <string name="prefs_compose_format_bar_float">浮动富文本栏</string>
+    <string name="prefs_compose_format_bar_float_summary">使富文本栏浮动在邮件正文上</string>
+    <string name="prefs_compose_quoting">引用原始邮件</string>
+	<string name="prefs_compose_quoting_summary">当回复/转发时默认引用</string>
+    <string name="prefs_compose_quoting_prefix">纯文本回复前缀</string>
+    <string name="prefs_compose_reply_inline">在底部回复</string>
+    <string name="prefs_compose_reply_inline_summary">内联回复时,使新的内容位于底部</string>
+    <string name="prefs_compose_keep_signature_middle">使签名保持在中间</string>
+    <string name="prefs_compose_keep_signature_middle_summary">内联回复时</string>
+    <string name="prefs_compose_confirm_send">发送前确认</string>
+    <string name="prefs_compose_confirm_send_summary">发送邮件前询问发送确认</string>
+    <string name="prefs_compose_user_agent">发送User-Agent</string>
+    <string name="prefs_compose_user_agent_summary">发送邮件时添加User-Agent头</string>
+    <string name="prefs_compose_reply_format">引用邮件头格式</string>
+    <string name="prefs_compose_reply_format_thunderbird">像 Thunderbird, Gmail</string>
+    <string name="prefs_compose_reply_format_outlook">像 MS Outlook</string>
+    <string name="prefs_compose_reply_feats">引用特性</string>
+    <string name="prefs_compose_reply_feats_indent">缩进回复</string>
+    <string name="prefs_compose_reply_feats_line">水平线</string>
+    <string name="prefs_compose_reply_english">以英文引用</string>
+    <string name="prefs_compose_reply_english_summary">引用回复时使用英文</string>
 
     <!-- Spam control (linked images) -->
 
