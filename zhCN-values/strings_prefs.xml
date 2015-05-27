@@ -567,151 +567,151 @@ EWS帐户会在检查邮件时预加载每封邮件的文字部分.</string>
 
     <!-- Spam control (linked images) -->
 
-    <string name="prefs_category_spam">Spam control of linked images</string>
-    <string name="prefs_spam_image_known_check">Show only from known</string>
-    <string name="prefs_spam_image_known_check_summary">Show images only from known senders</string>
-    <string name="prefs_spam_image_known_trust_contacts">Trust Contacts/People</string>
-    <string name="prefs_spam_image_known_trust_contacts_summary">Show linked images from senders in the Contacts/People app</string>
-    <string name="prefs_spam_image_known_reset">Reset the known list</string>
-    <string name="prefs_spam_image_known_reset_summary">Reset the list of known senders</string>
+    <string name="prefs_category_spam">垃圾邮件图片控制</string>
+    <string name="prefs_spam_image_known_check">只显示已知</string>
+    <string name="prefs_spam_image_known_check_summary">只显示已知的发件人邮件中的图片</string>
+    <string name="prefs_spam_image_known_trust_contacts">可信的联系人</string>
+    <string name="prefs_spam_image_known_trust_contacts_summary">显示系统联系人发来的邮件中的图片</string>
+    <string name="prefs_spam_image_known_reset">重置已知联系人列表</string>
+    <string name="prefs_spam_image_known_reset_summary">重置已知的发件人列表</string>
 
     <!-- Swipe -->
 
-    <string name="prefs_category_swipe">Swiping</string>
-    <string name="prefs_swipe_message_navigation">In message view</string>
-    <string name="prefs_swipe_message_navigation_summary">Swipe to previous / next message</string>
-    <string name="prefs_swipe_message_prev_next">Show icons too</string>
-    <string name="prefs_swipe_message_prev_next_summary">Show previous / next message icons</string>
-    <string name="prefs_swipe_message_list">In message list</string>
-    <string name="prefs_swipe_message_list_summary">Swipe actions in message list</string>
-    <string name="prefs_swipe_message_list_haptic">Haptic feedback</string>
-    <string name="prefs_swipe_message_list_haptic_summary">Use vibration to indicate swipe commands</string>
-    <string name="prefs_swipe_message_list_sound">Sound feedback</string>
-    <string name="prefs_swipe_message_list_sound_summary">Use sound to indicate swipe commands</string>
-    <string name="prefs_swipe_message_list_sample_subject">Sample message</string>
-    <string name="prefs_swipe_message_list_sample_preview">This is a sample message</string>
-    <string name="prefs_swipe_message_list_right_header">Right side</string>
-    <string name="prefs_swipe_message_list_left_header">Left side</string>
-    <string name="prefs_swipe_message_list_icon_1">First icon</string>
-    <string name="prefs_swipe_message_list_icon_2">Second icon</string>
-    <string name="prefs_swipe_message_list_icon_3">Third icon</string>
-    <string name="prefs_swipe_message_list_op_none">None</string>
-    <string name="prefs_swipe_message_list_op_star">Set / clear star</string>
-    <string name="prefs_swipe_message_list_op_read">Mark read / unread</string>
-    <string name="prefs_swipe_message_list_op_archive">Move to archive</string>
-    <string name="prefs_swipe_message_list_op_spam">Move to spam</string>
-    <string name="prefs_swipe_message_list_op_delete">Delete (the account\'s delete option)</string>
-    <string name="prefs_swipe_message_list_op_archive_or_delete">Archive or delete (depeding on the account)</string>
-    <string name="prefs_swipe_message_list_op_find_sender">Find by sender</string>
+    <string name="prefs_category_swipe">滑动手势</string>
+    <string name="prefs_swipe_message_navigation">邮件正文视图</string>
+	<string name="prefs_swipe_message_navigation_summary">滑动到上/下一封邮件</string>
+    <string name="prefs_swipe_message_prev_next">同时也显示图标</string>
+	<string name="prefs_swipe_message_prev_next_summary">显示上/下一封邮件图标</string>
+    <string name="prefs_swipe_message_list">邮件列表视图</string>
+    <string name="prefs_swipe_message_list_summary">邮件列表中的滑动操作</string>
+    <string name="prefs_swipe_message_list_haptic">触控震动反馈</string>
+    <string name="prefs_swipe_message_list_haptic_summary">使用震动来反馈滑动操作</string>
+    <string name="prefs_swipe_message_list_sound">声音反馈</string>
+    <string name="prefs_swipe_message_list_sound_summary">使用声音来反馈滑动操作</string>
+    <string name="prefs_swipe_message_list_sample_subject">示例邮件</string>
+    <string name="prefs_swipe_message_list_sample_preview">这是一封示例邮件</string>
+    <string name="prefs_swipe_message_list_right_header">右边</string>
+    <string name="prefs_swipe_message_list_left_header">左边</string>
+    <string name="prefs_swipe_message_list_icon_1">第一个图标</string>
+    <string name="prefs_swipe_message_list_icon_2">第二个图标</string>
+    <string name="prefs_swipe_message_list_icon_3">第三个图标</string>
+    <string name="prefs_swipe_message_list_op_none">无</string>
+	<string name="prefs_swipe_message_list_op_star">加星标/取消星标</string>
+	<string name="prefs_swipe_message_list_op_read">标记为已读/未读</string>
+    <string name="prefs_swipe_message_list_op_archive">移动到归档文件夹</string>
+    <string name="prefs_swipe_message_list_op_spam">移动到垃圾邮件</string>
+    <string name="prefs_swipe_message_list_op_delete">删除(帐户的删除选项)</string>
+    <string name="prefs_swipe_message_list_op_archive_or_delete">归档或删除(根据帐户)</string>
+    <string name="prefs_swipe_message_list_op_find_sender">通过发件人查找</string>
 
     <!-- Incoming notifications -->
 
-    <string name="prefs_category_notify">Message notifications</string>
-    <string name="prefs_notify_on">Enable notifications</string>
-    <string name="prefs_notify_on_summary">Enable message notifications</string>
-    <string name="prefs_notify_about">Notify about</string>
-    <string name="prefs_notify_about_unread">All unread messages</string>
-    <string name="prefs_notify_about_new">New unread messages</string>
-    <string name="prefs_notify_sound">Sound</string>
-    <string name="prefs_notify_led">LED notifications</string>
-    <string name="prefs_notify_led_summary">Use the LED for notifications</string>
-    <string name="prefs_notify_led_color">LED color</string>
-    <string name="prefs_notify_led_time_on">Turn LED on for…</string>
-    <string name="prefs_notify_led_time_off">Keep LED off for…</string>
+    <string name="prefs_category_notify">新邮件通知</string>
+    <string name="prefs_notify_on">启用通知</string>
+    <string name="prefs_notify_on_summary">开启新邮件通知</string>
+    <string name="prefs_notify_about">通知范围</string>
+    <string name="prefs_notify_about_unread">所有未读邮件</string>
+    <string name="prefs_notify_about_new">新的未读邮件</string>
+    <string name="prefs_notify_sound">声音</string>
+    <string name="prefs_notify_led">LED通知灯</string>
+    <string name="prefs_notify_led_summary">使用LED通知灯</string>
+    <string name="prefs_notify_led_color">LED颜色</string>
+    <string name="prefs_notify_led_time_on">开启LED时长</string>
+    <string name="prefs_notify_led_time_off">保持LED时长</string>
 
     <plurals name="prefs_notify_led_time_template">
-        <item quantity="one">%1$d second</item>
-        <item quantity="other">%1$d seconds</item>
+        <item quantity="one">%1$d 秒</item>
+        <item quantity="other">%1$d 秒</item>
     </plurals>
 
-    <string name="prefs_notify_vibration">Vibration</string>
-    <string name="prefs_notify_vibration_summary">Use vibration</string>
-    <string name="prefs_notify_vibration_observe_mode">Only in \"vibration\" mode</string>
-    <string name="prefs_notify_vibration_observe_mode_summary">Vibrate only when the device is in \"vibration\" mode</string>
-    <string name="prefs_notify_vibration_pattern">Vibration pattern</string>
-    <string name="prefs_notify_vibration_pattern_default">Default</string>
-    <string name="prefs_notify_screen_on">Turn screen on</string>
-    <string name="prefs_notify_screen_on_summary">Turn the screen on when notifying</string>
-    <string name="prefs_notify_sound_once">Play sound only once</string>
-    <string name="prefs_notify_sound_once_summary">Only when there is no unread message notification yet</string>
-    <string name="prefs_notify_reset_new_on_status_clear">Reset on notification clear</string>
-    <string name="prefs_notify_reset_new_on_status_clear_summary">Reset the \"new\" counter when notifications are cleared</string>
-    <string name="prefs_notify_only_new">Only when new messages</string>
-    <string name="prefs_notify_only_new_summary">Notify only when there are new messages</string>
-    <string name="prefs_notify_only_changes">Only when there are changes</string>
-    <string name="prefs_notify_only_changes_summary">Notify only when there are changes in message state(s)</string>
-    <string name="prefs_notify_priority">High priority notifications</string>
-    <string name="prefs_notify_priority_summary">New in Android 5.0</string>
-    <string name="prefs_notify_privacy">Protect privacy</string>
-    <string name="prefs_notify_privacy_summary">Suppress subject/sender info</string>
-    <string name="prefs_notify_actions">Action buttons</string>
-    <string name="prefs_notify_actions_confirm">Confirm notification actions…</string>
-    <string name="prefs_notify_actions_confirm_activity">In a separate window</string>
-    <string name="prefs_notify_actions_confirm_notification">In notifications themselves</string>
-    <string name="prefs_notify_launcher_icon">Launcher icon counter</string>
-    <string name="prefs_notify_launcher_icon_summary">For Samsung/LG/Sony launchers</string>
-    <string name="prefs_notify_launcher_warning">This feature is intended for applications built into the system.\n\nEnabling it
-for a third party app may have undesirable side effects.\n\nOr it may work fine. Or not do anything at all.</string>
-    <string name="prefs_notify_deferred">Deferred sound</string>
-    <string name="prefs_notify_deferred_summary">One sound at the end of a multiple-account mail check</string>
-    <string name="prefs_notify_when_interactive">When the app is active</string>
-    <string name="prefs_notify_when_interactive_summary">Post notifications even when the application is open</string>
-    <string name="prefs_notify_manage_accounts">Manage per-account</string>
-    <string name="prefs_notify_manage_accounts_summary">Clear one account notification at a time, keeping the others</string>
+    <string name="prefs_notify_vibration">震动</string>
+    <string name="prefs_notify_vibration_summary">使用震动</string>
+    <string name="prefs_notify_vibration_observe_mode">仅在处于'震动'模式时</string>
+    <string name="prefs_notify_vibration_observe_mode_summary">仅在设备处于'震动'模式时才震动</string>
+    <string name="prefs_notify_vibration_pattern">震动模式</string>
+    <string name="prefs_notify_vibration_pattern_default">默认</string>
+    <string name="prefs_notify_screen_on">点亮屏幕</string>
+    <string name="prefs_notify_screen_on_summary">有新通知时点亮屏幕</string>
+    <string name="prefs_notify_sound_once">声音通知仅一次</string>
+    <string name="prefs_notify_sound_once_summary">仅当无未读时</string>
+    <string name="prefs_notify_reset_new_on_status_clear">通知清除时重置</string>
+    <string name="prefs_notify_reset_new_on_status_clear_summary">当通知被清除时重置'新邮件'计数</string>
+    <string name="prefs_notify_only_new">仅当新邮件</string>
+    <string name="prefs_notify_only_new_summary">仅当有新邮件时通知</string>
+    <string name="prefs_notify_only_changes">仅当状态变化时</string>
+    <string name="prefs_notify_only_changes_summary">仅当邮件状态发生变化时通知</string>
+    <string name="prefs_notify_priority">高优先级通知</string>
+    <string name="prefs_notify_priority_summary">Android 5.0中的新特性</string>
+    <string name="prefs_notify_privacy">隐私保护</string>
+	<string name="prefs_notify_privacy_summary">隐藏主题/发件人信息</string>
+    <string name="prefs_notify_actions">动作按钮</string>
+    <string name="prefs_notify_actions_confirm">确认通知动作</string>
+    <string name="prefs_notify_actions_confirm_activity">在单独窗口中</string>
+    <string name="prefs_notify_actions_confirm_notification">在通知本身</string>
+    <string name="prefs_notify_launcher_icon">启动器图标计数器</string>
+    <string name="prefs_notify_launcher_icon_summary">适用于Samsung/LG/Sony原生启动器</string>
+	<string name="prefs_notify_launcher_warning">此特性是为系统中的应用而准备.\n\n
+		在第三方应用中开启可能会有不可预知的副作用.\n\n或能正常使用,或完全不起作用</string>
+    <string name="prefs_notify_deferred">延迟声音</string>
+    <string name="prefs_notify_deferred_summary">在多个帐户邮件检查结束后响一声</string>
+    <string name="prefs_notify_when_interactive">当应用开启时</string>
+    <string name="prefs_notify_when_interactive_summary">当应用开启时显示通知</string>
+    <string name="prefs_notify_manage_accounts">单个帐户式管理</string>
+    <string name="prefs_notify_manage_accounts_summary">一次只清除一个帐户的通知,保持其它帐户的通知</string>
 
     <!-- Error notifications -->
 
-    <string name="prefs_category_error">Error notifications</string>
-    <string name="prefs_error_notify">Enable error notifications</string>
-    <string name="prefs_error_notify_summary">Enable error notifications</string>
+    <string name="prefs_category_error">错误通知</string>
+    <string name="prefs_error_notify">启用错误通知</string>
+    <string name="prefs_error_notify_summary">启用错误通知</string>
 
     <!-- Send notifications -->
 
-    <string name="prefs_category_send_notify">Send notifications</string>
-    <string name="prefs_send_notify">Enable notifications</string>
-    <string name="prefs_send_notify_summary">Enable send notifications</string>
+    <string name="prefs_category_send_notify">发送通知</string>
+    <string name="prefs_send_notify">启用通知</string>
+    <string name="prefs_send_notify_summary">启用发送通知</string>
 
     <!-- Night and weekend mode category -->
 
-    <string name="prefs_category_silent_section">Nights and weekends</string>
+    <string name="prefs_category_silent_section">夜晚和周末</string>
 
     <!-- Dark theme at night -->
 
-    <string name="prefs_dark_theme_night">Dark theme</string>
-    <string name="prefs_dark_theme_night_summary">Use the dark theme at night</string>
+    <string name="prefs_dark_theme_night">暗色主题</string>
+    <string name="prefs_dark_theme_night_summary">在夜间使用暗色主题</string>
 
     <!-- Adjust scheduled mail check interval -->
     
-    <string name="prefs_notify_silent_change_interval">Adjust mail check schedule</string>
-    <string name="prefs_notify_silent_change_interval_none">( do not adjust )</string>
+    <string name="prefs_notify_silent_change_interval">调整邮件检查间隔</string>
+    <string name="prefs_notify_silent_change_interval_none">(不调整)</string>
     
     <!-- Night mode (called Silent for historical reasons) -->
 
-    <string name="prefs_category_silent">Night mode</string>
-    <string name="prefs_notify_silent">Enable night mode</string>
-    <string name="prefs_notify_silent_summary">Disable sounds and vibration</string>
-    <string name="prefs_notify_silent_from">\"From\" time</string>
-    <string name="prefs_notify_silent_to">\"To\" time</string>
-    <string name="prefs_notify_silent_no_led">Suppress the LED</string>
-    <string name="prefs_notify_silent_no_led_summary">Do not use the LED in notifications</string>
-    <string name="prefs_notify_silent_no_sync">Turn off scheduled checks</string>
-    <string name="prefs_notify_silent_no_sync_summary">Do not run scheduled mail checks during this time</string>
-    <string name="prefs_notify_silent_no_push">Turn off IMAP push</string>
-    <string name="prefs_notify_silent_no_push_summary">Do not use IMAP push during this time</string>
+    <string name="prefs_category_silent">夜间模式</string>
+    <string name="prefs_notify_silent">启用夜间模式</string>
+    <string name="prefs_notify_silent_summary">禁用声音和震动</string>
+    <string name="prefs_notify_silent_from">开始时间</string>
+    <string name="prefs_notify_silent_to">结束时间</string>
+    <string name="prefs_notify_silent_no_led">不使用LED灯</string>
+    <string name="prefs_notify_silent_no_led_summary">不使用LED灯通知</string>
+    <string name="prefs_notify_silent_no_sync">关闭定时检查</string>
+    <string name="prefs_notify_silent_no_sync_summary">在这段时间内不执行定时邮件检查</string>
+    <string name="prefs_notify_silent_no_push">关闭IMAP推送</string>
+    <string name="prefs_notify_silent_no_push_summary">在这段时间内不使用IMAP推送</string>
 
     <!-- Weekend mode -->
 
-    <string name="prefs_category_weekend">Weekend mode</string>
-    <string name="prefs_notify_weekend">Days of the week</string>
+    <string name="prefs_category_weekend">周末模式</string>
+    <string name="prefs_notify_weekend">一周的天数</string>
 
     <string-array name="prefs_notify_weekend_entries">
-        <item>Sunday</item>
-        <item>Monday</item>
-        <item>Tuesday</item>
-        <item>Wednesday</item>
-        <item>Thursday</item>
-        <item>Friday</item>
-        <item>Saturday</item>
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
     </string-array>
 
     <integer-array name="prefs_notify_weekend_values">
@@ -724,32 +724,32 @@ for a third party app may have undesirable side effects.\n\nOr it may work fine.
         <item>6</item>
     </integer-array>
 
-    <string name="prefs_notify_weekend_move_night">Shift night mode</string>
-    <string name="prefs_notify_weekend_move_night_summary">Shift night mode on these days</string>
-    <string name="prefs_notify_weekend_all">All day mode</string>
-    <string name="prefs_notify_weekend_all_summary">Disable sounds and vibration on these days</string>
-    <string name="prefs_notify_weekend_all_no_sync">Turn off scheduled checks</string>
-    <string name="prefs_notify_weekend_all_no_sync_summary">Do not run scheduled mail checks on these days</string>
-    <string name="prefs_notify_weekend_all_no_push">Turn off IMAP push</string>
-    <string name="prefs_notify_weekend_all_no_push_summary">Do not use IMAP push on these days</string>
+    <string name="prefs_notify_weekend_move_night">切换夜间模式</string>
+    <string name="prefs_notify_weekend_move_night_summary">在这些天切换夜间模式</string>
+    <string name="prefs_notify_weekend_all">全天模式</string>
+    <string name="prefs_notify_weekend_all_summary">在这些天禁用声音和震动</string>
+    <string name="prefs_notify_weekend_all_no_sync">关闭定时邮件检查</string>
+    <string name="prefs_notify_weekend_all_no_sync_summary">在这些天不执行定时邮件检查</string>
+    <string name="prefs_notify_weekend_all_no_push">关闭IMAP推送</string>
+    <string name="prefs_notify_weekend_all_no_push_summary">在这些天不使用IMAP推送</string>
 
     <!-- Debug settings -->
 
-    <string name="prefs_category_debug">Debug</string>
-    <string name="prefs_debug_log">Debug logging</string>
-    <string name="prefs_debug_log_summary">Enable logging for debugging</string>
-    <string name="prefs_debug_raw_data">Log raw data</string>
-    <string name="prefs_debug_raw_data_summary">Include raw session data (passwords are not logged)</string>
-    <string name="prefs_debug_db_data">Log database data</string>
-    <string name="prefs_debug_db_data_summary">Slow, verbose, at times indispensable</string>
-    <string name="prefs_debug_log_target">Output to</string>
+    <string name="prefs_category_debug">调试</string>
+    <string name="prefs_debug_log">日志调试</string>
+    <string name="prefs_debug_log_summary">启用调试日志</string>
+    <string name="prefs_debug_raw_data">记录原始日志</string>
+    <string name="prefs_debug_raw_data_summary">包括原始会话记录(密码不会被记录)</string>
+    <string name="prefs_debug_db_data">记录数据库数据</string>
+    <string name="prefs_debug_db_data_summary">慢速,详细,有时是不可或缺的</string>
+    <string name="prefs_debug_log_target">输出到</string>
 
     <string-array name="prefs_debug_log_target_entries">
         <item>Logcat (system log)</item>
-        <item>File (log-AquaMail.txt)</item>
+        <item>文件 (log-AquaMail.txt)</item>
     </string-array>
 
-    <string name="prefs_disable_gpu">Disable GPU</string>
-    <string name="prefs_disable_gpu_summary">Disable hardware graphics acceleration</string>
+    <string name="prefs_disable_gpu">禁用GPU</string>
+    <string name="prefs_disable_gpu_summary">禁用GPU加速</string>
 
 </resources>
