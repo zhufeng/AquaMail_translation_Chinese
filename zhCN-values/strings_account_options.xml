@@ -3,171 +3,170 @@
 
     <!-- Account Options Activity -->
 
-    <string name="account_options_activity">Account options</string>
-    <string name="account_options_prefs_sync_enabled">Scheduled sync</string>
-    <string name="account_options_prefs_sync_enabled_summary">Check mail in the background when the app setting is on</string>
-    <string name="account_options_prefs_sync_all_enabled">Include in \"Sync All\"</string>
-    <string name="account_options_prefs_sync_all_enabled_summary">Include in \"Sync All\" in the account list</string>
-    <string name="account_options_prefs_push_enabled">IMAP Push</string>
-    <string name="account_options_prefs_push_enabled_global_summary">Enable IMAP Push, instant message delivery</string>
-    <string name="account_options_prefs_push_enabled_supported_summary">Enable IMAP Push when the app setting is on</string>
-    <string name="account_options_prefs_push_enabled_not_supported_summary">This server does not support IMAP Push</string>
-    <string name="account_options_prefs_push_session_duration">IMAP Push session duration</string>
-    <string name="account_options_prefs_message_keep">Messages to cache</string>
-    <string name="account_options_prefs_message_keep_entry_template">%1$d messages</string>
-    <string name="account_options_prefs_save_sent">Save sent messages</string>
-    <string name="account_options_prefs_save_sent_summary">Save to Sent folder after sending</string>
-    <string name="account_options_prefs_sent_in_smart">Sent in Smart Folder</string>
-    <string name="account_options_prefs_sent_in_smart_summary">Include sent messages in Smart Folder</string>
-    <string name="account_options_prefs_delete_plan">Deleting messages</string>
+    <string name="account_options_activity">ÕÊ»§Ñ¡Ïî</string>
+    <string name="account_options_prefs_sync_enabled">¶¨Ê±Í¬²½</string>
+    <string name="account_options_prefs_sync_enabled_summary">ºóÌ¨¶¨Ê±¼ì²éĞÂÓÊ¼ş</string>
+    <string name="account_options_prefs_sync_all_enabled">°üº¬'Í¬²½ËùÓĞ'</string>
+    <string name="account_options_prefs_sync_all_enabled_summary">°üº¬ÕÊ»§ÁĞ±íÀïµÄ'Í¬²½ËùÓĞ'</string>
+    <string name="account_options_prefs_push_enabled">IMAPÍÆËÍ</string>
+    <string name="account_options_prefs_push_enabled_global_summary">ÆôÓÃIMAPÍÆËÍ,ÊµÊ±ÓÊ¼şÍ¶µİ</string>
+    <string name="account_options_prefs_push_enabled_supported_summary">ÆôÓÃIMAPÓÊ¼şÍÆËÍ</string>
+    <string name="account_options_prefs_push_enabled_not_supported_summary">·şÎñÆ÷²»Ö§³ÖIMAPÍÆËÍ</string>
+    <string name="account_options_prefs_push_session_duration">IMAPÍÆËÍ»á»°³ÖĞøÊ±¼ä</string>
+    <string name="account_options_prefs_message_keep">»º´æµÄÓÊ¼şÊıÁ¿</string>
+    <string name="account_options_prefs_message_keep_entry_template">%1$d ·âÓÊ¼ş</string>
+    <string name="account_options_prefs_save_sent">±£´æÒÑ·¢ËÍµÄÓÊ¼ş</string>
+    <string name="account_options_prefs_save_sent_summary">·¢ËÍÓÊ¼şÖ®ºó±£´æµ½ÒÑ·¢ËÍÎÄ¼ş¼Ğ</string>
+    <string name="account_options_prefs_sent_in_smart">ÖÇÄÜÎÄ¼ş¼ĞµÄÒÑ·¢ËÍ</string>
+    <string name="account_options_prefs_sent_in_smart_summary">°üÀ¨ÖÇÄÜÎÄ¼ş¼ĞÖĞµÄÒÑ·¢ËÍµÄÓÊ¼ş</string>
+    <string name="account_options_prefs_delete_plan">É¾³ıÓÊ¼şµÄ²Ù×÷</string>
 
     <string-array name="account_options_prefs_delete_plan_entries">
-        <item>Move to Deleted folder first</item>
-        <item>Delete from the server immediately</item>
-        <item>Hide in the app, keep on the server</item>
+        <item>ÏÈÒÆ¶¯µ½ÒÑÉ¾³ıÎÄ¼ş¼Ğ</item>
+        <item>Á¢¼´´Ó·şÎñÆ÷É¾³ı</item>
+        <item>½öÔÚÓ¦ÓÃÖĞÒş²Ø,²»´Ó·şÎñÆ÷É¾³ı</item>
     </string-array>
 
-    <string name="account_options_prefs_sync_deleted">Remove deleted messages</string>
-    <string name="account_options_prefs_sync_deleted_summary">Remove local copies of messages no longer on the server</string>
-    <string name="account_options_prefs_subject">Default subject</string>
-    <string name="account_options_prefs_greeting">Greeting</string>
-    <string name="account_options_prefs_greeting_auto">Add greeting automatically</string>
-    <string name="account_options_prefs_signature">Signature</string>
-    <string name="account_options_prefs_signature_auto">Add signature automatically</string>
-    <string name="account_options_prefs_signature_only_new">Only to new messages (not replies, etc.)</string>
-    <string name="account_options_prefs_copy_self">BCC to self</string>
-    <string name="account_options_prefs_reply_to">Reply To</string>
-    <string name="account_options_prefs_new_request_receipt">Request read receipt</string>
-    <string name="account_options_prefs_new_request_receipt_summary">Request read receipt by default</string>
-    <string name="account_options_prefs_new_cc_bcc">Show CC/BCC</string>
-    <string name="account_options_prefs_new_cc_bcc_summary">Show CC and BCC by default</string>
-    <string name="account_options_prefs_email_invalid">Invalid email:\n%1$s</string>
-    <string name="account_options_prefs_folder_sort">Folder list order</string>
+    <string name="account_options_prefs_sync_deleted">ÒÆ³ıÒÑÉ¾³ıµÄÓÊ¼ş</string>
+    <string name="account_options_prefs_sync_deleted_summary">ÒÆ³ı·şÎñÆ÷ÉÏÒÑ²»´æÔÚµÄ±¾µØÓÊ¼ş¸±±¾</string>
+    <string name="account_options_prefs_subject">Ä¬ÈÏÖ÷Ìâ</string>
+    <string name="account_options_prefs_greeting">×£¸£Óï</string>
+    <string name="account_options_prefs_greeting_auto">×Ô¶¯Ìí¼Ó×£¸£Óï</string>
+    <string name="account_options_prefs_signature">Ç©Ãû</string>
+    <string name="account_options_prefs_signature_auto">×Ô¶¯Ìí¼ÓÓÊ¼şÇ©Ãû</string>
+    <string name="account_options_prefs_signature_only_new">Ö»¶ÔĞÂÓÊ¼şÉúĞ§(²»°üÀ¨»Ø¸´µÈ)</string>
+    <string name="account_options_prefs_copy_self">ÃÜËÍ¸ø×Ô¼º</string>
+    <string name="account_options_prefs_reply_to">»Ø¸´</string>
+    <string name="account_options_prefs_new_request_receipt">ÇëÇóÒÑ¶Á»ØÖ´</string>
+    <string name="account_options_prefs_new_request_receipt_summary">Ä¬ÈÏÇëÇó·¢ËÍÒÑ¶Á»ØÖ´</string>
+	<string name="account_options_prefs_new_cc_bcc">ÏÔÊ¾³­ËÍ/ÃÜËÍ</string>
+	<string name="account_options_prefs_new_cc_bcc_summary">Ä¬ÈÏÏÔÊ¾³­ËÍ/ÃÜËÍ</string>
+    <string name="account_options_prefs_email_invalid">ÎŞĞ§ÓÊ¼ş:\n%1$s</string>
+    <string name="account_options_prefs_folder_sort">ÎÄ¼ş¼ĞÁĞ±íË³Ğò</string>
 
     <string-array name="account_options_prefs_folder_sort_entries">
-        <item>By folder name</item>
-        <item>By unread messages</item>
-        <item>By total messages</item>
+        <item>°´ÎÄ¼ş¼ĞÃû</item>
+        <item>°´Î´¶ÁÓÊ¼şÊı</item>
+        <item>°´×ÜÓÊ¼şÊı</item>
     </string-array>
 
-    <string name="account_options_show_more_folders">Show \"Other foldersâ€¦\"</string>
-    <string name="account_options_show_more_folders_summary">\"Other foldersâ€¦\" item in the account list for this account</string>
-    <string name="account_options_account_color">Assign color</string>
-    <string name="account_options_account_color_override_folders">Override folder colors</string>
-    <string name="account_options_account_icon_color">Notification icon color</string>
-    <string name="account_options_prefs_outgoing_charset">Outgoing message charset</string>
-    <string name="account_options_prefs_outgoing_charset_auto">Automatic</string>
-    <string name="account_options_prefs_outgoing_charset_unsupported">Your device does not support %s</string>
-    <string name="account_options_prefs_outgoing_message_id">Send Message-Id</string>
-    <string name="account_options_prefs_outgoing_message_id_summary">Add the Message-Id header when sending messages</string>
-    <string name="account_options_prefs_which_date_title">Which message date/time to download</string>
-    <string name="account_options_prefs_which_date_internal">Date/time received (by mail server)</string>
-    <string name="account_options_prefs_which_date_header">Date/time sent (from message header)</string>
+    <string name="account_options_show_more_folders">ÏÔÊ¾ÆäËüÎÄ¼ş¼Ğ</string>
+    <string name="account_options_show_more_folders_summary">´ËÕÊ»§ÔÚÕÊ»§ÁĞ±íÖĞÏÔÊ¾ÆäËüÎÄ¼ş¼Ğ</string>
+    <string name="account_options_account_color">·ÖÅäÑÕÉ«</string>
+    <string name="account_options_account_color_override_folders">¸²¸ÇÎÄ¼ş¼ĞÑÕÉ«</string>
+    <string name="account_options_account_icon_color">Í¨ÖªÍ¼±êÑÕÉ«</string>
+    <string name="account_options_prefs_outgoing_charset">Íâ·¢ÓÊ¼ş×Ö·û¼¯</string>
+    <string name="account_options_prefs_outgoing_charset_auto">×Ô¶¯</string>
+    <string name="account_options_prefs_outgoing_charset_unsupported">ÄãµÄÉè±¸²»Ö§³Ö %s</string>
+    <string name="account_options_prefs_outgoing_message_id">·¢ËÍÓÊ¼şID</string>
+    <string name="account_options_prefs_outgoing_message_id_summary">·¢ËÍÓÊ¼şÊ±Ìí¼ÓÓÊ¼şIDµ½ÓÊ¼şÍ·</string>
+    <string name="account_options_prefs_which_date_title">ÓÊ¼şÈÕÆÚÊ±¼äÏÔÊ¾</string>
+    <string name="account_options_prefs_which_date_internal">ÏÔÊ¾ÊÕµ½µÄÊ±¼ä(ÓÊ¼ş·şÎñÆ÷)</string>
+    <string name="account_options_prefs_which_date_header">ÏÔÊ¾·¢ËÍµÄÊ±¼ä(´ÓÓÊ¼şÍ·)</string>
 
     <!-- POP3 options -->
 
-    <string name="account_options_prefs_pop3">POP3 options</string>
-    <string name="account_options_prefs_pop3_locate_limit">Message locate limit</string>
-    <string name="account_options_prefs_pop3_locate_limit_entry_template">Up to %1$d messages</string>
-    <string name="account_options_prefs_pop3_delayed_delete">Server delete compatibility</string>
+    <string name="account_options_prefs_pop3">POP3Ñ¡Ïî</string>
+    <string name="account_options_prefs_pop3_locate_limit">ÓÊ¼ş¶¨Î»ÏŞÖÆ</string>
+    <string name="account_options_prefs_pop3_locate_limit_entry_template">×î¶à %1$d ·âÓÊ¼ş</string>
+    <string name="account_options_prefs_pop3_delayed_delete">·şÎñÆ÷É¾³ıÓÊ¼ş¼æÈİĞÔ</string>
 
     <string-array name="account_options_prefs_pop3_delayed_delete_entries">
-        <item>New session (immediate)</item>
-        <item>Shared session (next mail check)</item>
+        <item>ĞÂ»á»°(Á¢¼´)</item>
+        <item>¹²Ïí»á»°(ÏÂ´Î¼ì²éÓÊ¼şÊ±)</item>
     </string-array>
 
-    <string name="account_options_prefs_pop3_purge_when_empty">Purge when server empty</string>
-    <string name="account_options_prefs_pop3_purge_when_empty_summary">Purge old loaded messages when the server has none left</string>
+    <string name="account_options_prefs_pop3_purge_when_empty">·şÎñÆ÷ÎŞÓÊ¼şÊ±ÇåÀí</string>
+    <string name="account_options_prefs_pop3_purge_when_empty_summary">µ±·şÎñÆ÷ÎŞÓÊ¼şÊ±ÇåÀí±¾µØÒÑ¼ÓÔØµÄÓÊ¼ş</string>
 
     <!-- Exchange options -->
 
-    <string name="account_options_prefs_ews">Exchange options</string>
-    <string name="account_options_prefs_ews_sync_calendar">Sync calendar</string>
-    <string name="account_options_prefs_ews_sync_calendar_summary">Sync server calendar with the device\'s calendar</string>
-    <string name="account_options_prefs_ews_sync_calendar_turn_off_confirmation">This will remove any already
-synced calendars and their events from the device\'s Calendar.</string>
-    <string name="account_options_prefs_ews_sync_calendar_time_period">What to sync from the server</string>
-    <string name="account_options_prefs_ews_sync_calendar_time_keep">How long to keep on the device</string>
+    <string name="account_options_prefs_ews">ExchangeÑ¡Ïî</string>
+    <string name="account_options_prefs_ews_sync_calendar">Í¬²½ÈÕÀú</string>
+    <string name="account_options_prefs_ews_sync_calendar_summary">Óë·şÎñÆ÷Í¬²½ÈÕÀú</string>
+	<string name="account_options_prefs_ews_sync_calendar_turn_off_confirmation">Õâ½«»á´ÓÉè±¸ÉÏÒÆ³ıÈÎºÎÒÑÍ¬²½µÄÈÕÀúºÍÊÂ¼ş</string>
+    <string name="account_options_prefs_ews_sync_calendar_time_period">´Ó·şÎñÆ÷Í¬²½Ê²Ã´ÄÚÈİ</string>
+    <string name="account_options_prefs_ews_sync_calendar_time_keep">ÔÚÉè±¸ÉÏ±£³Ö¶à¾ÃÊ±¼ä</string>
 
     <plurals name="account_options_prefs_ews_sync_calendar_time_plural_template">
-        <item quantity="one">%1$d month</item>
-        <item quantity="other">%1$d months</item>
+        <item quantity="one">%1$d ÔÂ</item>
+        <item quantity="other">%1$d ÔÂ</item>
     </plurals>
-    <string name="account_options_prefs_ews_sync_calendar_force_local">Force local time zone</string>
-    <string name="account_options_prefs_ews_sync_calendar_force_local_summary">Use the device\'s time zone for synced events (compatibility)</string>
+    <string name="account_options_prefs_ews_sync_calendar_force_local">Ç¿ÖÆÊ¹ÓÃ±¾µØÊ±Çø</string>
+    <string name="account_options_prefs_ews_sync_calendar_force_local_summary">¶ÔÒÑÍ¬²½µÄÊÂ¼şÊ¹ÓÃÉè±¸µÄÊ±Çø(¼æÈİµÄ)</string>
 
     <!-- Preload for IMAP and EWS -->
 
-    <string name="account_options_prefs_preload">Preload</string>
+    <string name="account_options_prefs_preload">Ô¤¼ÓÔØ</string>
 
     <!-- Attachments -->
 
-    <string name="account_options_prefs_preload_attachments_wifi">Attachments, WiFi</string>
-    <string name="account_options_prefs_preload_attachments_fast_mobile">Attachments, 3G+ (HSPA, HSDPA)</string>
-    <string name="account_options_prefs_preload_attachments_slow_mobile">Attachments, 2G (GPRS, EDGE)</string>
+    <string name="account_options_prefs_preload_attachments_wifi">¸½¼ş, WiFi</string>
+    <string name="account_options_prefs_preload_attachments_fast_mobile">¸½¼ş, 3G+ (HSPA, HSDPA)</string>
+    <string name="account_options_prefs_preload_attachments_slow_mobile">¸½¼ş, 2G (GPRS, EDGE)</string>
 
     <!-- Inlines -->
 
-    <string name="account_options_prefs_preload_inlines_wifi">Embedded images, WiFi</string>
-    <string name="account_options_prefs_preload_inlines_mobile">Embedded images, mobile</string>
+    <string name="account_options_prefs_preload_inlines_wifi">Ç¶ÈëµÄÍ¼Ïñ, WiFi</string>
+    <string name="account_options_prefs_preload_inlines_mobile">Ç¶ÈëµÄÍ¼Ïñ, mobile</string>
 
     <!-- Entries for preload settings -->
 
-    <string name="account_options_prefs_preload_none">None</string>
-    <string name="account_options_prefs_preload_50k">Up to 50 KB per message</string>
-    <string name="account_options_prefs_preload_100k">Up to 100 KB per message</string>
-    <string name="account_options_prefs_preload_250k">Up to 250 KB per message</string>
-    <string name="account_options_prefs_preload_500k">Up to 500 KB per message</string>
-    <string name="account_options_prefs_preload_1m">Up to 1 MB per message</string>
-    <string name="account_options_prefs_preload_2m">Up to 2 MB per message</string>
-    <string name="account_options_prefs_preload_5m">Up to 5 MB per message</string>
-    <string name="account_options_prefs_preload_10m">Up to 10 MB per message</string>
-    <string name="account_options_prefs_preload_20m">Up to 20 MB per message</string>
-    <string name="account_options_prefs_preload_30m">Up to 30 MB per message</string>
+    <string name="account_options_prefs_preload_none">ÎŞ</string>
+    <string name="account_options_prefs_preload_50k">Ã¿·âÓÊ¼ş×î¶à50KB</string>
+    <string name="account_options_prefs_preload_100k">Ã¿·âÓÊ¼ş×î¶à100KB</string>
+    <string name="account_options_prefs_preload_250k">Ã¿·âÓÊ¼ş×î¶à250KB</string>
+    <string name="account_options_prefs_preload_500k">Ã¿·âÓÊ¼ş×î¶à500KB</string>
+    <string name="account_options_prefs_preload_1m">Ã¿·âÓÊ¼ş×î¶à1MB</string>
+    <string name="account_options_prefs_preload_2m">Ã¿·âÓÊ¼ş×î¶à2MB</string>
+    <string name="account_options_prefs_preload_5m">Ã¿·âÓÊ¼ş×î¶à5MB</string>
+    <string name="account_options_prefs_preload_10m">Ã¿·âÓÊ¼ş×î¶à10MB</string>
+    <string name="account_options_prefs_preload_20m">Ã¿·âÓÊ¼ş×î¶à20MB</string>
+    <string name="account_options_prefs_preload_30m">Ã¿·âÓÊ¼ş×î¶à30MB</string>
 
     <!-- IMAP options -->
 
-    <string name="account_options_prefs_imap">IMAP options</string>
-    <string name="account_options_prefs_imap_expunge">EXPUNGE when deleting</string>
-    <string name="account_options_prefs_imap_expunge_summary">Send EXPUNGE after deleting / moving messages</string>
-    <string name="account_options_prefs_imap_optimizations">Enable optimizations</string>
-    <string name="account_options_prefs_imap_optimizations_summary">Faster mail checks, lower battery use (for the better mail servers)</string>
+    <string name="account_options_prefs_imap">IMAPÑ¡Ïî</string>
+    <string name="account_options_prefs_imap_expunge">É¾³ıÊ±Ö´ĞĞEXPUNGE</string>
+	<string name="account_options_prefs_imap_expunge_summary">É¾³ı/ÒÆ¶¯ÓÊ¼şºó·¢ËÍEXPUNGE</string>
+    <string name="account_options_prefs_imap_optimizations">ÆôÓÃÓÅ»¯</string>
+    <string name="account_options_prefs_imap_optimizations_summary">¸ü¿ì¼ì²éÓÊ¼ş,¸üµÍµçÁ¿ÏûºÄ(¶ÔÓÚ½ÏºÃµÄÓÊ¼ş·şÎñÆ÷)</string>
 
     <!-- Folders -->
 
-    <string name="account_options_prefs_category_folders">Folders</string>
-    <string name="account_options_folder_loading_text">Loadingâ€¦</string>
-    <string name="account_options_folder_sync_type_off">Do not sync</string>
-    <string name="account_options_folder_sync_type_incoming">Sync (plain folder)</string>
-    <string name="account_options_folder_sync_type_spam">Sync as spam</string>
-    <string name="account_options_folder_sync_type_spam_set">Spam, do not sync</string>
-    <string name="account_options_folder_sync_type_archive">Sync as archive</string>
-    <string name="account_options_folder_sync_type_archive_set">Archive, do not sync</string>
-    <string name="account_options_folder_sync_type_drafts">Sync with [ Drafts ] folder</string>
-    <string name="account_options_folder_sync_type_sent">Sync with [ Sent ] folder</string>
-    <string name="account_options_folder_sync_type_deleted">Sync with [ Deleted ] folder</string>
-    <string name="account_options_folder_no_smart_suffix">, not in Smart Folder</string>
-    <string name="account_options_folder_is_liveview_suffix">, LiveViewâ„¢</string>
-    <string name="account_options_folder_push_suffix">, IMAP Push</string>
-    <string name="account_options_folder_is_push">Use IMAP Push</string>
-    <string name="account_options_folder_is_smart">Show in Smart Folder</string>
-    <string name="account_options_folder_is_liveview">LiveViewâ„¢ notifications</string>
-    <string name="account_options_folder_unread_in_spam_archive">Unread count</string>
-    <string name="account_options_folder_has_color">Color indicator</string>
-    <string name="account_options_folder_change_color">Change color</string>
-    <string name="account_options_folder_keep_prompt">Messages to keep:\n  up to %1$d</string>
-    <string name="account_options_folder_keep_default_prompt">Messages to keep:\n  account default</string>
-    <string name="account_options_folder_search_hint">Search folders</string>
-    <string name="account_options_folder_create">Create folder</string>
+    <string name="account_options_prefs_category_folders">Ä¿Â¼</string>
+	<string name="account_options_folder_loading_text">¼ÓÔØ</string>
+    <string name="account_options_folder_sync_type_off">²»Í¬²½</string>
+    <string name="account_options_folder_sync_type_incoming">Í¬²½(¿ÕÎÄ¼ş¼Ğ)</string>
+    <string name="account_options_folder_sync_type_spam">×÷ÎªÀ¬»øÓÊ¼şÍ¬²½</string>
+    <string name="account_options_folder_sync_type_spam_set">À¬»øÓÊ¼ş,²»Í¬²½</string>
+    <string name="account_options_folder_sync_type_archive">×÷Îª¹éµµÍ¬²½</string>
+    <string name="account_options_folder_sync_type_archive_set">¹éµµ,²»Í¬²½</string>
+    <string name="account_options_folder_sync_type_drafts">Óë[²İ¸å]ÎÄ¼ş¼ĞÍ¬²½</string>
+    <string name="account_options_folder_sync_type_sent">Óë[ÒÑ·¢ËÍ]ÎÄ¼ş¼ĞÍ¬²½</string>
+    <string name="account_options_folder_sync_type_deleted">Óë[ÒÑÉ¾³ı]ÎÄ¼ş¼ĞÍ¬²½</string>
+    <string name="account_options_folder_no_smart_suffix">, ²»ÔÚÖÇÄÜÎÄ¼ş¼ĞÖĞ</string>
+	<string name="account_options_folder_is_liveview_suffix">, LiveView</string>
+    <string name="account_options_folder_push_suffix">, IMAPÍÆËÍ</string>
+    <string name="account_options_folder_is_push">Ê¹ÓÃIMAPÍÆËÍ</string>
+    <string name="account_options_folder_is_smart">ÔÚÖÇÄÜÎÄ¼ş¼ĞÖĞÏÔÊ¾</string>
+    <string name="account_options_folder_is_liveview">LiveViewÍ¨Öª</string>
+    <string name="account_options_folder_unread_in_spam_archive">Î´¶Á¼ÆÊı</string>
+    <string name="account_options_folder_has_color">ÑÕÉ«±êÊ¶</string>
+    <string name="account_options_folder_change_color">¸Ä±äÑÕÉ«</string>
+    <string name="account_options_folder_keep_prompt">Òª±£´æµÄÓÊ¼ş:\n ×î¶à %1$d</string>
+    <string name="account_options_folder_keep_default_prompt">Òª±£´æµÄÓÊ¼ş:\n  ÕÊ»§Ä¬ÈÏ</string>
+    <string name="account_options_folder_search_hint">ËÑË÷ÎÄ¼ş¼Ğ</string>
+    <string name="account_options_folder_create">´´½¨ÎÄ¼ş¼Ğ</string>
 
     <!-- Calendars -->
 
-    <string name="account_options_prefs_category_calendars">Calendars</string>
+    <string name="account_options_prefs_category_calendars">ÈÕÀú</string>
 
     <!-- Preload stub (for IMAP and EWS) -->
 
-    <string name="account_options_preload_title">Message preload</string>
-    <string name="account_options_preload_message_text">Message text</string>
-    <string name="account_options_preload_message_parts">Embedded images</string>
+    <string name="account_options_preload_title">ÓÊ¼şÔ¤¼ÓÔØ</string>
+    <string name="account_options_preload_message_text">ÓÊ¼şÎÄ±¾</string>
+    <string name="account_options_preload_message_parts">Ç¶ÈëµÄÍ¼Ïñ</string>
 
 </resources>

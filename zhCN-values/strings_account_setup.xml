@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Add New account -->
+
+    <string name="account_new_activity">新帐户</string>
+    <string name="account_edit_activity">编辑帐户设置</string>
+    <string name="account_setup_gmail_title">Gmail或Google Apps</string>
+    <string name="account_setup_simple_page_title">简易设置</string>
+    <string name="account_setup_incoming_page_title">接收服务器</string>
+    <string name="account_setup_outgoing_page_title">发送服务器</string>
+    <string name="account_setup_finish_page_title">即将完成</string>
+    <string name="account_setup_back">返回</string>
+    <string name="account_setup_next">下一个</string>
+    <string name="account_setup_save">保存</string>
+    <string name="account_setup_advanced">手动</string>
+    <string name="account_setup_your_name">你的姓名(对于外发的邮件)</string>
+    <string name="account_setup_your_email">Email</string>
+    <string name="account_setup_email_hint">name@somewhere.com</string>
+    <string name="account_setup_your_password">密码</string>
+    <string name="account_setup_password_hint">密码提示</string>
+    <string name="account_setup_show_password">显示密码</string>
+
+    <!-- Gmail accounts -->
+
+    <string name="account_setup_gmail_other">其它…</string>
+    <string name="account_setup_gmail_other_arg">其它 (%s)</string>
+    <string name="account_setup_gmail_web_activity_title">请登录到Gmail或Google Apps帐户</string>
+    <string name="account_setup_gmail_web_activity_title_arg">请登录%s</string>
+    <string name="account_setup_gmail_email_prompt">选择一个系统帐户或其它的...</string>
+
+    <!-- Incoming server settings -->
+
+    <string name="account_setup_incoming_server_type">服务器类型</string>
+    <string name="account_setup_incoming_server_name">服务器名称</string>
+    <string name="account_setup_incoming_server_port">服务器端口</string>
+
+    <string-array name="account_setup_incoming_login_scheme_array">
+        <item>自动选择</item>
+        <item>优先保持兼容性</item>
+    </string-array>
+
+    <string name="account_setup_incoming_login_name">登录</string>
+    <string name="account_setup_incoming_login_password">密码</string>
+	<string name="account_setup_incoming_login_ews_help">Exchange服务器通常需要一个域名,
+		如\"corp/user@corp.com\", \"sales/user@corp.com\", 等</string>
+
+    <!-- IMAP -->
+
+    <string name="account_setup_incoming_imap_prefix">文件夹前缀</string>
+    <string name="account_setup_incoming_imap_prefix_auto">自动</string>
+
+    <!-- POP3 -->
+
+    <string name="account_setup_incoming_pop3_order">POP3邮件排序</string>
+
+    <string-array name="account_setup_incoming_pop3_order_array">
+        <item>自动</item>
+        <item>直接 (常用的)</item>
+        <item>逆序 (少见的)</item>
+    </string-array>
+
+    <!-- EWS -->
+
+    <string name="account_setup_ews_shared_mailbox">EWS 共享邮箱(地址)</string>
+
+    <!-- Outgoing server settings -->
+
+    <string name="account_setup_no_outgoing">无发送服务器</string>
+    <string name="account_setup_wifi_outgoing">Wifi时覆盖</string>
+    <string name="account_setup_wifi_outgoing_ssid_label">指定网络(留空时为任意网络)</string>
+    <string name="account_setup_wifi_outgoing_ssid_current">当前</string>
+    <string name="account_setup_smtp_server_name">SMTP服务器</string>
+    <string name="account_setup_smtp_server_port">服务器端口</string>
+    <string name="account_setup_smtp_login_scheme">身份验证</string>
+
+    <string-array name="account_setup_smtp_login_scheme_array">
+        <item>自动选择</item>
+        <item>不登录</item>
+        <item>SASL CRAM-MD5</item>
+        <item>SASL PLAIN</item>
+        <item>SASL LOGIN</item>
+    </string-array>
+
+    <string name="account_setup_smtp_login_name">登录</string>
+    <string name="account_setup_smtp_login_password">密码</string>
+    <string name="account_setup_save_account_as">帐户名</string>
+    <string name="account_setup_server_security_prompt">安全类型</string>
+
+    <string-array name="account_setup_server_security_array_internet">
+        <item>无</item>
+        <item>SSL (严格检查)</item>
+        <item>SSL (接受任何证书)</item>
+        <item>STARTTLS (严格检查)</item>
+        <item>STARTTLS (接收任何证书)</item>
+    </string-array>
+    <string-array name="account_setup_server_security_array_exchange">
+        <item>无</item>
+        <item>SSL (严格检查)</item>
+        <item>SSL (接收任何证书)</item>
+    </string-array>
+
+    <string name="account_setup_error_missing_username">请输入姓名</string>
+    <string name="account_setup_error_missing_email">请输入Email</string>
+    <string name="account_setup_error_missing_login">请输入登录名</string>
+    <string name="account_setup_error_missing_password">请输入密码</string>
+    <string name="account_setup_error_missing_server_name">请输入服务器名</string>
+    <string name="account_setup_error_missing_server_port">请输入服务器端口</string>
+    <string name="account_setup_error_missing_account_name">请输入帐户名</string>
+    <string name="account_setup_lookup_title">服务器设置</string>
+    <string name="account_setup_lookup_message">尝试自动发现服务器设置...</string>
+    <string name="account_setup_progress_title">检查中…</string>
+    <string name="account_setup_progress_incoming_message_imap">邮件接收服务器\nIMAP…</string>
+    <string name="account_setup_progress_incoming_message_pop3">邮件接收服务器\nPOP3…</string>
+    <string name="account_setup_progress_outgoing_message">邮件发送服务器\nSMTP…</string>
+    <string name="account_setup_progress_ews_message">Exchange服务器\nEWS…</string>
+    <string name="account_setup_check_error_title">帐户检查出错</string>
+    <string name="account_setup_check_error_tail">请确保数据无误</string>
+    <string name="account_setup_check_error_imap">邮件接收服务器(IMAP): %1$s.</string>
+    <string name="account_setup_check_error_pop3">邮件接收服务器(POP3): %1$s.</string>
+    <string name="account_setup_check_error_smtp">邮件发送服务器(SMTP): %1$s.</string>
+    <string name="account_setup_check_error_ews">Exchange服务器(EWS): %1$s.</string>
+    <string name="account_setup_warning_header">请注意:</string>
+    <string name="account_setup_warning_force_folders">IMAP前缀已发生变化, 请检查文件夹设置.</string>
+    <string name="account_setup_warning_smtp_no_auth">邮件发送服务器未设置身份验证.</string>
+	<string name="account_setup_add_another">要添加其它帐户,请在帐户列表使用菜单|添加帐户.\n\n
+		要配置文件夹和其它帐户设置,在帐户列表中长按对应帐户名.</string>
+    <string name="account_setup_view_ssl_certs">查看SSL证书</string>
+    <string name="account_setup_view_ssl_old">查看以前的</string>
+    <string name="account_setup_view_ssl_new">当前</string>
+    <string name="account_setup_view_ssl_subject">颁发给</string>
+    <string name="account_setup_view_ssl_issuer">颁发自</string>
+    <string name="account_setup_view_ssl_valid_from">有效期开始</string>
+    <string name="account_setup_view_ssl_valid_until">有效期结束</string>
+    <string name="account_setup_view_ssl_confirm_header">选择你认为可信的证书</string>
+
+    <!-- Account type -->
+
+    <string name="account_type_label_gmail">Gmail或Google Apps</string>
+    <string name="account_type_summary_gmail">AquaMail将会使用Google推荐的 \"更安全\"的身份认证, 将不会查看,存储或传输帐户的密码.</string>
+    <string name="account_type_label_internet">互联网邮件</string>
+	<string name="account_type_summary_internet">Yahoo, AOL, Hotmail, Fastmail, Gmail和其它. 使用IMAP/POP3/SMTP的自动或手动配置.
+		有时对于企业邮箱也有效.</string>
+    <string name="account_type_label_exchange">Exchange</string>
+	<string name="account_type_summary_exchange">Office 365, Exchange Online和其它. 常用于企业邮箱.
+		使用EWS(Exchange Web Services)协议,不支持Kerio.</string>
+
+    <!-- Gmail OAUTH -->
+
+    <string name="oauth_gmail_auth_progress">Google帐户验证中…</string>
+    <string name="oauth_gmail_auth_needed">请授予帐户访问邮件的权限</string>
+    <string name="oauth_gmail_upgrade_notice">此Gmail帐户可以升级到Google最新的安全标准(OAUTH2).</string>
+    <string name="oauth_gmail_upgrade_confirm_title">信息</string>
+	<string name="oauth_gmail_upgrade_confirm_message">Google最新的安全标准OAUTH2是一种使AquaMail无需查看/存储/存储密码而
+		能够访问邮件的认证方式.\n\n本应用将会通过Google帐户服务来请求读取邮件的权限.</string>
+    <string name="oauth_gmail_upgrade_confirm_now">现在</string>
+    <string name="oauth_gmail_upgrade_confirm_later">稍后</string>
+    <string name="oauth_gmail_upgrade_confirm_never">从不</string>
+    <string name="oauth_gmail_web_view_loading">加载Google认证页面…</string>
+    <string name="oauth_gmail_error_title">错误</string>
+    <string name="oauth_gmail_error_invalid_data">Google的OAUTH2服务器返回了一些奇葩的东西...</string>
+    <string name="oauth_gmail_error_changed_account">请登录到%1$s, 而不是 %2$s.</string>
+
+</resources>

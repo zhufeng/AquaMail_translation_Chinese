@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account list activity -->
+
+    <string name="account_list_manual_sync">关闭自动同步</string>
+
+    <!-- Account context menu -->
+
+    <string name="account_list_menu_settings">帐户设置</string>
+    <string name="account_list_menu_options">选项和文件夹</string>
+    <string name="account_list_menu_special">特殊设置</string>
+    <string name="account_list_menu_aliases">身份</string>
+    <string name="account_list_menu_rename">重命名帐户</string>
+    <string name="account_list_menu_delete">删除帐户</string>
+    <string name="account_list_menu_sort_title">改变顺序</string>
+    <string name="account_list_menu_sort_move_up">上移</string>
+    <string name="account_list_menu_sort_move_down">下移</string>
+    <string name="account_list_menu_sort_reset">按名称排列</string>
+
+    <!-- Folder context menu -->
+
+    <string name="account_list_menu_folder_clear_recent">从近期列表中清除</string>
+    <string name="account_list_menu_folder_clear_recent_all">从近期列表中清除所有</string>
+
+    <!-- Diags -->
+
+    <string name="account_list_menu_diag_message_dates">检测: 邮件日期</string>
+
+    <!-- Special items -->
+
+    <string name="account_list_new_message">新邮件</string>
+    <string name="account_list_smart_inbox">智能文件夹</string>
+    <string name="account_list_new_account">设置一个新帐户</string>
+
+    <!-- Menu -->
+
+    <string name="account_list_menu_sync_all">同步所有</string>
+    <string name="account_list_menu_new_message">新邮件</string>
+    <string name="account_list_menu_preferences">设置</string>
+    <string name="account_list_menu_add_account">添加一个帐户</string>
+    <string name="account_list_menu_backup_restore">备份和同步</string>
+    <string name="account_list_menu_expunge">压缩数据库</string>
+    <string name="account_list_menu_cancel_all_tasks">取消网络任务</string>
+    <string name="account_list_menu_info">信息</string>
+    <string name="account_list_menu_about">关于</string>
+    <string name="account_list_menu_purchase">关于Pro版升级</string>
+    <string name="account_list_menu_changelog">最近更新</string>
+    <string name="account_list_menu_uilock_now">马上锁定访问</string>
+    <string name="account_list_menu_purge_deleted_folders">清空[已删除]文件夹</string>
+    <string name="account_list_applying_theme">应用新设置…</string>
+
+    <!-- Rename -->
+
+    <string name="account_list_rename_dialog_title">重命名</string>
+    <string name="account_list_rename_dialog_account_name_label">帐户名:</string>
+    <string name="account_list_rename_dialog_user_name_label">你的名字:</string>
+
+    <!-- Delete -->
+
+    <string name="account_list_delete_confirm_title">请确认</string>
+    <string name="account_list_delete_confirm_message">删除邮箱帐户\"%1$s\"?</string>
+    <string name="account_list_delete_progress_title">请稍等…</string>
+    <string name="account_list_delete_progress_message">删除邮箱帐户中(%1$d)…</string>
+
+    <!-- Expunge -->
+
+    <string name="account_list_expunge_progress_title">请稍等…</string>
+    <string name="account_list_expunge_progress_message_no_data">清理旧邮件…</string>
+    <string name="account_list_expunge_progress_message_with_data">清理旧邮件: %1$s (%2$d)…</string>
+    <string name="account_list_vacuum_database">压缩数据库中…</string>
+
+    <!-- Sending -->
+
+    <string name="account_list_send_title">邮件发送中…</string>
+    <string name="account_list_send_connecting">连接并发送中…</string>
+    <string name="account_list_send_sending_one">发送 %1$d Kb</string>
+    <string name="account_list_send_sending_many">发送 %1$d Kb, %2$d 封邮件</string>
+
+</resources>
