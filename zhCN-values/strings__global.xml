@@ -3,30 +3,30 @@
 
     <!-- Global -->
 
-    <string name="folder_inbox_name">Inbox</string>
-    <string name="folder_outbox_name">[ Drafts ]</string>
-    <string name="folder_sentbox_name">[ Sent ]</string>
-    <string name="folder_deleted_name">[ Deleted ]</string>
-    <string name="folder_none_name">- none -</string>
-    <string name="folder_show_more">Other folders…</string>
-    <string name="folder_manage">Manage folders…</string>
-    <string name="folder_no_folders">No folders</string>
-    <string name="close">Close</string>
-    <string name="cancel">Cancel</string>
-    <string name="canceling_message">Canceling…</string>
-    <string name="ok">OK</string>
-    <string name="open">Open</string>
-    <string name="date_today">Today</string>
-    <string name="delete">Delete</string>
-    <string name="confirm">Confirm</string>
-    <string name="confirm_please_confirm">Please confirm</string>
-    <string name="aw_there_are_more">Swipe left to view more messages</string>
+    <string name="folder_inbox_name">收件箱</string>
+    <string name="folder_outbox_name">[草稿]</string>
+    <string name="folder_sentbox_name">[已发送]</string>
+    <string name="folder_deleted_name">[已删除]</string>
+    <string name="folder_none_name">- 无 -</string>
+    <string name="folder_show_more">其它文件夹…</string>
+    <string name="folder_manage">管理文件夹…</string>
+    <string name="folder_no_folders">无文件夹</string>
+    <string name="close">关闭</string>
+    <string name="cancel">取消</string>
+    <string name="canceling_message">正在取消…</string>
+    <string name="ok">确定</string>
+    <string name="open">打开</string>
+    <string name="date_today">今天</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确认</string>
+    <string name="confirm_please_confirm">请确认</string>
+    <string name="aw_there_are_more">左滑以查看更多邮件</string>
 
     <!-- Dashclock -->
 
-    <string name="dashclock_app_description">Per-account unread counts</string>
-    <string name="dashclock_prefs_activity">AquaMail DashClock settings</string>
-    <string name="dashclock_accounts_all">All accounts</string>
+    <string name="dashclock_app_description">每帐户未读邮件计数</string>
+    <string name="dashclock_prefs_activity">AquaMail DashClock设置</string>
+    <string name="dashclock_accounts_all">所有帐户</string>
 
     <!-- Locale specific charsets -->
 
@@ -35,32 +35,32 @@
 
     <!-- Missing subject/address -->
 
-    <string name="message_missing_subject">[ No subject ]</string>
-    <string name="message_missing_from">[ No address ]</string>
+    <string name="message_missing_subject">[无主题]</string>
+    <string name="message_missing_from">[无地址]</string>
 
     <!-- WebView context menus -->
 
-    <string name="webview_context_menu_copy">Copy</string>
-    <string name="webview_context_menu_send">Share</string>
-    <string name="webview_context_menu_save">Save</string>
-    <string name="webview_context_menu_open">Open</string>
-    <string name="webview_context_menu_dial">Dial</string>
-    <string name="webview_context_menu_sms">Send SMS</string>
-    <string name="webview_context_menu_email">Send email</string>
-    <string name="webview_context_menu_add_contacts">Open/Save in Contacts</string>
-    <string name="webview_context_menu_url_copy_done">The link address has been copied</string>
-    <string name="webview_context_menu_image_title">Embedded image</string>
-    <string name="webview_context_menu_image_save_result">Image saved as %1$s</string>
-    <string name="webview_context_menu_image_download">Download</string>
-    <string name="webview_context_menu_image_download_started">Download started</string>
-    <string name="webview_context_menu_phone_copy_done">The phone number has been copied</string>
-    <string name="webview_context_menu_email_copy_done">The email has been copied</string>
+    <string name="webview_context_menu_copy">复制</string>
+    <string name="webview_context_menu_send">分享</string>
+    <string name="webview_context_menu_save">保存</string>
+    <string name="webview_context_menu_open">打开</string>
+    <string name="webview_context_menu_dial">拨号</string>
+    <string name="webview_context_menu_sms">发送短信</string>
+    <string name="webview_context_menu_email">发送邮件</string>
+	<string name="webview_context_menu_add_contacts">在联系人中打开/保存</string>
+    <string name="webview_context_menu_url_copy_done">链接地址已复制</string>
+    <string name="webview_context_menu_image_title">嵌入的图像</string>
+    <string name="webview_context_menu_image_save_result">图片已保存为 %1$s</string>
+    <string name="webview_context_menu_image_download">下载</string>
+    <string name="webview_context_menu_image_download_started">开始下载</string>
+    <string name="webview_context_menu_phone_copy_done">电话号码已复制</string>
+    <string name="webview_context_menu_email_copy_done">邮件已复制</string>
 
     <!-- Accounts / Contacts -->
 
-    <string name="contacts_no_account_to_add_to">No account for adding contacts to</string>
-    <string name="contacts_group_notes">Added by AquaMail</string>
-    <string name="contacts_add_error">Error adding contact %1$s: %2$s</string>
+    <string name="contacts_no_account_to_add_to">无帐户来添加联系人</string>
+    <string name="contacts_group_notes">由AquaMail添加</string>
+    <string name="contacts_add_error">添加联系人出错 %1$s: %2$s</string>
 
     <!-- Send errors -->
 
