@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- About Activity -->
+	
+	<string name="about_activity">关于 AquaMail</string>
+	
+	<string name="about_text_2">Android的一个邮件APP.</string>
+	
+</resources>

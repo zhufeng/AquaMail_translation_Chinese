@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- New message activity -->
+
+    <string name="new_message_activity_new">新邮件</string>
+    <string name="new_message_activity_draft">草稿</string>
+    <string name="new_message_activity_sent">已发送</string>
+    <string name="new_message_action_send">发送</string>
+    <string name="new_message_action_edit_quote">编辑引用</string>
+    <string name="new_message_action_as_new">作为新邮件编辑</string>
+    <string name="new_message_from_chooser_title">发送自:</string>
+    <string name="new_message_from_hint">从</string>
+    <string name="new_message_to_hint">至</string>
+    <string name="new_message_cc_hint">抄送</string>
+    <string name="new_message_bcc_hint">密送</string>
+    <string name="new_message_reply_to_hint">回复给</string>
+    <string name="new_message_subject_hint">邮件主题</string>
+    <string name="new_message_body_hint">邮件正文</string>
+    <string name="new_message_malformed_email_multi">请输入一个或多个有效的邮件地址</string>
+    <string name="new_message_malformed_email_single">请留空或输入单个地址</string>
+    <string name="new_message_no_subject">请输入邮件主题</string>
+	<string name="new_message_no_recepients">请在发送给,抄送或密送中输入至少一个接收者</string>
+    <string name="new_message_no_body">请在邮件正文中输入一些内容</string>
+    <string name="new_message_draft_saved">草稿已保存到 %1$s</string>
+    <string name="new_message_sending">发送中…</string>
+	<string name="new_message_menu_add_cc_bcc">显示/增加 抄送/密送</string>
+    <string name="new_message_menu_send">发送</string>
+    <string name="new_message_menu_save">保存</string>
+    <string name="new_message_menu_reply_to">设置回复地址</string>
+    <string name="new_message_menu_add_attachment">添加附件</string>
+    <string name="new_message_menu_add_attachment_image_cropped">添加裁剪的图像</string>
+    <string name="new_message_menu_delete">删除</string>
+    <string name="new_message_menu_edit_as_new">作为新邮件编辑</string>
+    <string name="new_message_menu_delivery_receipt">请求送达回执</string>
+    <string name="new_message_delivery_receipt_prompt">已请求送达回执</string>
+    <string name="new_message_menu_read_receipt">请求已读回执</string>
+    <string name="new_message_read_receipt_prompt">已请求已读回执</string>
+    <string name="new_message_menu_priority">设置高优先级</string>
+    <string name="new_message_priority_prompt">高优先级</string>
+    <string name="new_message_menu_insert_greeting">插入问候语</string>
+    <string name="new_message_menu_append_signature">附加签名</string>
+    <string name="new_message_menu_flipdog_spell_checker">拼写检查 (Flipdog Solutions, LLC)</string>
+    <string name="new_message_insert_group_confirm">插入分组到: %1$s?</string>
+    <string name="new_message_attach_chooser">选择…</string>
+    <string name="new_message_attach_error_no_intent">未找到用于打开附件的应用</string>
+    <string name="new_message_attach_error_invalid">无效或不存在的附件 %1$s</string>
+    <string name="new_message_attach_warning_too_large">此附件较大: %1$s, 可能需要较长时间来发送</string>
+    <string name="new_message_attach_error_removing">正在移除不存在的附件 %1$s</string>
+    <string name="new_message_attachment_size_none">未知尺寸</string>
+    <string name="new_message_inline_not_image">不是图像文件: %1$s</string>
+    <string name="new_message_exit_title">编辑草稿</string>
+    <string name="new_message_exit_message">结束编辑此邮件草稿?</string>
+    <string name="new_message_exit_save">保存并退出</string>
+    <string name="new_message_exit_resume">继续编辑</string>
+    <string name="new_message_exit_abandon">放弃编辑</string>
+    <string name="new_message_delete_draft_title">邮件草稿</string>
+    <string name="new_message_delete_draft_message">确定删除此邮件草稿?</string>
+    <string name="new_message_delete_draft_deleted">邮件草稿已删除</string>
+    <string name="new_message_delete_sent_title">已发送邮件</string>
+    <string name="new_message_delete_sent_message">确定删除此已发送邮件?</string>
+    <string name="new_message_delete_sent_deleted">已发送邮件已删除</string>
+    <string name="new_message_send_error">发送错误: %1$s</string>
+    <string name="new_message_send_no_content">邮件无内容</string>
+    <string name="new_message_send_size_exceeded">此邮件尺寸(%1$dK)超过服务器最大尺寸限制(%2$dK)</string>
+    <string name="new_message_copy_contacts_done">联系人已复制</string>
+
+    <!-- For Android 2.1 -->
+
+	<string name="new_message_menu_add_attachment_gallery_bug_notice">此版本Android有bug.\n\n要从图库添加内容,
+		请使用菜单/附加图像或附加视频.</string>
+    <string name="new_message_menu_add_attachment_camera">拍照并附加照片</string>
+    <string name="new_message_menu_add_attachment_image">附加图片</string>
+    <string name="new_message_menu_add_attachment_video">附加视频</string>
+
+    <!-- Referenced messages -->
+
+    <string name="new_message_ref_quote_header_toggle">包含原始邮件</string>
+    <string name="new_message_ref_quote_header_edit">编辑</string>
+    <string name="new_message_ref_header_reply_gmail">在 %2$s %1$s 写道:</string>
+    <string name="new_message_ref_header_reply_outlook">--- 原始邮件 ---</string>
+    <string name="new_message_ref_header_forward">--- 转发的邮件 ---</string>
+    <string name="new_message_ref_field_from">从</string>
+    <string name="new_message_ref_field_date">日期</string>
+    <string name="new_message_ref_field_subject">主题</string>
+    <string name="new_message_ref_field_to">至</string>
+    <string name="new_message_ref_field_cc">抄送</string>
+    <string name="new_message_ref_field_bcc">密送</string>
+    <string name="new_message_pick_title">选择附件</string>
+    <string name="new_message_pick_attach">附加附件</string>
+    <string name="new_message_pick_none">无</string>
+    <string name="new_message_pick_all">所有</string>
+    <string name="new_message_pick_wait">请等待下载附件</string>
+    <string name="new_message_no_accounts">没有用于发送邮件的帐户</string>
+    <string name="new_message_default_account">使用默认帐户</string>
+    <string name="new_message_no_email">此联系人无邮件地址</string>
+    <string name="new_message_add_email_title">添加邮件地址到联系人</string>
+    <string name="new_message_add_email_nothing">所有输入的邮件地址均已存在联系人中</string>
+
+    <!-- Hints for email types -->
+
+    <string name="new_message_email_type_home">家庭</string>
+    <string name="new_message_email_type_work">工作</string>
+
+    <!-- New contact picker -->
+
+    <string name="new_message_contacts_pager_system">联系人</string>
+    <string name="new_message_contacts_pager_recent">最近</string>
+    <string name="new_message_contacts_pager_groups">分组</string>
+    <string name="new_message_contacts_search_hint">搜索姓名</string>
+    <string name="new_message_contacts_selected_none">取消</string>
+    <string name="new_message_contacts_selected_some">已选择: %1$d</string>
+    <string name="new_message_contacts_load_error">加载错误</string>
+    <string name="new_message_contacts_no_contacts">无联系人</string>
+    <string name="new_message_contacts_no_groups">无分组</string>
+    <string name="new_message_contacts_no_matches">无匹配</string>
+    <string name="new_message_contacts_loading">加载中…</string>
+    <string name="new_message_menu_pick_contacts_internal">内置的联系人选择器</string>
+    <string name="new_message_menu_pick_contacts_system">系统联系人选择器</string>
+    <string name="new_message_contacts_group_my_contacts">联系人</string>
+    <string name="new_message_contacts_group_friends">朋友</string>
+    <string name="new_message_contacts_group_family">家庭</string>
+    <string name="new_message_contacts_group_coworkers">同事</string>
+    <string name="new_message_contacts_searching_server">正在搜索服务器上的联系人…</string>
+
+    <!-- Starred contact picker -->
+
+    <string name="starred_contact_picker_not_found">未找到星标联系人</string>
+
+    <!-- Debug logs -->
+
+    <string name="new_message_attach_debug_logs">调试: 附加日志</string>
+
+    <!-- Rich text editor -->
+
+    <string name="new_message_menu_format_rich">切换到富文本编辑模式</string>
+    <string name="new_message_menu_format_plain">切换到纯文本编辑模式</string>
+
+</resources>

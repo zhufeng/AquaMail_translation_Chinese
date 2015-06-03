@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message List Activity -->
+
+    <string name="message_list_activity">邮件列表</string>
+    <string name="message_list_activity_in_folder">%1$s: %2$s</string>
+    <string name="message_list_loading_more">加载中…</string>
+    <string name="message_list_loading_complete">已加载所有邮件</string>
+    <string name="message_list_no_messages">无邮件</string>
+    <string name="message_list_loading_error">加载错误</string>
+    <string name="message_list_loading_manual_by_count">再载入 %1$d 封邮件</string>
+    <string name="message_list_loading_manual_by_days">再载入 %1$d 天的邮件 (显示 %2$d)</string>
+    <string name="message_list_airplane_mode">飞行模式</string>
+    <string name="message_list_showing_all">离线列表</string>
+
+    <!-- Menu -->
+
+    <string name="message_list_menu_toggle">选择邮件</string>
+    <string name="message_list_menu_compose">新邮件</string>
+    <string name="message_list_menu_refresh">刷新(收取邮件)</string>
+    <string name="message_list_menu_check_all">选择所有</string>
+    <string name="message_list_menu_accounts">帐户</string>
+    <string name="message_list_menu_mark_all_read">标记所有为已读</string>
+    <string name="message_list_menu_purge_deleted">删除所有</string>
+    <string name="message_list_menu_restore_hidden">还原隐藏的邮件</string>
+
+    <!-- Sorting -->
+
+    <string name="message_list_menu_sort">排序</string>
+	<string name="message_list_menu_sort_datetime">按日期/时间</string>
+	<string name="message_list_menu_sort_datetime_reverse">按日期/时间(倒序)</string>
+    <string name="message_list_menu_sort_subject">按主题</string>
+    <string name="message_list_menu_sort_sender">按发件人</string>
+    <string name="message_list_menu_sort_attachments">按附件</string>
+    <string name="message_list_menu_sort_has_attachments_hint">有附件的</string>
+    <string name="message_list_menu_sort_no_attachments_hint">无附件的</string>
+    <string name="message_list_menu_sort_unread_first">未读优先</string>
+    <string name="message_list_menu_sort_is_unread_hint">未读</string>
+    <string name="message_list_menu_sort_is_read_hint">已读</string>
+    <string name="message_list_menu_sort_starred_first">加星标的优先</string>
+    <string name="message_list_menu_sort_is_starred_hint">已加星标</string>
+    <string name="message_list_menu_sort_is_not_starred_hint">未加星标</string>
+    <string name="message_list_menu_sort_unread_starred_first">已加星标的未读优先</string>
+    <string name="message_list_menu_sort_save_default">保存为默认</string>
+    <string name="message_list_sort_subject_hint">按主题排序</string>
+    <string name="message_list_sort_sender_hint">按发件人排序</string>
+    <string name="message_list_sort_attachments_hint">按附件排序</string>
+    <string name="message_list_sort_unread_first_hint">按未读优先排序</string>
+    <string name="message_list_sort_starred_first_hint">按已加星标优先排序</string>
+
+    <!-- Operations -->
+
+    <string name="message_list_sync_time_taken">%1$.2f 秒</string>
+    <string name="message_list_op_delete">现在删除</string>
+    <string name="message_list_op_move_deleted">移动到已删除</string>
+    <string name="message_list_op_restore">恢复</string>
+    <string name="message_list_op_hide">隐藏 (保留在服务器上)</string>
+    <string name="message_list_op_move">移动到文件夹…</string>
+    <string name="message_list_op_smart_delete">智能删除</string>
+    <string name="message_list_op_as_read">标记为已读</string>
+    <string name="message_list_op_as_unread">标记为未读</string>
+    <string name="message_list_op_as_star">加星标</string>
+    <string name="message_list_op_as_unstar">移除星标</string>
+    <string name="message_list_op_no_send">不要发送</string>
+    <string name="message_list_op_move_spam">移动到垃圾箱</string>
+    <string name="message_list_op_move_archive">移动到归档</string>
+    <string name="message_list_op_headers">显示邮件头</string>
+
+    <!-- Move to folder dialog -->
+
+    <string name="message_list_op_move_no_dest">无文件夹来移动</string>
+
+    <!-- Context menu -->
+
+    <plurals name="message_list_menu_title">
+        <item quantity="one">%d 邮件</item>
+        <item quantity="other">%d 邮件</item>
+    </plurals>
+
+    <!-- Drag and drop -->
+
+    <plurals name="message_list_drag_title">
+        <item quantity="one">移动一封邮件</item>
+        <item quantity="other">移动 %d 封邮件</item>
+    </plurals>
+
+    <!-- Selection -->
+
+    <string name="message_list_press_again_to_clear_selection">再次按返回键以清除选择</string>
+
+    <!-- Pull to refresh -->
+
+    <string name="message_list_pull_pull_to_select">下拉选择</string>
+    <string name="message_list_pull_release_to_select">释放以选择</string>
+    <string name="message_list_pull_pull_to_refresh">下拉刷新</string>
+    <string name="message_list_pull_release_to_refresh">释放以刷新</string>
+    <string name="message_list_pull_refreshing">刷新中…</string>
+
+</resources>
