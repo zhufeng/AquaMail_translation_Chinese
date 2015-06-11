@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="account_alias_list_title">身份</string>
+    <string name="account_alias_list_title_name">%1$s的身份</string>
+    <string name="account_alias_list_add">添加身份</string>
+    <string name="alias_list_menu_setup">设置</string>
+    <string name="alias_list_menu_options">选项</string>
+    <string name="alias_list_menu_delete">删除身份</string>
+    <string name="alias_list_delete_confirm_title">请确认</string>
+    <string name="alias_list_delete_confirm_message">删除邮件身份 \"%1$s\"?</string>
+
+    <!-- Account setup activity -->
+
+    <string name="alias_new_title">新身份</string>
+    <string name="alias_edit_title">编辑身份</string>
+    <string name="alias_own_outgoing_server">配置发送服务器</string>
+    <string name="alias_own_signature">设置签名</string>
+    <string name="alias_own_copy_self">设置 \"密送给自己\"</string>
+    <string name="alias_setup_save_alias_as">身份名 (可选):</string>
+    <string name="alias_setup_done_2">完成时按保存</string>
+    <string name="alias_save_start_options">保存后配置选项</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account Folders Activity -->
+    
+    <string name="account_folders_activity">帐户文件夹</string>
+    <string name="account_folders_prompt">%1$s 的文件夹</string>
+    <string name="account_folders_save_changes">保存更改</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Attachments -->
+
+	<string name="attachment_storage_not_available">没有空间来存储附件,需要一张内存卡</string>
+	<string name="attachment_chooser">打开方式…</string>
+	<string name="attachment_dialog_title">附件</string>
+	<string name="attachment_dialog_save_body">保存 %1$s (%2$s)</string>
+	<string name="attachment_dialog_error_saved_body">未找到应用程序来打开 \n%1$s 类型附件.\n\n保存为 %2$s.</string>
+	<string name="attachment_dialog_error_local_body">未找到应用程序来打开 \n%1$s 类型附件.\n\n标识为 %2$s.</string>
+	<string name="attachment_dialog_info_saved_body">保存为 %1$s (%2$s)</string>
+	<string name="attachment_dialog_info_local_body">在此本地设备标识为:\n\n%1$s</string>
+	<string name="attachment_is_missing">附件 %1$s 未找到</string>
+	<string name="attachment_folder_not_syncable">文件夹同步已禁用, 附件加载也已禁用</string>
+	<string name="attachment_download_all">下载所有</string>
+	<string name="attachment_save_all">保存所有</string>
+	<string name="attachment_all_title">所有附件</string>
+	<string name="attachment_calendar_sync">等待日历同步…</string>
+	
+	<!-- Actions -->
+	
+	<string name="attachment_action_view">查看</string>
+	<string name="attachment_action_share">分享</string>
+	<string name="attachment_action_save_and_open">保存并打开</string>
+	<string name="attachment_action_just_save">仅保存</string>
+
+</resources>

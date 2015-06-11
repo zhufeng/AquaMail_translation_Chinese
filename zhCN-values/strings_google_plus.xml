@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="google_plus_menu_share">在Google+上分享</string>
+    <string name="google_plus_share_text">我正在使用AquaMail, Android上的一个新的邮件App.</string>
+    <string name="google_plus_not_installed">Google+似乎没有安装</string>
+
+</resources>

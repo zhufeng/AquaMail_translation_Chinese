@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Accounts -->
+    
+    <string name="data_get_accounts_label">AquaMail帐户</string>
+    <string name="data_get_accounts_description">获取已配置的AquaMail帐户的名称(登录密码不会包含在其中)</string>
+
+    <!-- Messages -->
+
+    <string name="data_read_messages_label">AquaMail邮件数据</string>
+    <string name="data_read_messages_description">获取已收到邮件的内容</string>
+    
+    <!-- Message actions -->
+    
+    <string name="data_message_actions_label">AquaMail邮件操作</string>
+    <string name="data_message_actions_description">标记为已读,删除等</string>
+    
+    <!-- Account actions -->
+    
+    <string name="data_account_actions_label">AquaMail帐户操作</string>
+    <string name="data_account_actions_description">开始邮件同步</string>
+
+</resources>

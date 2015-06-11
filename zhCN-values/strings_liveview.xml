@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences -->
+
+    <string name="liveview_prefs_title">AquaMail LiveView 参数设置</string>
+    <string name="liveview_plugin_enabled">已启用</string>
+    <string name="liveview_plugin_only_unread">仅未读邮件</string>
+
+    <!-- Open action -->
+    
+    <string name="liveview_invalid_open_action">无效的打开操作</string>
+    <string name="liveview_invalid_message_missing">邮件未找到</string>
+
+</resources>

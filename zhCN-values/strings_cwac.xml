@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cwac_richedittext_style_bold">粗体</string>
+    <string name="cwac_richedittext_style_italic">斜体</string>
+    <string name="cwac_richedittext_style_underline">下划线</string>
+    <string name="cwac_richedittext_style_strike">删除线</string>
+    <!--
+    <string name="superscript">Superscript</string>
+    <string name="subscript">Subscript</string>
+    -->
+
+
+    <!-- Text color -->
+
+    <string name="cwac_richedittext_textcolor">文本颜色</string>
+
+     <!-- Font sizes -->
+
+    <string name="cwac_richedittext_size">字体大小</string>
+    <string name="cwac_richedittext_size_xsmall">超小号</string>
+    <string name="cwac_richedittext_size_small">小号</string>
+    <string name="cwac_richedittext_size_normal">普通</string>
+    <string name="cwac_richedittext_size_large">大号</string>
+    <string name="cwac_richedittext_size_xlarge">超大号</string>
+    
+    <!-- Typefaces -->
+     
+    <string name="cwac_richedittext_typeface">字体 (font)</string>
+    <string name="cwac_richedittext_typeface_default">默认</string>
+    <string name="cwac_richedittext_typeface_sans">Sans Serif</string>
+    <string name="cwac_richedittext_typeface_serif">Serif</string>
+    <string name="cwac_richedittext_typeface_mono">Monospace</string>
+
+    <!-- <string name="cwac_richedittext_effects">Effects</string> -->
+    <!--
+    <string name="lines">Lines</string>
+    <string name="normal">Normal</string>
+    <string name="center">Center</string>
+    <string name="opposite">Opposite</string>
+    -->
+
+
+    <!-- Inline images -->
+    
+    <string name="cwac_richedittext_insert_image">插入图像</string>
+    <string name="cwac_richedittext_image_url">设置超链接</string>
+    <string name="cwac_richedittext_image_scale_1">标准尺寸</string>
+    <string name="cwac_richedittext_image_scale_2">1/2 尺寸</string>
+    <string name="cwac_richedittext_image_scale_4">1/4 尺寸</string>
+    <string name="cwac_richedittext_image_scale_8">1/8 尺寸</string>
+    <string name="cwac_richedittext_image_align_top">顶部对齐</string>
+    <string name="cwac_richedittext_image_align_center">居中对齐</string>
+    <string name="cwac_richedittext_image_align_baseline">基线对齐</string>
+    <string name="cwac_richedittext_image_align_bottom">底部对齐</string>
+    
+    <!-- Link -->
+    
+    <string name="cwac_richedittext_link">设置超链接</string>
+    <string name="cwac_richedittext_link_select_first">要设置超链接, 请确定并先选择一些文字</string>
+    
+    <!-- Clear format -->
+
+    <string name="cwac_richedittext_clear_format">清除格式</string>
+
+</resources>

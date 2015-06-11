@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu -->
+
+    <string name="search_menu_title">搜索</string>
+    <string name="search_query_title">搜索: %1$s</string>
+
+    <!-- Global search -->
+
+    <string name="search_global_hint">搜索所有已加载邮件</string>
+
+    <!-- Folder search -->
+
+    <string name="search_folder_hint">搜索文件夹</string>
+    
+    <!-- Smart folder serach -->
+    
+    <string name="search_smart_hint">搜索智能文件夹</string>
+
+    <!-- Search state messages -->
+
+    <string name="search_loading_complete">搜索完成</string>
+    <string name="search_loading_error">搜索出错</string>
+    <string name="search_loading_manual">搜索下一个 %1$d</string>
+    <string name="search_loading_more">搜索中…</string>
+    <string name="search_loading_more_progress">搜索中 (%1$d/%2$d)…</string>
+
+</resources>

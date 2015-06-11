@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account backup and restore -->
+
+    <string name="account_backup_restore_activity">帐户备份与恢复</string>
+    <string name="account_backup_restore_error_format">错误: %1$s</string>
+    <string name="account_backup_restore_error_security_exception">\n\n密码是否正确?</string>
+    <string name="account_backup_restore_error_bad_file">数据格式错误(无效的备份文件)</string>
+    <string name="account_backup_restore_error_no_memory_card">内存卡找不到或未挂载</string>
+    <string name="account_backup_restore_error_open_file">无法打开备件文件</string>
+    <string name="account_backup_restore_no_backup">未找到备份</string>
+    <string name="account_backup_restore_report_backup">已备份 %1$d 帐户到 %2$s</string>
+    <string name="account_backup_restore_report_restore">已恢复 %1$d 帐户\n跳过 %2$d 重复的</string>
+    <string name="account_backup_restore_found_backup">从 %2$s 发现备份文件 %1$s</string>
+    <string name="account_backup_restore_title_backup">备份</string>
+    <string name="account_backup_restore_title_restore">恢复</string>
+    <string name="account_backup_restore_dlg_prompt_1">输入密码\n(6个以上字符):</string>
+    <string name="account_backup_restore_dlg_prompt_2">确认密码:</string>
+    <string name="account_backup_restore_dlg_show_password">显示密码</string>
+    <string name="account_backup_restore_include_setting_backup">备份app设置</string>
+    <string name="account_backup_restore_include_setting_restore">还原app设置</string>
+    <string name="account_backup_restore_report_backup_settings">\n\nApp设置已包含</string>
+    <string name="account_backup_restore_report_restore_settings">\n\n已恢复app设置</string>
+    <string name="account_backup_restore_report_restore_copied_from">\n\n从%1$s已复制</string>
+    <string name="account_backup_restore_choose_folder">文件夹</string>
+    <string name="account_backup_restore_copy_from">从 %1$s复制</string>
+    <string name="account_backup_restore_copy_to">复制到 %1$s</string>
+	<string name="account_backup_restore_onedrive_warning">OneDrive无法覆盖已存在的文件.\n\n如果上传按钮不能用,
+		请从AquaMail之外单独运行OneDrive删除旧的备份文件.然后返回此处重试.</string>
+
+</resources>

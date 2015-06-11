@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Draft List Activity -->
+	
+	<string name="draft_list_time_last_edited">最后编辑: %1$s</string>
+	<string name="draft_list_time_sent">已发送: %1$s</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account Special Settings Activity -->
+
+    <string name="account_special_activity">特殊设置</string>
+    <string name="prefs_category_special">特殊设置</string>
+
+    <!-- Special notifications -->
+
+    <string name="prefs_category_special_notify">@string/prefs_category_special</string>
+    <string name="prefs_category_special_notify_summary">此帐户的特殊邮件通知</string>
+
+    <!-- Special data storage -->
+
+    <string name="prefs_category_storage">数据存储</string>
+    <string name="prefs_category_special_storage">@string/prefs_category_special</string>
+    <string name="prefs_category_special_storage_summary">此帐户的特殊附件文件夹</string>
+
+    <!-- Special sync settings -->
+
+    <string name="prefs_category_special_sync">@string/prefs_category_special</string>
+    <string name="prefs_category_special_sync_summary">此帐户的特殊同步设置</string>
+
+</resources>

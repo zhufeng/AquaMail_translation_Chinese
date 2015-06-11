@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_color_picker_popular">常用</string>
+    <string name="new_color_picker_wheel">自定义</string>
+    <string name="new_color_picker_hex">值</string>
+    <string name="new_color_picker_hex_label">Hex值:</string>
+    <string name="new_color_picker_reset">重置</string>
+    
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account list -->
+
+    <string name="access_message_counts_no_unread">共%1$s 封邮件</string>
+    <string name="access_message_counts_unread_no_new">%1$d 未读, 共%2$s 邮件</string>
+    <string name="access_message_counts_unread_has_new">一些新的, %1$d 未读, 共%2$s 邮件</string>
+    <string name="access_refresh_account">刷新帐户</string>
+    <string name="access_account_with_name">帐户: %1$s</string>
+    <string name="access_account_last_check">上次刷新 %1$s</string>
+    <string name="access_account_last_check_error">上次刷新 %1$s, 错误</string>
+    <string name="access_folder_remote_name">远程文件夹名: %1$s</string>
+    <string name="access_folder_with_name">文件夹: %1$s</string>
+
+    <!-- Message list -->
+
+    <string name="access_message_list_unread">未读,</string>
+    <string name="access_message_list_starred">加星标,</string>
+    <string name="access_message_list_selected">已选择,</string>
+    <string name="access_message_list_attachments">有附件: %1$s</string>
+    <string name="access_message_list_action_mode">操作模式: %1$s</string>
+    <string name="access_message_list_proxy_selector">选择器</string>
+    <string name="access_message_list_proxy_star">星标指示器</string>
+    <string name="access_message_list_star_set">已加星标</string>
+    <string name="access_message_list_star_cleared">已清除星标</string>
+
+    <!-- Message display -->
+
+    <string name="access_message_display_from_contact">发件人联系人按钮</string>
+    <string name="access_message_display_full_screen">切换全屏</string>
+
+    <!-- New message -->
+
+    <string name="access_new_pick">选择联系人: %1$s</string>
+    <string name="access_new_remove_field">移除入口区域</string>
+
+    <!-- Folder settings: in Options and Folders -->
+
+    <string name="access_folder_settings">文件夹设置</string>
+
+    <!-- Folder navigation: up -->
+
+    <string name="access_folder_navigate_up">向上到父文件夹</string>
+
+    <!-- Widgets and folder options -->
+
+    <string name="access_color_button">颜色取样</string>
+
+</resources>
