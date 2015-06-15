@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message Display Activity -->
+
+    <string name="message_display_activity">邮件</string>
+    <string name="message_display_activity_in_folder">%1$s: %2$s</string>
+    <string name="message_display_loading">: 加载中…</string>
+    <string name="message_display_loading_canceled">: 已取消…</string>
+    <string name="message_display_loading_error">: 错误…</string>
+
+    <!-- Full / partial loading -->
+
+    <string name="message_display_load_title">加载中…</string>
+    <string name="message_display_load_pictures">显示链接的图像</string>
+    <string name="message_display_load_pictures_is_known">%1$s: 已知</string>
+    <string name="message_display_load_pictures_not_known">%1$s: 未知</string>
+    <string name="message_display_load_pictures_add_known">保存 %1$s\n作为已知邮件</string>
+    <string name="message_display_load_the_rest_opt_partial">加载最多 %1$s</string>
+    <string name="message_display_load_the_rest_opt_complete">加载所有: %1$s</string>
+    <string name="message_display_load_the_rest_complete">加载所有: %1$s</string>
+
+    <!-- Message headers -->
+
+    <string name="message_display_from">发送自:</string>
+    <string name="message_display_to">发送给:</string>
+    <string name="message_display_cc">抄送:</string>
+    <string name="message_display_bcc">密送:</string>
+    <string name="message_display_to_you">我</string>
+
+    <!-- Actions -->
+
+    <string name="message_display_action_reply">回复</string>
+    <string name="message_display_action_reply_all">回复所有</string>
+    <string name="message_display_action_forward">转发</string>
+    <string name="message_display_action_reply_as_new">回复 (作为新邮件)</string>
+    <string name="message_display_action_reply_clean">回复 (整洁)</string>
+    <string name="message_display_action_forward_anon">转发 (匿名)</string>
+    <string name="message_display_action_forward_starred">转发 (星号)</string>
+    <string name="message_display_action_copy">复制</string>
+    <string name="message_display_pending_op_message">请等待邮件加载…</string>
+    <string name="message_display_pending_op_canceled">取消加载</string>
+    <string name="message_display_pending_op_confirm">你想要使用部分加载的邮件来完成此操作吗?</string>
+    <string name="message_display_body_copy_done">邮件文本已复制</string>
+    <string name="message_display_headers_copy_done">邮件头已复制</string>
+
+    <!-- Menu -->
+
+    <string name="message_display_menu_view">查看</string>
+    <string name="message_display_menu_mobile_view_enable">启用移动视图</string>
+    <string name="message_display_menu_mobile_view_disable">禁用移动视图</string>
+    <string name="message_display_menu_mono_font_enable">启用mono字体</string>
+    <string name="message_display_menu_mono_font_disable">禁用mono字体</string>
+    <string name="message_display_menu_reload">Diag: 重新载入</string>
+    <string name="message_display_menu_white">启用白色背景</string>
+    <string name="message_display_menu_full_screen_enable">启用全屏</string>
+    <string name="message_display_menu_full_screen_disable">禁用全屏</string>
+	<string name="message_display_menu_copy_menu">复制/发送/分享/打印</string>
+    <string name="message_display_menu_copy_text">复制邮件文本</string>
+    <string name="message_display_menu_select_text">选择邮件文本</string>
+    <string name="message_display_menu_copy_headers">复制邮件头</string>
+	<string name="message_display_menu_send_share">发送/分享/打印邮件文本</string>
+    <string name="message_display_menu_kk_cloud_print">通过Google Cloud Print打印&#x2122;</string>
+    <string name="message_display_menu_send_to_calendar">发送到日历</string>
+    <string name="message_display_menu_navigate_prev">上一封</string>
+    <string name="message_display_menu_navigate_next">下一封</string>
+    <string name="message_display_menu_move">移动到文件夹</string>
+    <string name="message_display_menu_attachments">附件</string>
+    <string name="message_display_menu_mark_unread">标记为未读</string>
+    <string name="message_display_menu_mark_read">标记为已读</string>
+
+    <!-- Various -->
+
+    <string name="message_display_send_chooser">发送给…</string>
+    <string name="message_display_send_chooser_no_intent">未安装适当的应用</string>
+    
+    <!-- View pager -->
+    
+    <string name="message_display_page_text">邮件</string>
+    <string name="message_display_page_attachments">附件</string>
+    
+    <!-- Read receipt -->
+    
+    <string name="message_display_read_receipt_never">从不</string>
+    <string name="message_display_read_receipt_subject">@string/message_display_read_receipt_subject_en</string>
+    <string name="message_display_read_receipt_body">@string/message_display_read_receipt_body_en</string>
+
+</resources>

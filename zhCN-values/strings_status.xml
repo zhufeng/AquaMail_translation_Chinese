@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Status bar notifications -->
+
+    <string name="service_running_ticker">AquaMail</string>
+    <string name="service_running_starting_content">开始同步中</string>
+    <string name="service_running_send_content">%1$d%%: 通过 %2$s 发送</string>
+    <string name="service_running_sync_content">与 %1$s 同步中</string>
+    <string name="service_running_idle_startup_content">开始IMAP推送: %1$s</string>
+    <string name="service_imap_idle_overflow">太多IMAP推送连接</string>
+    <string name="service_running_complete_message_content">%1$d%%: 来自 %2$s 的邮件</string>
+    <string name="service_running_complete_message_done_content">完成加载邮件</string>
+    <string name="service_running_complete_message_error_content">加载邮件出错</string>
+    <string name="service_running_fetch_attachment_content">%1$d%%: 来自 %2$s 的附件</string>
+    <string name="service_running_fetch_attachment_done_content">完成加载附件</string>
+    <string name="service_running_fetch_attachment_error_content">加载附件出错</string>
+    <string name="service_running_idle">推送邮件: %1$s</string>
+    <string name="service_error_sync_network">持续的收件服务器网络错误</string>
+    <string name="service_error_sync_login">收件服务器登录错误</string>
+    <string name="service_error_send_network">持续的发件服务器网络错误</string>
+    <string name="service_error_send_login">发件服务器登录错误</string>
+    <string name="service_error_send_submit">外发邮件时出错</string>
+
+    <!-- Incoming notificaitons: new messages -->
+
+    <string name="new_messages_ticker_one">%1$s 一封新邮件</string>
+
+    <plurals name="new_messages_ticker">
+        <item quantity="one">%1$d 新邮件在 %2$s</item>
+        <item quantity="other">%1$d 新邮件在 %2$s</item>
+    </plurals>
+
+    <string name="new_messages_message_one">一封新邮件</string>
+
+    <plurals name="new_messages_message">
+        <item quantity="one">%1$d 新邮件</item>
+        <item quantity="other">%1$d 新邮件</item>
+    </plurals>
+
+    <!-- Incoming notificaitons: unread messages -->
+
+    <string name="unread_messages_ticker_one">一封未读新邮件在 %1$s</string>
+
+    <plurals name="unread_messages_ticker">
+        <item quantity="one">%1$d 未读邮件在 %2$s</item>
+        <item quantity="other">%1$d 未读邮件在 %2$s</item>
+    </plurals>
+
+    <string name="unread_messages_message_one">一封未读邮件</string>
+
+    <plurals name="unread_messages_message">
+        <item quantity="one">%1$d 未读邮件</item>
+        <item quantity="other">%1$d 未读邮件</item>
+    </plurals>
+
+    <!-- Smart folder notifications: new messages -->
+
+    <string name="new_messages_smart_ticker_one">智能文件夹中有一封新邮件</string>
+
+    <plurals name="new_messages_smart_ticker">
+        <item quantity="one">智能文件夹有%1$d 封新邮件</item>
+        <item quantity="other">智能文件夹有%1$d 封新邮件</item>
+    </plurals>
+
+    <!-- Smart folder notifications: unread messages -->
+
+    <string name="unread_messages_smart_ticker_one">智能文件夹中有一封未读邮件</string>
+
+    <plurals name="unread_messages_smart_ticker">
+        <item quantity="one">智能文件夹中有%1$d 封未读邮件</item>
+        <item quantity="other">智能文件夹中有%1$d 封未读邮件</item>
+    </plurals>
+
+    <string name="unread_messages_smart_title">AquaMail: 智能文件夹</string>
+
+    <!-- Android 4.1, inbox notifications -->
+
+    <string name="unread_messages_more">+%1$d 更多…</string>
+
+</resources>

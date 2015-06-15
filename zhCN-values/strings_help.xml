@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Help link -->
+
+    <string name="help_pref_category">帮助</string>
+    <string name="help_pref_help_faq_title">帮助 / 常见问题 / 论坛</string>
+    <string name="help_pref_help_faq_summary">在浏览器中打开 </string>
+    <string name="help_link_faq">http://www.aqua-mail.com/?page_id=227</string>
+
+    <!-- Help hints -->
+
+    <string name="help_hint_close">OK. 关闭.</string>
+    <string name="help_hint_swipe_to_attachments">从右往左滑以切换附件列表.</string>
+    <string name="help_hint_new_contact_picker">使用左边的联系人选择按钮用于:\n\n分组, 最近联系人, 和
+		Exchange/Office 365的服务器地址薄</string>
+    <string name="help_hint_account_options">长按帐户或文件夹以获取额外命令和设置.</string>
+	<string name="help_hint_message_header_header">滑动邮件头部以跳转到上/下一封邮件.</string>
+	<string name="help_hint_message_header_swipe">滑动邮件侧边以跳转到上/下一封邮件.</string>
+    <string name="help_hint_message_header_enable">你可以在设置中启动邮件滑动操作.</string>
+    <string name="help_hint_message_header_disable">你可以在设置中禁用邮件滑动操作.</string>
+    <string name="help_hint_message_header_mode">点击头部以切换简洁和完整信息.</string>
+    <string name="help_hint_message_list_pull_select">从左边下滑以同时选择多封邮件.</string>
+	<string name="help_hint_message_list_settings">见设置->邮件列表以定制.</string>
+
+    <!-- New version announcemnt -->
+
+    <string name="help_new_close">带我去AquaMail</string>
+    <string name="help_new_new_look">新的外观</string>
+    <string name="help_new_enable_material_design">启用新主题(Material Design)</string>
+    <string name="help_new_enable_floating_button">启用浮动的动作按钮</string>
+    <string name="help_new_see_settings">你可以稍后在设置的观感设置中更改这些设置.旧主题也仍然可用.</string>
+    <string name="help_new_new_features">新特性</string>
+    <string name="help_new_gmail_oauth">Google推荐的更安全的Gmail和Google Apps帐户的验证方式(OAUTH2).</string>
+    <string name="help_new_android_wear">在Android Wear智能手表上的增强的通知功能.</string>
+
+</resources>

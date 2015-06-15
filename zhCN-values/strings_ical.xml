@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ical_calendar">日历</string>
+    <string name="ical_no_title">[ 无标题邀请 ]</string>
+    <string name="ical_attendees">参与者:</string>
+    <string name="ical_location">"位置: "</string>
+    <string name="ical_when">"时间: "</string>
+    <string name="ical_organizer_prefix">组织者:</string>
+    <string name="ical_organizer_suffix">" (org.)"</string>
+    <string name="ical_all_day">", 全天"</string>
+    <string name="ical_repeat_label">", 重复: "</string>
+    <string name="ical_repeat_daily">每天</string>
+    <string name="ical_repeat_weekly">每周</string>
+    <string name="ical_repeat_monthly">每月</string>
+    <string name="ical_repeat_yearly">每年</string>
+
+    <!-- Participation states -->
+
+    <string name="ical_state_accepted">已接受</string>
+    <string name="ical_state_declined">已拒绝</string>
+    <string name="ical_state_tentative">不确定的</string>
+    <string name="ical_state_organizer">组织者</string>
+    
+    <!-- Actions -->
+
+    <string name="ical_dialog_work_in_progress">→ 进行中 ←</string>
+    <string name="ical_dialog_title">事件详情</string>
+    <string name="ical_dialog_reply">邀请回复</string>
+    <string name="ical_dialog_cancel">取消</string>
+    <string name="ical_dialog_send_reply">发送回复</string>
+    <string name="ical_dialog_already_replied">已回复</string>
+    <string name="ical_dialog_response_not_required">无需回应</string>
+    <string name="ical_dialog_add_to_calendar">在日历中保存(若未拒绝)</string>
+    <string name="ical_dialog_update_in_calendar">在日历中更新(若未拒绝)</string>
+    <string name="ical_dialog_already_added">已在日历中保存</string>
+    <string name="ical_dialog_updated_event">一次已更新的事件</string>
+    <string name="ical_dialog_no_calendars">未找到日历</string>
+    <string name="ical_dialog_no_data">加载事件数据出错</string>
+    <string name="ical_dialog_no_outgoing">帐户无发送功能</string>
+    <string name="ical_dialog_no_organizer">此事件无组织者</string>
+    <string name="ical_dialog_is_publish">一次已发布的事件,无需回复</string>
+    <string name="ical_action_accept">接受</string>
+    <string name="ical_action_decline">拒绝</string>
+    <string name="ical_action_maybe">或许</string>
+    <string name="ical_action_view_in_calendar">在日历中查看</string>
+    <string name="ical_action_remove_from_calendar">从日历中移除</string>
+    <string name="ical_action_add_reply_note">添加笔记到你的回复中</string>
+    <string name="ical_dialog_account_has_sync">此事件将会同步到日历中</string>
+
+    <!-- Special cases for cancellations -->
+
+    <string name="ical_dialog_cancel_not_saved">相应的事件在日历中不存在</string>
+    <string name="ical_dialog_cancel_already_deleted">此事件已移除</string>
+    <string name="ical_dialog_cancel_instance">此取消操作适用于一次移除</string>
+    <string name="ical_dialog_cancel_series">此取消操作适用于此系列</string>
+    <string name="ical_action_delete">移除</string>
+
+    <!-- Errors -->
+
+	<string name="ical_error_inserting">在Andorid日历中插入/更新事件出错</string>
+
+    <!-- Reply message -->
+
+    <string name="ical_reply_subject">%1$s - %2$s: %3$s</string>
+    <string name="ical_reply_progress_sending">正在发送回应…</string>
+
+</resources>

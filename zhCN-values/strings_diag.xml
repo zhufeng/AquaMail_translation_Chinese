@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Message dates -->
+
+	<string name="diag_dates_activity">邮件排序/日期测试</string>
+	<string name="diag_dates_help">如果邮件按日期时间排序有问题请运行此测试. \n\n
+		此测会从服务器上取一些邮件并记录它们的时间日期数据.\n\n
+		它不会记录你的登录/密码或邮件正文内容.</string>
+    <string name="diag_dates_start">开始</string>
+    <string name="diag_dates_stop">停止</string>
+    <string name="diag_dates_send">发送给开发者</string>
+    <string name="diag_dates_error_no_account">帐户未找到</string>
+    <string name="diag_dates_error_no_folders">无服务器文件夹</string>
+    <string name="diag_dates_error_no_storage">内存卡不可用</string>
+    <string name="diag_dates_status_0">连接中…</string>
+    <string name="diag_dates_status_count">邮件日期测试进行中…\n\n%1$d 邮件已处理 (最大 %2$d).</string>
+    <string name="diag_dates_status_done">邮件日期测试完成\n\n%1$d 邮件已处理.\n\n日志文件:\n\n%2$s</string>
+    <string name="diag_dates_status_cancel">邮件日期测试已取消</string>
+    <string name="diag_dates_status_error">执行测试出错</string>
+    <string name="diag_dates_mail_subject">邮件日期测试</string>
+    <string name="diag_dates_mail_body">日志文件已附加</string>
+
+</resources>

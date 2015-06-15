@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings plugin -->
+
+    <string name="locale_settings_plugin_name">AquaMail 设置</string>
+
+    <string-array name="prefs_locale_default_on_off_entries">
+        <item>不改变</item>
+        <item>启用</item>
+        <item>禁用</item>
+    </string-array>
+    <string-array name="prefs_locale_default_tri_state_entries">
+        <item>不改变</item>
+        <item>启用</item>
+        <item>重置为默认</item>
+    </string-array>
+
+    <!-- Accounts -->
+
+    <string name="locale_accounts_all">所有</string>
+    <string name="locale_accounts_none">无</string>
+    <string name="locale_accounts_any">任意</string>
+    <string name="locale_accounts_unknown">未知帐户</string>
+
+    <!-- Global settings -->
+
+    <string name="locale_settings_category_global">App 设置</string>
+
+    <!-- Sync and push on/off -->
+
+    <string name="locale_settings_sync_on">同步: 开</string>
+    <string name="locale_settings_sync_off">同步: 关</string>
+    <string name="locale_settings_push_on">推送: 开</string>
+    <string name="locale_settings_push_off">推送: 关</string>
+
+    <!-- Schedule override -->
+
+    <string name="locale_settings_sync_freq_override_title">修改定时任务</string>
+    <string name="locale_settings_sync_freq_override_summary">修改后台同时同步</string>
+    <string name="locale_settings_sync_freq_override_msg">定时任务</string>
+
+    <!-- Notifications override -->
+
+    <string name="locale_settings_notify_override_title">修改通知</string>
+    <string name="locale_settings_notify_override_summary">修改通知设置</string>
+    <string name="locale_settings_notify_override_msg">通知</string>
+
+    <!-- Per-account settings -->
+
+    <string name="locale_settings_category_account">帐户设置</string>
+    <string name="locale_settings_per_account_title">针对哪个帐户</string>
+
+    <!-- Actions -->
+
+    <string name="locale_settings_category_actions">动作</string>
+
+    <!-- Action: sync -->
+
+    <string name="locate_actions_run_sync">检查邮件</string>
+    <string name="locate_actions_run_sync_summary">对所有帐户或特定帐户检查邮件</string>
+    <string name="locale_actions_run_sync_msg">检查邮件: %1$s</string>
+    <string name="locale_actions_run_sync_accounts_title">哪个帐户</string>
+
+    <!-- Events plugin -->
+
+    <string name="tasker_event_plugin_name">AquaMail 邮件</string>
+    <string name="tasker_event_for_account">对于帐户: %1$s</string>
+    <string name="tasker_event_label_date">日期</string>
+    <string name="tasker_event_label_time">时间</string>
+    <string name="tasker_event_label_folder">文件夹</string>
+    <string name="tasker_event_label_account">帐户</string>
+    <string name="tasker_event_only_high_priority">高优先级</string>
+    <string name="tasker_event_only_high_priority_summary">只匹配高优先级邮件</string>
+
+</resources>
