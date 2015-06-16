@@ -103,7 +103,7 @@ synced calendars and their events from the device\'s Calendar.</string>
     <!-- Attachments -->
 
     <string name="account_options_prefs_preload_attachments_wifi">Attachments, WiFi</string>
-    <string name="account_options_prefs_preload_attachments_fast_mobile">Attachments, 3G+ (HSPA, HSDPA)</string>
+    <string name="account_options_prefs_preload_attachments_fast_mobile">Attachments, 3G+ (HSPA, HSDPA, LTE)</string>
     <string name="account_options_prefs_preload_attachments_slow_mobile">Attachments, 2G (GPRS, EDGE)</string>
 
     <!-- Inlines -->
@@ -124,7 +124,11 @@ synced calendars and their events from the device\'s Calendar.</string>
     <string name="account_options_prefs_preload_10m">Up to 10 MB per message</string>
     <string name="account_options_prefs_preload_20m">Up to 20 MB per message</string>
     <string name="account_options_prefs_preload_30m">Up to 30 MB per message</string>
-
+    <string name="account_options_prefs_preload_45m">Up to 45 MB per message</string>
+	<string name="account_options_prefs_preload_65m">Up to 65 MB per message</string>
+	<string name="account_options_prefs_preload_100m">Up to 100 MB per message</string>
+	<string name="account_options_prefs_preload_unlim">No limit</string>
+    
     <!-- IMAP options -->
 
     <string name="account_options_prefs_imap">IMAP options</string>

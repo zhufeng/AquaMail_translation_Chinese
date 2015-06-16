@@ -127,6 +127,8 @@
     <string name="prefs_ui_two_pane_summary">Use two side-by-side panels</string>
     <string name="prefs_ui_two_pane_resize">Allow resizing</string>
     <string name="prefs_ui_two_pane_resize_summary">Display a thumb control for resizing the panels</string>
+    <string name="prefs_ui_two_pane_off_when_mw">Single panel in MW mode</string>
+    <string name="prefs_ui_two_pane_off_when_mw_summary">Use single panel mode when launched inside Samsung\'s MultiWindow</string>
     <string name="prefs_ui_two_pane_port_mode">Portrait mode</string>
     <string name="prefs_ui_two_pane_port_mode_horz">Horizontal split</string>
     <string name="prefs_ui_two_pane_port_mode_vert">Vertical split</string>

@@ -150,7 +150,7 @@ Services) mail protocol. Kerio is not supported.</string>
 
     <string name="oauth_gmail_auth_progress">Authenticating with Google…</string>
     <string name="oauth_gmail_auth_needed">Please grant permission to access email in the account</string>
-    <string name="oauth_gmail_upgrade_notice">This Gmail account can be upgraded to use Google\'s latest security standards (OAUTH2).</string>
+    <string name="oauth_gmail_upgrade_notice">This Gmail account can be upgraded to use Google\'s latest security standard (OAUTH2).</string>
     <string name="oauth_gmail_upgrade_confirm_title">Information</string>
     <string name="oauth_gmail_upgrade_confirm_message">Google\'s latest security standard, OAUTH2, is a way for AquaMail to access your mailbox
 without knowing, storing, or transmitting the password.\n\nThe app will ask for permission to access your mail via Google\'s account services.</string>

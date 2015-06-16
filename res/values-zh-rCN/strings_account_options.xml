@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Account Options Activity -->
+
+    <string name="account_options_activity">帐户选项</string>
+    <string name="account_options_prefs_sync_enabled">定时同步</string>
+    <string name="account_options_prefs_sync_enabled_summary">后台定时检查新邮件</string>
+	<string name="account_options_prefs_sync_all_enabled">包含\'同步所有\'</string>
+    <string name="account_options_prefs_sync_all_enabled_summary">包含帐户列表里的\'同步所有\'</string>
+    <string name="account_options_prefs_push_enabled">IMAP推送</string>
+    <string name="account_options_prefs_push_enabled_global_summary">启用IMAP推送,实时邮件投递</string>
+    <string name="account_options_prefs_push_enabled_supported_summary">启用IMAP邮件推送</string>
+    <string name="account_options_prefs_push_enabled_not_supported_summary">服务器不支持IMAP推送</string>
+    <string name="account_options_prefs_push_session_duration">IMAP推送会话持续时间</string>
+    <string name="account_options_prefs_message_keep">缓存的邮件数量</string>
+    <string name="account_options_prefs_message_keep_entry_template">%1$d 封邮件</string>
+    <string name="account_options_prefs_save_sent">保存已发送的邮件</string>
+    <string name="account_options_prefs_save_sent_summary">发送邮件之后保存到已发送文件夹</string>
+    <string name="account_options_prefs_sent_in_smart">智能文件夹的已发送</string>
+    <string name="account_options_prefs_sent_in_smart_summary">包括智能文件夹中的已发送的邮件</string>
+    <string name="account_options_prefs_delete_plan">删除邮件的操作</string>
+
+    <string-array name="account_options_prefs_delete_plan_entries">
+        <item>先移动到已删除文件夹</item>
+        <item>立即从服务器删除</item>
+        <item>仅在应用中隐藏,不从服务器删除</item>
+    </string-array>
+
+    <string name="account_options_prefs_sync_deleted">移除已删除的邮件</string>
+    <string name="account_options_prefs_sync_deleted_summary">移除服务器上已不存在的本地邮件副本</string>
+    <string name="account_options_prefs_subject">默认主题</string>
+    <string name="account_options_prefs_greeting">祝福语</string>
+    <string name="account_options_prefs_greeting_auto">自动添加祝福语</string>
+    <string name="account_options_prefs_signature">签名</string>
+    <string name="account_options_prefs_signature_auto">自动添加邮件签名</string>
+    <string name="account_options_prefs_signature_only_new">只对新邮件生效(不包括回复等)</string>
+    <string name="account_options_prefs_copy_self">密送给自己</string>
+    <string name="account_options_prefs_reply_to">回复</string>
+    <string name="account_options_prefs_new_request_receipt">请求已读回执</string>
+    <string name="account_options_prefs_new_request_receipt_summary">默认请求发送已读回执</string>
+	<string name="account_options_prefs_new_cc_bcc">显示抄送/密送</string>
+	<string name="account_options_prefs_new_cc_bcc_summary">默认显示抄送/密送</string>
+    <string name="account_options_prefs_email_invalid">无效邮件:\n%1$s</string>
+    <string name="account_options_prefs_folder_sort">文件夹列表顺序</string>
+
+    <string-array name="account_options_prefs_folder_sort_entries">
+        <item>按文件夹名</item>
+        <item>按未读邮件数</item>
+        <item>按总邮件数</item>
+    </string-array>
+
+    <string name="account_options_show_more_folders">显示其它文件夹</string>
+    <string name="account_options_show_more_folders_summary">此帐户在帐户列表中显示其它文件夹</string>
+    <string name="account_options_account_color">分配颜色</string>
+    <string name="account_options_account_color_override_folders">覆盖文件夹颜色</string>
+    <string name="account_options_account_icon_color">通知图标颜色</string>
+    <string name="account_options_prefs_outgoing_charset">外发邮件字符集</string>
+    <string name="account_options_prefs_outgoing_charset_auto">自动</string>
+    <string name="account_options_prefs_outgoing_charset_unsupported">你的设备不支持 %s</string>
+    <string name="account_options_prefs_outgoing_message_id">发送邮件ID</string>
+    <string name="account_options_prefs_outgoing_message_id_summary">发送邮件时添加邮件ID到邮件头</string>
+    <string name="account_options_prefs_which_date_title">邮件日期时间显示</string>
+    <string name="account_options_prefs_which_date_internal">显示收到的时间(邮件服务器)</string>
+    <string name="account_options_prefs_which_date_header">显示发送的时间(从邮件头)</string>
+
+    <!-- POP3 options -->
+
+    <string name="account_options_prefs_pop3">POP3选项</string>
+    <string name="account_options_prefs_pop3_locate_limit">邮件定位限制</string>
+    <string name="account_options_prefs_pop3_locate_limit_entry_template">最多 %1$d 封邮件</string>
+    <string name="account_options_prefs_pop3_delayed_delete">服务器删除邮件兼容性</string>
+
+    <string-array name="account_options_prefs_pop3_delayed_delete_entries">
+        <item>新会话(立即)</item>
+        <item>共享会话(下次检查邮件时)</item>
+    </string-array>
+
+    <string name="account_options_prefs_pop3_purge_when_empty">服务器无邮件时清理</string>
+    <string name="account_options_prefs_pop3_purge_when_empty_summary">当服务器无邮件时清理本地已加载的邮件</string>
+
+    <!-- Exchange options -->
+
+    <string name="account_options_prefs_ews">Exchange选项</string>
+    <string name="account_options_prefs_ews_sync_calendar">同步日历</string>
+    <string name="account_options_prefs_ews_sync_calendar_summary">与服务器同步日历</string>
+	<string name="account_options_prefs_ews_sync_calendar_turn_off_confirmation">这将会从设备上移除任何已同步的日历和事件</string>
+    <string name="account_options_prefs_ews_sync_calendar_time_period">从服务器同步什么内容</string>
+    <string name="account_options_prefs_ews_sync_calendar_time_keep">在设备上保持多久时间</string>
+
+    <plurals name="account_options_prefs_ews_sync_calendar_time_plural_template">
+        <item quantity="one">%1$d 月</item>
+        <item quantity="other">%1$d 月</item>
+    </plurals>
+    <string name="account_options_prefs_ews_sync_calendar_force_local">强制使用本地时区</string>
+    <string name="account_options_prefs_ews_sync_calendar_force_local_summary">对已同步的事件使用设备的时区(兼容的)</string>
+
+    <!-- Preload for IMAP and EWS -->
+
+    <string name="account_options_prefs_preload">预加载</string>
+
+    <!-- Attachments -->
+
+    <string name="account_options_prefs_preload_attachments_wifi">附件, WiFi</string>
+    <string name="account_options_prefs_preload_attachments_fast_mobile">附件, 3G+ (HSPA, HSDPA, LTE)</string>
+    <string name="account_options_prefs_preload_attachments_slow_mobile">附件, 2G (GPRS, EDGE)</string>
+
+    <!-- Inlines -->
+
+    <string name="account_options_prefs_preload_inlines_wifi">嵌入的图像, WiFi</string>
+    <string name="account_options_prefs_preload_inlines_mobile">嵌入的图像, mobile</string>
+
+    <!-- Entries for preload settings -->
+
+    <string name="account_options_prefs_preload_none">无</string>
+    <string name="account_options_prefs_preload_50k">每封邮件最多50KB</string>
+    <string name="account_options_prefs_preload_100k">每封邮件最多100KB</string>
+    <string name="account_options_prefs_preload_250k">每封邮件最多250KB</string>
+    <string name="account_options_prefs_preload_500k">每封邮件最多500KB</string>
+    <string name="account_options_prefs_preload_1m">每封邮件最多1MB</string>
+    <string name="account_options_prefs_preload_2m">每封邮件最多2MB</string>
+    <string name="account_options_prefs_preload_5m">每封邮件最多5MB</string>
+    <string name="account_options_prefs_preload_10m">每封邮件最多10MB</string>
+    <string name="account_options_prefs_preload_20m">每封邮件最多20MB</string>
+    <string name="account_options_prefs_preload_30m">每封邮件最多30MB</string>
+    <string name="account_options_prefs_preload_45m">每封邮件最多45MB</string>
+	<string name="account_options_prefs_preload_65m">每封邮件最多65MB</string>
+	<string name="account_options_prefs_preload_100m">每封邮件最多100MB</string>
+	<string name="account_options_prefs_preload_unlim">无限制</string>
+
+    <!-- IMAP options -->
+
+    <string name="account_options_prefs_imap">IMAP选项</string>
+    <string name="account_options_prefs_imap_expunge">删除时执行EXPUNGE</string>
+	<string name="account_options_prefs_imap_expunge_summary">删除/移动邮件后发送EXPUNGE</string>
+    <string name="account_options_prefs_imap_optimizations">启用优化</string>
+    <string name="account_options_prefs_imap_optimizations_summary">更快检查邮件,更低电量消耗(对于较好的邮件服务器)</string>
+
+    <!-- Folders -->
+
+    <string name="account_options_prefs_category_folders">目录</string>
+	<string name="account_options_folder_loading_text">加载</string>
+    <string name="account_options_folder_sync_type_off">不同步</string>
+    <string name="account_options_folder_sync_type_incoming">同步(空文件夹)</string>
+    <string name="account_options_folder_sync_type_spam">作为垃圾邮件同步</string>
+    <string name="account_options_folder_sync_type_spam_set">垃圾邮件,不同步</string>
+    <string name="account_options_folder_sync_type_archive">作为归档同步</string>
+    <string name="account_options_folder_sync_type_archive_set">归档,不同步</string>
+    <string name="account_options_folder_sync_type_drafts">与[草稿]文件夹同步</string>
+    <string name="account_options_folder_sync_type_sent">与[已发送]文件夹同步</string>
+    <string name="account_options_folder_sync_type_deleted">与[已删除]文件夹同步</string>
+    <string name="account_options_folder_no_smart_suffix">, 不在智能文件夹中</string>
+	<string name="account_options_folder_is_liveview_suffix">, LiveView</string>
+    <string name="account_options_folder_push_suffix">, IMAP推送</string>
+    <string name="account_options_folder_is_push">使用IMAP推送</string>
+    <string name="account_options_folder_is_smart">在智能文件夹中显示</string>
+    <string name="account_options_folder_is_liveview">LiveView通知</string>
+    <string name="account_options_folder_unread_in_spam_archive">未读计数</string>
+    <string name="account_options_folder_has_color">颜色标识</string>
+    <string name="account_options_folder_change_color">改变颜色</string>
+    <string name="account_options_folder_keep_prompt">要保存的邮件:\n 最多 %1$d</string>
+    <string name="account_options_folder_keep_default_prompt">要保存的邮件:\n  帐户默认</string>
+    <string name="account_options_folder_search_hint">搜索文件夹</string>
+    <string name="account_options_folder_create">创建文件夹</string>
+
+    <!-- Calendars -->
+
+    <string name="account_options_prefs_category_calendars">日历</string>
+
+    <!-- Preload stub (for IMAP and EWS) -->
+
+    <string name="account_options_preload_title">邮件预加载</string>
+    <string name="account_options_preload_message_text">邮件文本</string>
+    <string name="account_options_preload_message_parts">嵌入的图像</string>
+
+</resources>

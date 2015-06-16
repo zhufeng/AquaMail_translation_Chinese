@@ -17,9 +17,9 @@ signature, purchase the Pro version unlocker on Google Play.</string>
     <!-- PayPro -->
     <string name="licensing_ppg_about_message">To add more than two accounts, to use mail identities, and to remove the promo
 signature, purchase the Pro version unlocker at the developer\'s web site.</string>
-    <!-- 3CX MDM -->
+    <!-- 2X MDM -->
     <string name="licensing_tcx_about_message">To add more than two accounts, to use mail identities, and to remove the promo
-signature, install the 3CX Mobile Device Manager from Google Play and authenticate it with the management server.</string>
+signature, install 2X MDM from Google Play and authenticate it with the management server.</string>
 
     <!-- No unlocker -->
 
@@ -28,13 +28,13 @@ signature, install the 3CX Mobile Device Manager from Google Play and authentica
     <string name="licensing_market_no_unlocker_message">You can purchase the AquaMail Pro key on Google Play.</string>
     <!-- PayPro -->
     <string name="licensing_ppg_no_unlocker_message">You can purchase the AquaMail Pro key at the developer\'s web site.</string>
-    <!-- 3CX MDM -->
-    <string name="licensing_tcx_no_unlocker_message_1">3CX MDM is not installed.</string>
-    <string name="licensing_tcx_no_unlocker_message_2">You can install the 3CX Mobile Device Manager from Google Play.</string>
-    <string name="licensing_tcx_no_actvation_message_1">3CX MDM is not authenticated with its management server.</string>
-    <string name="licensing_tcx_no_actvation_message_2">Please authenticate 3CX Mobile Device Manager with its management server.</string>
+    <!-- 2X MDM -->
+    <string name="licensing_tcx_no_unlocker_message_1">2X MDM is not installed.</string>
+    <string name="licensing_tcx_no_unlocker_message_2">You can install 2X MDM from Google Play.</string>
+    <string name="licensing_tcx_no_actvation_message_1">2X MDM is not authenticated with its management server.</string>
+    <string name="licensing_tcx_no_actvation_message_2">Please authenticate 2X MDM with its management server.</string>
     <string name="licensing_tcx_activate_button">Authenticate</string>
-    <string name="licensing_tcx_not_present">Error: 3CX MDM not installed?</string>
+    <string name="licensing_tcx_not_present">Error: 2X MDM not installed?</string>
     
     <!-- Google Play -->
 
@@ -51,7 +51,7 @@ signature, install the 3CX Mobile Device Manager from Google Play and authentica
     <!-- Google Play and PayPro -->
     <string name="licensing_if_purchased_suffix">If you\'ve already purchased an unlocker, make sure to download and run it.</string>
 
-    <!-- 3CX MDM -->
+    <!-- 2X MDM -->
 
 
     <!-- Promo signature -->

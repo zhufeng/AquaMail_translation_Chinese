@@ -10,7 +10,7 @@
     <string name="access_account_with_name">帐户: %1$s</string>
     <string name="access_account_last_check">上次刷新 %1$s</string>
     <string name="access_account_last_check_error">上次刷新 %1$s, 错误</string>
-    <string name="access_folder_remote_name">远程文件夹名: %1$s</string>
+    <string name="access_folder_remote_name">服务器文件夹名: %1$s</string>
     <string name="access_folder_with_name">文件夹: %1$s</string>
 
     <!-- Message list -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- License check errors -->
+
+    <string name="licensing_confirmation_needed">无法检查许可证状态.\n点击此处以确认你的许可证授权.</string>
+    <string name="licensing_outside_free_limits">免费版会被限制只能添加两个帐户.\n点击此处了解更多.</string>
+
+    <!-- About the free/pro functions -->
+
+    <string name="licensing_about_title">关于 AquaMail Pro</string>
+	<string name="licensing_about_message">免费版AquaMail有这些限制: \n\n支持最多两个邮件帐户;
+		不支持邮件身份以及发送邮件时会自动添加推销性质的签名. </string>
+    <!-- Google Play -->
+	<string name="licensing_market_about_message">要添加两个或更多帐户, 使用邮件身份以及移除推销性质的邮件签名, 
+		请在Google Play购买Pro版解锁器.</string>
+    <!-- PayPro -->
+	<string name="licensing_ppg_about_message">要添加两个或更多帐户, 使用邮件身份以及移除推销性质的邮件签名, 
+		请在开发者网站购买Pro版解锁器.</string>
+    <!-- 2X MDM -->
+	<string name="licensing_tcx_about_message">要添加两个或更多帐户, 使用邮件身份以及移除推销性质的邮件签名,
+		请从Google Play安装2X MDM, 并使用管理服务器认证. </string>
+
+    <!-- No unlocker -->
+
+    <string name="licensing_no_unlocker_message">AquaMail Pro 解锁器未安装.</string>
+    <!-- Google Play -->
+    <string name="licensing_market_no_unlocker_message">你可以在Google Play上购买AquaMail Pro 解锁器.</string>
+    <!-- PayPro -->
+    <string name="licensing_ppg_no_unlocker_message">你可以在开发者网站上购买AquaMail Pro 解锁器.</string>
+    <!-- 2X MDM -->
+    <string name="licensing_tcx_no_unlocker_message_1">2X MDM 未安装.</string>
+    <string name="licensing_tcx_no_unlocker_message_2">你可以从Google Play安装2X MDM.</string>
+    <string name="licensing_tcx_no_actvation_message_1">2X MDM 未与管理服务器认证.</string>
+    <string name="licensing_tcx_no_actvation_message_2">请将2X MDM与其管理服务器认证.</string>
+    <string name="licensing_tcx_activate_button">认证</string>
+    <string name="licensing_tcx_not_present">错误: 2X MDM 未安装?</string>
+    
+    <!-- Google Play -->
+
+    <string name="licensing_market_go_button">Google Play</string>
+    <string name="licensing_market_not_present">错误: Google Play 未安装?</string>
+
+    <!-- PayPro -->
+
+    <string name="licensing_ppg_go_button">网站</string>
+
+    <!-- Just in case -->
+
+
+    <!-- Google Play and PayPro -->
+    <string name="licensing_if_purchased_suffix">如果你已经购买了解锁器, 请确保已下载并运行了它.</string>
+
+    <!-- 2X MDM -->
+
+
+    <!-- Promo signature -->
+
+    <string name="licensing_new_message_promo">使用AquaMail for Android发送\nhttp://www.aqua-mail.com</string>
+
+</resources>

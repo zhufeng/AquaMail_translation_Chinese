@@ -30,8 +30,8 @@
 
     <!-- Locale specific charsets -->
 
-    <string name="locale_specific_charset_incoming" translatable="false">iso-8859-1</string>
-    <string name="locale_specific_charset_outgoing" translatable="false">iso-8859-1</string>
+    <string name="locale_specific_charset_incoming">BIG5</string>
+    <string name="locale_specific_charset_outgoing">BIG5</string>
 
     <!-- Missing subject/address -->
 
@@ -114,7 +114,7 @@
     <!-- Kick sync -->
 
     <string name="kick_sync_type_none">无</string>
-    <string name="kick_sync_type_master_sync">系统'自动同步'设置</string>
+    <string name="kick_sync_type_master_sync">系统\'自动同步\'设置</string>
     <string name="kick_sync_type_wifi">WiFi连接</string>
     <string name="kick_sync_type_mobile">移动数据</string>
     <string name="kick_sync_type_other">其它连接类型</string>

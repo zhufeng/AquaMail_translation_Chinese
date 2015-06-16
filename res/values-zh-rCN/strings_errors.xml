@@ -6,8 +6,8 @@
     <string name="error_no_account_message">帐户未找到</string>
     <string name="error_no_folder_message">文件夹未找到</string>
     <string name="error_no_message_message">消息未找到</string>
-	<string name="error_no_contacts">此设备上未找到'联系人'应用</string>
-	<string name="error_calendar_event_create">与'日历'应用交互出错</string>
+	<string name="error_no_contacts">此设备上未找到\'联系人\'应用</string>
+	<string name="error_calendar_event_create">与\'日历\'应用交互出错</string>
 	<string name="error_browser_not_present">错误: 浏览器是否已安装?</string>
 
     <!-- Generic mail errors -->

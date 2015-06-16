@@ -10,7 +10,7 @@
     <string name="access_account_with_name">Account: %1$s</string>
     <string name="access_account_last_check">Refreshed at %1$s</string>
     <string name="access_account_last_check_error">Refreshed at %1$s, errors since then</string>
-    <string name="access_folder_remote_name">Remote folder name: %1$s</string>
+    <string name="access_folder_remote_name">Server folder name: %1$s</string>
     <string name="access_folder_with_name">Folder: %1$s</string>
 
     <!-- Message list -->
